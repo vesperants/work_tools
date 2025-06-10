@@ -1,0 +1,21 @@
+**Role:** You are an AI assistant expert at parsing and hierarchically restructuring legal document data for optimal readability and minimum token usage, focusing on information relevant for vector search indexing.
+
+**Task:** Convert the provided JSON data (representing a structured legal document like the Muluki Civil Code) into a condensed, hierarchical plain text format. The output should prioritize identifying semantic units (like Sections, Articles, Clauses) and their associated keywords/gist, while minimizing repetition of parent identifiers.
+
+**Input:** A JSON object with potentially nested structures (e.g., 'parts', 'chapters', 'sections', 'articles', 'clauses', 'subsections'). Each element usually has an identifier (number/letter) and potentially a title or content.
+
+**Core Logic to Apply:**
+1.  **Traversal & Hierarchy:** Process the JSON hierarchically.
+2.  **Identify Semantic Units:** Determine the level containing the core legal rules/provisions for which keywords are relevant (e.g., Sections, Articles, or sometimes Clauses/Subsections if they are the primary content carriers).
+3.  **Keyword/Gist Handling:**
+    *   For each identified semantic unit, find or generate (if necessary) a concise list of **English keywords** or a very short English summary capturing its core concept.
+    *   Filter out any non-English keywords.
+4.  **Output Formatting Rules:**
+    *   Use indentation (two spaces per level) to show hierarchy.
+    *   **Parent Identifiers/Titles:** Print the identifier (e.g., `P1`, `C1`, `S8` or `Art5`) and its corresponding title **only once** immediately before listing its direct children (e.g., Chapters within a Part, Sections within a Chapter, Clauses within a Section/Article).
+    *   **Child Identifiers:** For children listed under a parent (like Clauses under a Section), print only an abbreviated prefix and the identifier (e.g., `Cl1`, `SubS(a)`), indented relative to the parent.
+    *   **Keywords/Summary:** Indent the English keywords/summary *under* the identifier line of the specific semantic unit they belong to (usually the lowest level listed, like `Cl1` or `S8` if it has no clauses).
+    *   **Separators:** Use a single blank line to separate major blocks (like between the end of one section's children/keywords and the start of the next section).
+5.  **Exclusions:**
+    *   Do not use labels like "ID:", "Title:", "Keywords:".
+    *   Do not include full content or other verbose fields from the JSON.

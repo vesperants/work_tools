@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF to JSON Extractor Queue</title>
+    <style>
+        /* (Keep previous CSS styles: body, label, input, textarea, button, flash, spinner) */
+        body { font-family: sans-serif; max-width: 800px; margin: 2em auto; padding: 1em; border: 1px solid #ccc; border-radius: 5px; }
+        label { display: block; margin-bottom: 0.5em; font-weight: bold; }
+        input[type="file"], textarea { width: 95%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; }
+        input[type="text"] { width: 95%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; font-family: monospace; }
+        input[type="submit"] { padding: 0.7em 1.5em; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 1em; }
+        input[type="submit"]:hover { background-color: #0056b3; }
+        input[type="submit"]:disabled { background-color: #cccccc; cursor: not-allowed;}
+        .flash { padding: 1em; margin-bottom: 1em; border-radius: 4px; }
+        .flash.error { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        .flash.success { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .flash.warning { background-color: #fff3cd; color: #856404; border: 1px solid #ffeeba; }
+        .spinner { border: 4px solid #f3f3f3; border-top: 4px solid #3498db; border-radius: 50%; width: 30px; height: 30px; animation: spin 1s linear infinite; display: none; margin: 1em auto; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+        /* --- NEW Styles for Status --- */
+        #status-area { margin-top: 2em; border-top: 1px solid #eee; padding-top: 1em; }
+        #status-list li {
+            margin-bottom: 0.8em;
+            padding: 0.5em;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            display: flex; /* Use flexbox for alignment */
+            justify-content: space-between; /* Space out items */
+            align-items: center; /* Vertically align */
+        }
+         #status-list .file-name { font-weight: bold; margin-right: 1em; }
+         #status-list .file-status { font-style: italic; margin-right: 1em;}
+         #status-list .status-pending { color: #6c757d; }
+         #status-list .status-processing { color: #007bff; }
+         #status-list .status-completed { color: #28a745; }
+         #status-list .status-failed { color: #dc3545; }
+         #status-list .status-split { color: #6610f2; }
+         #status-list .error-message { font-size: 0.9em; color: #dc3545; display: block; margin-top: 0.3em; }
+         #status-list .download-button, #status-list .split-button {
+             padding: 0.3em 0.8em;
+             font-size: 0.9em;
+             color: white;
+             border: none;
+             border-radius: 3px;
+             text-decoration: none;
+             cursor: pointer;
+             margin-left: 0.5em;
+         }
+         #status-list .download-button {
+             background-color: #28a745;
+         }
+         #status-list .split-button {
+             background-color: #6610f2;
+         }
+         #status-list .download-button:hover { background-color: #218838; }
+         #status-list .split-button:hover { background-color: #520dc2; }
+    </style>
+</head>
+<body>
+    <h1>PDF to JSON Extractor Queue</h1>
+
+    <!-- Flash messages -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="flash {{ category }}">{{ message }}</div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    <form id="upload-form" action="{{ url_for('upload_queue_files') }}" method="post" enctype="multipart/form-data">
+        <label for="prompt">Prompt (applies to all files):</label>
+        <textarea id="prompt" name="prompt" rows="4" required placeholder="e.g., Extract invoice number, date, and total amount."></textarea>
+
+        <label for="api_key">Gemini API Keys (comma-separated, optional):</label>
+        <input type="text" id="api_key" name="api_keys" placeholder="Enter one or more API keys, separated by commas">
+
+        <label for="pdf_files">PDF File(s):</label>
+        <!-- --- <<< MODIFIED: Allow multiple files >>> --- -->
+        <input type="file" id="pdf_files" name="file" accept=".pdf" required multiple>
+
+        <input type="submit" id="submit-button" value="Start Processing Queue">
+    </form>
+
+    <div id="loading-spinner" class="spinner"></div>
+
+    <!-- --- <<< NEW: Status Display Area >>> --- -->
+    <div id="status-area" style="display: none;">
+        <h2>Processing Status (<span id="job-id-display"></span>)</h2>
+        <ul id="status-list">
+            <!-- Status items will be added here by JavaScript -->
+        </ul>
+        <p id="polling-status"></p>
+        <!-- NEW: Download All Button -->
+        <div id="download-all-area" style="margin-top: 1em; display: none;">
+            <a href="#" id="download-all-button" class="download-button" style="background-color: #17a2b8;">Download All Completed (.zip)</a>
+        </div>
+    </div>
+
+    <script>
+        const form = document.getElementById('upload-form');
+        const spinner = document.getElementById('loading-spinner');
+        const submitButton = document.getElementById('submit-button');
+        const statusArea = document.getElementById('status-area');
+        const statusList = document.getElementById('status-list');
+        const jobIdDisplay = document.getElementById('job-id-display');
+        const pollingStatus = document.getElementById('polling-status');
+        const downloadAllArea = document.getElementById('download-all-area');
+        const downloadAllButton = document.getElementById('download-all-button');
+
+        let currentJobId = null;
+        let pollIntervalId = null;
+
+        form.addEventListener('submit', async (event) => {
+            event.preventDefault(); // Prevent default form submission
+            clearStatus(); // Clear previous status on new submission
+            spinner.style.display = 'block';
+            submitButton.disabled = true;
+            submitButton.value = 'Uploading...';
+
+            const formData = new FormData(form);
+
+            try {
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    body: formData,
+                });
+
+                const result = await response.json();
+                submitButton.value = 'Start Processing Queue'; // Reset button text early
+
+                if (!response.ok) {
+                    throw new Error(result.error || `HTTP error! Status: ${response.status}`);
+                }
+
+                currentJobId = result.job_id;
+                jobIdDisplay.textContent = `Job ID: ${currentJobId}`;
+                statusArea.style.display = 'block';
+                // Show Download All button area
+                downloadAllArea.style.display = 'block'; 
+                // Set initial href (will be updated later if needed)
+                downloadAllButton.href = `/download-all/${currentJobId}`;
+
+                pollingStatus.textContent = 'Queue started. Checking status...';
+                console.log("Job started:", currentJobId);
+                startPolling(currentJobId);
+
+            } catch (error) {
+                console.error('Upload Error:', error);
+                pollingStatus.textContent = `Upload failed: ${error.message}`;
+                pollingStatus.style.color = 'red';
+                spinner.style.display = 'none';
+                submitButton.disabled = false;
+                submitButton.value = 'Start Processing Queue';
+            } finally {
+                // Keep spinner potentially, polling will hide it later if needed
+                 // Keep button disabled until polling starts or fails definitively
+            }
+        });
+
+        function startPolling(jobId) {
+            submitButton.value = 'Processing...'; // Keep button indicating work
+            submitButton.disabled = true;         // Keep button disabled
+            spinner.style.display = 'block';     // Ensure spinner is visible
+
+            // Initial immediate check
+            checkStatus(jobId);
+
+            // Set interval for subsequent checks
+            pollIntervalId = setInterval(() => {
+                checkStatus(jobId);
+            }, 3000); // Poll every 3 seconds (adjust as needed)
+        }
+
+        async function checkStatus(jobId) {
+            if (!jobId) return;
+            console.log(`Polling status for job ${jobId}`);
+            try {
+                const response = await fetch(`/status/${jobId}`);
+                if (!response.ok) {
+                     if (response.status === 404) {
+                        pollingStatus.textContent = "Job not found on server. Stopping polling.";
+                        pollingStatus.style.color = 'orange';
+                        stopPolling();
+                     } else {
+                        throw new Error(`HTTP error fetching status! Status: ${response.status}`);
+                     }
+                     return; // Stop processing this poll if error
+                }
+
+                const data = await response.json();
+                updateStatusUI(data.files);
+                
+                // Update Download All button link just in case Job ID changes (though it shouldn't here)
+                if (downloadAllButton.href !== `/download-all/${jobId}`) {
+                    downloadAllButton.href = `/download-all/${jobId}`;
+                }
+
+                // Check if all files are done
+                const isAllDone = data.files.every(file => file.status === 'completed' || file.status === 'failed');
+                if (isAllDone) {
+                    pollingStatus.textContent = "Processing complete.";
+                    pollingStatus.style.color = 'green';
+                    stopPolling();
+                    spinner.style.display = 'none'; // Hide spinner when done
+                    submitButton.disabled = false;  // Re-enable button
+                    submitButton.value = 'Start New Queue';
+                } else {
+                     pollingStatus.textContent = 'Processing in progress...';
+                     pollingStatus.style.color = 'inherit'; // Reset color
+                }
+
+            } catch (error) {
+                console.error('Polling Error:', error);
+                pollingStatus.textContent = `Error checking status: ${error.message}`;
+                pollingStatus.style.color = 'red';
+                // Consider stopping polling on persistent errors?
+                // stopPolling();
+            }
+        }
+
+        function updateStatusUI(files) {
+            statusList.innerHTML = ''; // Clear previous list items
+
+            files.forEach(file => {
+                const li = document.createElement('li');
+                li.setAttribute('data-file-id', file.id); // Add data attribute
+
+                const nameSpan = document.createElement('span');
+                nameSpan.className = 'file-name';
+                nameSpan.textContent = file.name;
+
+                const statusSpan = document.createElement('span');
+                statusSpan.className = `file-status status-${file.status}`;
+                statusSpan.textContent = `[${file.status}]`;
+
+                li.appendChild(nameSpan);
+                li.appendChild(statusSpan);
+
+                if (file.status === 'completed') {
+                    const downloadLink = document.createElement('a');
+                    // --- <<< Correct Download URL >>> ---
+                    downloadLink.href = `/download/${currentJobId}/${file.id}`;
+                    downloadLink.className = 'download-button';
+                    downloadLink.textContent = 'Download JSON';
+                    // downloadLink.target = '_blank'; // Open in new tab if preferred
+                    li.appendChild(downloadLink);
+                    
+                    // Add warning indicator if this is a JSON syntax error case
+                    if (file.error_type === 'json_syntax_error') {
+                        const warningSpan = document.createElement('span');
+                        warningSpan.style.color = '#ff9800'; // Warning orange
+                        warningSpan.style.fontStyle = 'italic';
+                        warningSpan.style.marginLeft = '10px';
+                        warningSpan.textContent = '⚠️ JSON has syntax errors';
+                        li.appendChild(warningSpan);
+                        
+                        // Also show the error message
+                        const errorSpan = document.createElement('span');
+                        errorSpan.className = 'error-message';
+                        errorSpan.style.color = '#ff9800'; // Warning orange instead of error red
+                        errorSpan.textContent = file.error || 'JSON syntax error';
+                        li.appendChild(errorSpan);
+                    }
+                } else if (file.status === 'failed') {
+                    const errorSpan = document.createElement('span');
+                    errorSpan.className = 'error-message';
+                    errorSpan.textContent = `Error: ${file.error || 'Unknown error'}`;
+                    // Insert error message after status span for better layout
+                    statusSpan.parentNode.insertBefore(errorSpan, statusSpan.nextSibling);
+                    
+                    // Add Split and Retry button if the PDF is too large
+                    if (file.can_split) {
+                        const splitButton = document.createElement('button');
+                        splitButton.className = 'split-button';
+                        splitButton.textContent = 'Split & Retry';
+                        splitButton.onclick = () => splitAndRetry(currentJobId, file.id);
+                        li.appendChild(splitButton);
+                    }
+                }
+                statusList.appendChild(li);
+            });
+        }
+
+        // New function to handle splitting and retrying
+        async function splitAndRetry(jobId, fileId) {
+            if (!jobId || !fileId) return;
+            
+            try {
+                const button = document.querySelector(`li[data-file-id="${fileId}"] .split-button`);
+                if (button) {
+                    button.disabled = true;
+                    button.textContent = 'Splitting...';
+                }
+                
+                const response = await fetch(`/split-retry/${jobId}/${fileId}`, {
+                    method: 'POST'
+                });
+                
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    throw new Error(errorData.error || `HTTP error! Status: ${response.status}`);
+                }
+                
+                const result = await response.json();
+                console.log("Split successful:", result);
+                
+                // Update UI to show that splitting succeeded
+                const li = document.querySelector(`li[data-file-id="${fileId}"]`);
+                if (li) {
+                    const statusSpan = li.querySelector('.file-status');
+                    if (statusSpan) {
+                        statusSpan.className = 'file-status status-split';
+                        statusSpan.textContent = '[split]';
+                    }
+                    
+                    // Remove the split button and error message
+                    const errorMsg = li.querySelector('.error-message');
+                    if (errorMsg) errorMsg.remove();
+                    const splitBtn = li.querySelector('.split-button');
+                    if (splitBtn) splitBtn.remove();
+                    
+                    // Add a message about the split
+                    const splitMsg = document.createElement('span');
+                    splitMsg.className = 'split-message';
+                    splitMsg.textContent = 'PDF split into two parts for processing';
+                    li.appendChild(splitMsg);
+                }
+                
+                // Check status to update the UI with the new files
+                setTimeout(() => {
+                    checkStatus(jobId);
+                }, 1000);
+                
+            } catch (error) {
+                console.error('Split Error:', error);
+                alert(`Failed to split PDF: ${error.message}`);
+                
+                // Re-enable the button if it exists
+                const button = document.querySelector(`li[data-file-id="${fileId}"] .split-button`);
+                if (button) {
+                    button.disabled = false;
+                    button.textContent = 'Split & Retry';
+                }
+            }
+        }
+
+        function stopPolling() {
+            if (pollIntervalId) {
+                clearInterval(pollIntervalId);
+                pollIntervalId = null;
+                console.log("Polling stopped.");
+            }
+        }
+
+        function clearStatus() {
+            stopPolling();
+            currentJobId = null;
+            statusArea.style.display = 'none';
+            statusList.innerHTML = '';
+            jobIdDisplay.textContent = '';
+            pollingStatus.textContent = '';
+            pollingStatus.style.color = 'inherit';
+            spinner.style.display = 'none';
+             submitButton.disabled = false;
+             submitButton.value = 'Start Processing Queue';
+            downloadAllArea.style.display = 'none'; // Hide Download All on clear
+            downloadAllButton.href = '#';
+        }
+
+         // Optional: Reset button state if user navigates back without submitting
+         window.addEventListener('pageshow', function(event) {
+             if (event.persisted) {
+                 // If navigating back to a page with an active poll, it might be weird.
+                 // Maybe best to just clear state?
+                 clearStatus();
+             }
+         });
+
+    </script>
+
+</body>
+</html>

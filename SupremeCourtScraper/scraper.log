@@ -1,0 +1,11 @@
+2025-05-24 15:15:49,814 - INFO - Starting basic functionality tests...
+2025-05-24 15:15:49,814 - INFO - Testing court list retrieval...
+2025-05-24 15:15:50,105 - INFO - Found 1 courts for type S
+2025-05-24 15:15:50,105 - INFO - Found courts: [{'id': '264', 'name': 'à¤¸à¤°à¥\x8dà¤µà¥\x8bà¤\x9aà¥\x8dà¤\x9a à¤\x85à¤¦à¤¾à¤²à¤¤'}]
+2025-05-24 15:15:50,106 - INFO - ✓ Court list retrieval test passed
+2025-05-24 15:15:50,106 - INFO - Testing search functionality...
+2025-05-24 15:15:50,106 - INFO - Searching with params: {'court_type': 'S', 'court_id': '264', 'darta_date': '2080-01-01', 'submit': 'खोज्नु होस्'}
+2025-05-24 15:15:50,592 - WARNING - Could not parse results table
+2025-05-24 15:15:50,592 - INFO - Search returned 0 results
+2025-05-24 15:15:50,593 - INFO - ✓ Search functionality test completed
+2025-05-24 15:15:50,593 - INFO - All basic tests completed successfully!

@@ -1,0 +1,304 @@
+<!-- /*
+	cms folder court_007 10
+	website folder rtkatmandu74
+	
+*/ -->
+<meta charset="UTF-8">
+
+
+
+
+
+
+<meta charset="utf-8">
+<title>à¤«à¥à¤¸à¤²à¤¾ / à¤à¤¦à¥à¤¶ à¤à¥ à¤ªà¥à¤°à¥à¤£ à¤ªà¤¾à¤ </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript">
+(function(){
+window["loaderConfig"] = "/TSPD/?type=21";
+})();
+
+</script>
+
+<script type="text/javascript" src="/TSPD/?type=18"></script>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+    .sc-brand {
+        height: auto;
+    }
+
+    .navbar-sc {
+        background-color: #28ABE3;
+    }
+
+    .sc-brand-name {
+        color: #ffffff;
+        font-size: 24px;
+        display: block;
+        padding: 22px;
+    }
+
+    .clear_box {
+        display: block;
+        float: left;
+        font-size: 26px;
+        padding: 4px;
+        cursor: pointer;
+    }
+
+    .sc-table {
+        font-size: 14px;
+    }
+
+    .sc-table th {
+        text-align: center;
+    }
+
+    .second_level_tab {
+        display: block;
+        float: right;
+        list-style: outside none none;
+        margin-top: 16px;
+    }
+
+    #uploadStatus {
+        float: left;
+    }
+
+    .second_level_tab li {
+        display: block;
+        float: left;
+        margin-left: 5px;
+    }
+</style>
+
+<script type="text/javascript">
+    function validate() {
+
+        var regno = $.trim($('#regno').val());
+        var darta_date = $.trim($('#darta_date').val());
+        var faisala_date = $.trim($('#faisala_date').val());
+
+        if (regno != '' || darta_date != '' || faisala_date != '') {
+            return true;
+        } else {
+            alert('à¤à¥à¤ªà¤¯à¤¾ à¤¦à¤°à¥à¤¤à¤¾ à¤¨à¤®à¥à¤¬à¤°,à¤«à¥à¤¸à¤²à¤¾ à¤®à¤¿à¤¤à¥ à¤¤à¤¥à¤¾ à¤¦à¤°à¥à¤¤à¤¾ à¤®à¤¿à¤¤à¥ à¤®à¤§à¥à¤¯à¥ à¤à¥à¤¨à¥ à¤à¤à¤à¤¾ à¤à¤¾à¤à¤ª à¤à¤°à¥à¤¨à¥à¤¹à¥à¤¸..');
+            return false;
+        }
+
+    };
+</script>
+</head>
+<body>
+<div class="section">
+    <div class="container-sc">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="navbar navbar-sc navbar-static-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a class="navbar-brand sc-brand" href="http://supremecourt.gov.np">
+                                <img src="assets/images/logo.png"/>
+                            </a>
+                            <span class="sc-brand-name">à¤ªà¥à¤°à¤¶à¤¾à¤¸à¤à¥à¤¯ à¤à¤¦à¤¾à¤²à¤¤</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <center><h2>à¤«à¥à¤¸à¤²à¤¾ / à¤à¤¦à¥à¤¶ à¤à¥ à¤ªà¥à¤°à¥à¤£ à¤ªà¤¾à¤ </h2></center>
+            </div>
+        </div>
+        <hr/>
+
+        <div class="row">
+            <div class="col-md-8">
+                <form class="form-horizontal" role="form" id="form1" method="GET" onsubmit="return validate();">
+
+
+                    <div class="form-group">
+                        <div class="col-sm-4">
+                            <label for="" class="control-label">à¤®à¥à¤¦à¥à¤¦à¤¾ à¤¦à¤°à¥à¤¤à¤¾ à¤¨à¤:</label>
+                        </div>
+                        <div class="col-sm-5">
+                            <input name="regno" type="text" id="regno" size="15" class="form-control"
+                                   value="" placeholder="077-AC-0001"/>
+                        </div>
+                        <div class="col-sm-1">
+                            <a href="javascript:void(0)" title="Clear"><span class="glyphicon glyphicon-trash clear_box"
+                                                                             id="clear_regno" aria-hidden="true"></span></a>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-4">
+                            <label for="" class="control-label">à¤®à¥à¤¦à¥à¤¦à¤¾ à¤¦à¤°à¥à¤¤à¤¾ à¤®à¤¿à¤¤à¤¿:</label>
+                        </div>
+                        <div class="col-sm-5">
+                            <input type="text" name="darta_date" class="form-control" id="darta_date" size="10"
+                                   maxlength="10" value=""
+                                   placeholder="2074-10-10"/>
+                        </div>
+                        <div class="col-sm-1">
+                            <a href="javascript:void(0)" title="Clear"><span class="glyphicon glyphicon-trash clear_box"
+                                                                             id="clear_darta_date"
+                                                                             aria-hidden="true"></span></a>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-4">
+                            <label for="" class="control-label">à¤«à¥à¤¸à¤²à¤¾ à¤®à¤¿à¤¤à¤¿:</label>
+                        </div>
+                        <div class="col-sm-5">
+                            <input type="text" name="faisala_date" class="form-control" id="faisala_date" size="10"
+                                   maxlength="10" value=""
+                                   placeholder="2074-10-10"/>
+                        </div>
+                        <input name="mode" type="hidden" id="mode" value="show">
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-4 col-sm-6">
+                            <button type="submit" name="submit" class="btn btn-primary">à¤à¥à¤à¥à¤¨à¥ à¤¹à¥à¤¸à¥</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-4">
+                <h2>à¤à¤¾à¤¨à¤à¤¾à¤°à¥ <font color="#FF0000">!!!</font></h2>
+                <p style="text-align:justify;">à¤¯à¥ à¤«à¥à¤¸à¤²à¤¾ à¤µà¤¾ à¤à¤¦à¥à¤¶à¤à¥ à¤à¤§à¤¿à¤à¤¾à¤°à¤¿à¤à¤¤à¤¾à¤à¥ à¤²à¤¾à¤à¤¿ à¤­à¤¨à¥ à¤¸à¤®à¥à¤¬à¤¨à¥à¤§à¤¿à¤¤ à¤à¤¦à¤¾à¤²à¤¤à¤µà¤¾à¤ à¤¨à¤¿à¤¯à¤®à¤¾à¤¨à¥à¤¸à¤¾à¤°
+                    à¤ªà¥à¤°à¤®à¤¾à¤£à¤¿à¤¤ à¤à¤°à¤¾à¤ à¤²à¤¿à¤¨à¥à¤ªà¤°à¥à¤¨à¥ à¤µà¥à¤¯à¤¹à¥à¤°à¤¾ à¤à¤¾à¤¨à¤à¤¾à¤°à¥ à¤à¤°à¤¾à¤à¤¨à¥à¤à¥¤</p>
+            </div>
+            <hr/>
+        </div>
+
+                    
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="header">
+                            <h3 id="uploadStatus">
+à¥«
+ à¤µà¤à¤¾ à¤°à¥à¤à¤°à¥à¤¡ à¤­à¥à¤à¤¿à¤¯à¥</h3>
+                        </div>
+
+                        <table class="table table-bordered sc-table table-responsive">
+                            <thead>
+                            <tr>
+                                <th width="3%">à¤à¥à¤°.à¤¸à¤.</th>
+                                <th width="10%">à¤¦à¤°à¥à¤¤à¤¾ à¤¨à¤.</th>
+                                <th width="7%">à¤®à¥à¤¦à¥à¤¦à¤¾ à¤¨à¤.</th>
+                                <th width="7%">à¤¦à¤°à¥à¤¤à¤¾ à¤®à¤¿à¤¤à¤¿</th>
+                                <th width="10%">à¤®à¥à¤¦à¥à¤¦à¤¾à¤à¥ à¤à¤¿à¤¸à¤¿à¤®</th>
+                                <th width="10%">à¤®à¥à¤¦à¥à¤¦à¤¾à¤à¥ à¤¨à¤¾à¤®</th>
+                                <th width="20%">à¤µà¤¾à¤¦à¥</th>
+                                <th width="20%">à¤ªà¥à¤°à¤¤à¤¿à¤¬à¤¾à¤¦à¥</th>
+                                <th width="8%">à¤«à¥à¤¸à¤²à¤¾ à¤®à¤¿à¤¤à¤¿</th>
+                                <th style="text-align:center;">à¤ªà¥à¤°à¥à¤£ à¤ªà¤¾à¤ </th>
+                            </tr>
+                            </thead>
+
+                            <tbody>
+                                                                                    <tr>
+                                <td>à¥§</td>
+                                <td></td>
+                                <td>à¥¯à¥¦à¥¦à¥¦à¥¦à¥ª</td>
+                                <td></td>
+                                <td>??????? ????</td>
+                                <td>??????? ????</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <img src="assets/images/error.png" title="à¤«à¥à¤¸à¤²à¤¾ à¤à¤ªà¤²à¥à¤¡ à¤¹à¥à¤¨ à¤¬à¤¾à¤à¤à¥" style="cursor:pointer"/>
+
+                                </td>
+
+                                                            <tr>
+                                <td>à¥¨</td>
+                                <td></td>
+                                <td>à¥¯à¥¦à¥¦à¥¦à¥¦à¥«</td>
+                                <td></td>
+                                <td>??????? ????</td>
+                                <td>??????? ????</td>
+                                <td>?????? ?????</td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <img src="assets/images/error.png" title="à¤«à¥à¤¸à¤²à¤¾ à¤à¤ªà¤²à¥à¤¡ à¤¹à¥à¤¨ à¤¬à¤¾à¤à¤à¥" style="cursor:pointer"/>
+
+                                </td>
+
+                                                            <tr>
+                                <td>à¥©</td>
+                                <td></td>
+                                <td>à¥¯à¥¦à¥¦à¥¦à¥¦à¥¬</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>à¥¨à¥¦à¥­à¥®à¥¦à¥®à¥¦à¥¯</td>
+                                <td>
+                                    <img src="assets/images/error.png" title="à¤«à¥à¤¸à¤²à¤¾ à¤à¤ªà¤²à¥à¤¡ à¤¹à¥à¤¨ à¤¬à¤¾à¤à¤à¥" style="cursor:pointer"/>
+
+                                </td>
+
+                                                            <tr>
+                                <td>à¥ª</td>
+                                <td></td>
+                                <td>à¥¯à¥¦à¥¦à¥¦à¥¦à¥­</td>
+                                <td></td>
+                                <td>??????? ????</td>
+                                <td>??????? ????</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <img src="assets/images/error.png" title="à¤«à¥à¤¸à¤²à¤¾ à¤à¤ªà¤²à¥à¤¡ à¤¹à¥à¤¨ à¤¬à¤¾à¤à¤à¥" style="cursor:pointer"/>
+
+                                </td>
+
+                                                            <tr>
+                                <td>à¥«</td>
+                                <td></td>
+                                <td>à¥¯à¥¦à¥¦à¥¦à¥¦à¥¯</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <img src="assets/images/error.png" title="à¤«à¥à¤¸à¤²à¤¾ à¤à¤ªà¤²à¥à¤¡ à¤¹à¥à¤¨ à¤¬à¤¾à¤à¤à¥" style="cursor:pointer"/>
+
+                                </td>
+
+                                                            </tr>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            
+            </div>
+</div>
+</body>
+
+</html>
+
+
+
+
+

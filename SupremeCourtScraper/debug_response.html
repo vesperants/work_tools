@@ -1,0 +1,331 @@
+
+<html>
+<head>
+<script type="text/javascript">
+(function(){
+window["loaderConfig"] = "/TSPD/?type=21";
+})();
+
+</script>
+
+<script type="text/javascript" src="/TSPD/?type=18"></script>
+
+        <meta charset="utf-8">
+    <title>à¤«à¥à¤¸à¤²à¤¾ / à¤à¤¦à¥à¤¶ à¤à¥ à¤ªà¥à¤°à¥à¤£ à¤ªà¤¾à¤ </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- <script type="text/javascript" src="https://supremecourt.gov.np/cp/assets/js/jquery.maskedinput.min.js"></script> -->
+    <style type="text/css">
+        .sc-brand {
+            height: auto;
+        }
+
+        .navbar-sc {
+            background-color: #28ABE3;
+        }
+
+        .sc-brand-name {
+            color: #ffffff;
+            font-size: 24px;
+            display: block;
+            padding: 22px;
+        }
+
+        .clear_box {
+            display: block;
+            float: left;
+            font-size: 26px;
+            padding: 4px;
+            cursor: pointer;
+        }
+
+        .sc-table {
+            font-size: 14px;
+        }
+
+        .sc-table th {
+            text-align: center;
+        }
+
+        .second_level_tab {
+            display: block;
+            float: right;
+            list-style: outside none none;
+            margin-top: 16px;
+        }
+
+        #uploadStatus {
+            float: left;
+        }
+
+        .second_level_tab li {
+            display: block;
+            float: left;
+            margin-left: 5px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $.ajaxSetup({cache: false})
+
+            var court_type = 'S';
+            var selected = '264';
+
+            if (court_type) {
+                loadCourtList(court_type, selected);
+            }
+
+                        location.href = "#listTable";
+            
+            $('#court_type').change(function () {
+                var court_type = $(this).val();
+                if (court_type == '' || court_type == null) {
+                    alert('à¤à¥à¤ªà¤¯à¤¾ à¤à¤¦à¤¾à¤²à¤¤ à¤à¤¾à¤¨à¥à¤¨à¥à¤¹à¥à¤¸');
+                    loadCourtList(court_type, 0);
+                    return false;
+                } else {
+                    loadCourtList(court_type, selected);
+                }
+            });
+
+            $('span.clear_box').click(function () {
+                var id_val = $(this).attr("id");
+                var id_arr = id_val.split("_");
+                id_arr.shift();
+                var clear_div = id_arr.join("_");//id_arr[1] + "_" + id_arr[2];
+                $("#" + clear_div).val('');
+                //$(this).parent().parent().prev('input').val('');
+            });
+
+            //$('#darta_date, #faisala_date').mask("9999-99-99");
+
+            $('table.global').each(function () {
+                $('tr:odd', this).addClass("alt");
+            });
+
+            $("table.global tbody tr").mouseenter(function () {
+                $(this).addClass("highlight")
+            });
+            $("table.global tbody tr").mouseleave(function () {
+                $(this).removeClass("highlight")
+            });
+
+        });
+
+        function loadCourtList(type, selected) {
+
+            $('#ajaxLoader').show();
+            $.ajax({
+                type: "POST",
+                data: 'court_type=' + type + '&selected=' + selected,
+                url: 'welcome/get_courts',
+                success: function (output) {
+                    $('#court_id').html(output);
+                    $('#ajaxLoader').hide();
+                }
+            });
+        }
+
+        function validate() {
+
+            if (!$('#court_id').val()) {
+                alert('à¤à¥à¤ªà¤¯à¤¾ à¤à¤¦à¤¾à¤²à¤¤ à¤à¤¾à¤¨à¥à¤¨à¥à¤¹à¥à¤¸....');
+                $('#court_id').focus();
+                return false;
+            }
+
+            var court = $.trim($('#court').val());
+            var regno = $.trim($('#regno').val());
+            var darta_date = $.trim($('#darta_date').val());
+            var faisala_date = $.trim($('#faisala_date').val());
+
+            if (regno != '' || darta_date != '' || faisala_date != '') {
+                return true;
+            } else {
+                alert('à¤à¥à¤ªà¤¯à¤¾ à¤¦à¤°à¥à¤¤à¤¾ à¤¨à¤®à¥à¤¬à¤°,à¤«à¥à¤¸à¤²à¤¾ à¤®à¤¿à¤¤à¥ à¤¤à¤¥à¤¾ à¤¦à¤°à¥à¤¤à¤¾ à¤®à¤¿à¤¤à¥ à¤®à¤§à¥à¤¯à¥ à¤à¥à¤¨à¥ à¤à¤à¤à¤¾ à¤à¤¾à¤à¤ª à¤à¤°à¥à¤¨à¥à¤¹à¥à¤¸..');
+                return false;
+            }
+
+        };
+
+        function printUploadCount(uploaded, notUploaded) {
+            //var text = ' <span style="float:right; color:red"> à¤à¤ªà¤²à¥à¤¡ à¤­à¤à¤à¥: ' + uploaded + ' || à¤à¤ªà¤²à¥à¤¡ à¤¨à¤­à¤à¤à¥: ' + notUploaded +  '</span>';
+            var text = '<ul class="second_level_tab"><li><span style="color:#000">à¤à¤ªà¤²à¥à¤¡ à¤­à¤à¤à¥ = ' + uploaded + '</span></li><li> || <span style="color:red">à¤à¤ªà¤²à¥à¤¡ à¤¨à¤­à¤à¤à¥ = ' + notUploaded + '</span></li></ul>';
+            $('h3#uploadStatus').after(text);
+        }
+    </script>
+</head>
+<body>
+<div class="section">
+    <div class="container-sc">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="navbar navbar-sc navbar-static-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a class="navbar-brand sc-brand" href="http://supremecourt.gov.np">
+                                <img src="assets/images/logo.png"/>
+                            </a>
+                            <span class="sc-brand-name">Supreme Court of Nepal à¤¸à¤°à¥à¤µà¥à¤à¥à¤ à¤à¤¦à¤¾à¤²à¤¤</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <center><h2>à¤«à¥à¤¸à¤²à¤¾ / à¤à¤¦à¥à¤¶ à¤à¥ à¤ªà¥à¤°à¥à¤£ à¤ªà¤¾à¤ </h2></center>
+            </div>
+        </div>
+        <hr/>
+
+        <div class="row">
+            <div class="col-md-8">
+                <form class="form-horizontal" role="form" id="form1" method="post" onsubmit="return validate();">
+                    <div class="form-group">
+                        <div class="col-sm-4">
+                            <label for="" class="control-label">à¤à¤¦à¤¾à¤²à¤¤à¤à¥ à¤ªà¥à¤°à¤à¤¾à¤°:</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <a name="listTable"></a>
+                            <select name="court_type" id="court_type" class="form-control">
+                                <option value="" >-- à¤à¤¾à¤¨à¥à¤¨à¥à¤¹à¥à¤¸ --
+                                </option>
+                                <option value="S" selected>à¤¸à¤°à¥à¤µà¥à¤à¥à¤ à¤à¤¦à¤¾à¤²à¤¤
+                                </option>
+                                <option value="A" >à¤à¤à¥à¤ à¤à¤¦à¤¾à¤²à¤¤</option>
+                                <option value="D" >à¤à¤¿à¤²à¥à¤²à¤¾ à¤à¤¦à¤¾à¤²à¤¤
+                                </option>
+                                <option value="T" >à¤¬à¤¿à¤·à¥à¤¶ à¤à¤¦à¤¾à¤²à¤¤</option>
+                                <option value="B" >à¤µà¥à¤¦à¥à¤¶à¤¿à¤ à¤°à¥à¤à¤à¤¾à¤°
+                                    à¤¨à¥à¤¯à¤¾à¤¯à¤¾à¤§à¤¿à¤à¤°à¤£
+                                </option>
+                                <option value="R" >à¤°à¤¾à¤à¤¶à¥à¤µ à¤¨à¥à¤¯à¤¾à¤¯à¤¾à¤§à¤¿à¤à¤°à¤£ à¤à¤¾à¤ à¤®à¤¾à¤£à¥à¤¡à¥à¤
+
+                                </option>  
+
+                                <option value="AD" >à¤ªà¥à¤°à¤¶à¤¾à¤¸à¤à¥à¤¯ à¤à¤¦à¤¾à¤²à¤¤
+
+                                </option>
+                            </select>
+                            <img src="https://supremecourt.gov.np/cp/assets/images/ajax-loader-dark.gif" id="ajaxLoader"
+                                 style="display:none;"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-4">
+                            <label for="" class="control-label">à¤à¤¦à¤¾à¤²à¤¤à¤à¥ à¤¨à¤¾à¤®:</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <select name="court_id" id="court_id" class="form-control">
+                                <option value="">-- à¤à¤¦à¤¾à¤²à¤¤à¤à¥ à¤¨à¤¾à¤® à¤à¤¾à¤¨à¥à¤¨à¥à¤¹à¥à¤¸ --</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-4">
+                            <label for="" class="control-label">à¤®à¥à¤¦à¥à¤¦à¤¾ à¤¦à¤°à¥à¤¤à¤¾ à¤¨à¤:</label>
+                        </div>
+                        <div class="col-sm-5">
+                            <input name="regno" type="text" id="regno" size="15" class="form-control"
+                                   value="" placeholder="067-CR-0922"/>
+                        </div>
+                        <div class="col-sm-1">
+                            <a href="javascript:void(0)" title="Clear"><span class="glyphicon glyphicon-trash clear_box"
+                                                                             id="clear_regno" aria-hidden="true"></span></a>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-4">
+                            <label for="" class="control-label">à¤®à¥à¤¦à¥à¤¦à¤¾ à¤¦à¤°à¥à¤¤à¤¾ à¤®à¤¿à¤¤à¤¿:</label>
+                        </div>
+                        <div class="col-sm-5">
+                            <input type="text" name="darta_date" class="form-control" id="darta_date" size="10"
+                                   maxlength="10" value="2080-01-01"
+                                   placeholder="2074-10-10"/>
+                        </div>
+                        <div class="col-sm-1">
+                            <a href="javascript:void(0)" title="Clear"><span class="glyphicon glyphicon-trash clear_box"
+                                                                             id="clear_darta_date"
+                                                                             aria-hidden="true"></span></a>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-4">
+                            <label for="" class="control-label">à¤«à¥à¤¸à¤²à¤¾ à¤®à¤¿à¤¤à¤¿:</label>
+                        </div>
+                        <div class="col-sm-5">
+                            <input type="text" name="faisala_date" class="form-control" id="faisala_date" size="10"
+                                   maxlength="10" value=""
+                                   placeholder="2074-10-10"/>
+                        </div>
+                        <div class="col-sm-1">
+                            <a href="javascript:void(0)" title="Clear"><span class="glyphicon glyphicon-trash clear_box"
+                                                                             id="clear_faisala_date"
+                                                                             aria-hidden="true"></span></a>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-4 col-sm-6">
+                            <button type="submit" name="submit" class="btn btn-primary">à¤à¥à¤à¥à¤¨à¥ à¤¹à¥à¤¸à¥</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-4">
+                <h2>à¤à¤¾à¤¨à¤à¤¾à¤°à¥ <font color="#FF0000">!!!</font></h2>
+                <p style="text-align:justify;">à¤¸à¤°à¥à¤µà¥à¤à¥à¤ à¤à¤¦à¤¾à¤²à¤¤, à¤à¤à¥à¤ à¤à¤¦à¤¾à¤²à¤¤à¤¹à¤°à¥, à¤à¤¿à¤²à¥à¤²à¤¾ à¤à¤¦à¤¾à¤²à¤¤à¤¹à¤°à¥ à¤° à¤µà¤¿à¤¶à¥à¤· à¤à¤¦à¤¾à¤²à¤¤à¤à¤¾ à¥¨à¥¦à¥¬à¥¯ à¤¸à¤¾à¤²
+                    à¤¸à¤¾à¤à¤¨ à¥§ à¤à¤¤à¥à¤ªà¤à¤¿à¤à¤¾ à¤«à¥à¤¸à¤²à¤¾ à¤µà¤¾ à¤à¤¨à¥à¤¤à¤¿à¤® à¤à¤¦à¥à¤¶à¤¹à¤°à¥ à¤¸à¤°à¥à¤¬à¥à¤à¥à¤ à¤à¤¦à¤¾à¤²à¤¤à¤à¥ à¤µà¥à¤µà¤¸à¤¾à¤à¤à¤¬à¤¾à¤ à¤à¥à¤¸à¥à¤à¥à¤²à¥ à¤ªà¤¨à¤¿ à¤¹à¥à¤°à¥à¤¨à¥, à¤¡à¤¾à¤à¤¨à¤²à¥à¤¡
+                    à¤à¤°à¥à¤¨à¥ à¤¤à¤¥à¤¾ à¤ªà¥à¤°à¤¿à¤¨à¥à¤ à¤à¤°à¥à¤¨à¥ à¤¸à¤®à¥à¤¤à¤à¥ à¤µà¥à¤¯à¤µà¤¸à¥à¤¥à¤¾ à¤®à¤¿à¤²à¤¾à¤à¤à¤à¥ à¤à¥¤ à¤¯à¤¸à¥à¤¤à¥ à¤«à¥à¤¸à¤²à¤¾ à¤µà¤¾ à¤à¤¦à¥à¤¶à¤à¥ à¤à¤§à¤¿à¤à¤¾à¤°à¤¿à¤à¤¤à¤¾à¤à¥ à¤²à¤¾à¤à¤¿ à¤­à¤¨à¥
+                    à¤¸à¤®à¥à¤¬à¤¨à¥à¤§à¤¿à¤¤ à¤à¤¦à¤¾à¤²à¤¤à¤µà¤¾à¤ à¤¨à¤¿à¤¯à¤®à¤¾à¤¨à¥à¤¸à¤¾à¤° à¤ªà¥à¤°à¤®à¤¾à¤£à¤¿à¤¤ à¤à¤°à¤¾à¤ à¤²à¤¿à¤¨à¥à¤ªà¤°à¥à¤¨à¥ à¤µà¥à¤¯à¤¹à¥à¤°à¤¾ à¤à¤¾à¤¨à¤à¤¾à¤°à¥ à¤à¤°à¤¾à¤à¤¨à¥à¤à¥¤</p>
+            </div>
+            <hr/>
+        </div>
+                                    <div class="header">
+                    <h3> à¤¤à¤ªà¤¾à¤à¤²à¥ à¤à¥à¤à¥à¤¨à¥ à¤­à¤à¤à¥ à¤°à¥à¤à¤°à¥à¤¡ à¤­à¥à¤à¤¿à¤à¤¨à¥¤</h3>
+                </div>
+                        </div>
+</div>
+</body>
+<script type="text/javascript">
+    $('select').on('change', function () {
+        if (this.value == 'B') {
+            window.location.replace("http://fet.gov.np/causelist/cpfile.php");
+        }
+    });
+
+    $('select').on('change', function () {
+        if (this.value == 'R') {
+            window.location.replace("https://revenuetribunal.gov.np/rajaswoFaisalaPdf");
+        }
+    });    
+
+    $('select').on('change', function () {
+        if (this.value == 'AD') {
+            window.location.replace("https://admincourt.gov.np/adminCourtFaisalaPdf");
+        }
+    });
+</script>
+</html>
+
+
+
+<script id="f5_cspm">(function(){var f5_cspm={f5_p:'ANIGDJPDAEAIKCBHANCDOKMCIMDMJNBBKKLBGBPDEJJDGIIJNIAJJMFIALEFOMEOBAEBKMMJAAECGNJGIHHABNLPAAGPEJABBADMDMGKLINBAFDPOONNAPCFMFKLCPIF',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1480099261aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/;'+'';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;'+';';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

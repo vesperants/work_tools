@@ -1,0 +1,62 @@
+2025-05-24 15:36:30,832 - INFO - Starting date-based scraping of Supreme Court decisions...
+2025-05-24 15:36:31,092 - INFO - Using Supreme Court ID: 264
+2025-05-24 15:36:31,092 - INFO - Starting systematic scraping for years: [2075, 2076]
+2025-05-24 15:36:31,092 - INFO - Processing year 2075: 9 dates, expecting ~367 results
+2025-05-24 15:36:31,093 - INFO - Searching date 2075-03-01 (expecting ~25 results)
+2025-05-24 15:36:32,810 - INFO - Parsed 25 decisions from search results for date 2075-03-01
+2025-05-24 15:36:32,810 - INFO -   ✓ Found 25 decisions for 2075-03-01
+2025-05-24 15:36:34,819 - INFO - Searching date 2075-03-15 (expecting ~24 results)
+2025-05-24 15:36:36,943 - INFO - Parsed 24 decisions from search results for date 2075-03-15
+2025-05-24 15:36:36,943 - INFO -   ✓ Found 24 decisions for 2075-03-15
+2025-05-24 15:36:38,947 - INFO - Searching date 2075-06-01 (expecting ~107 results)
+2025-05-24 15:36:44,705 - INFO - Parsed 107 decisions from search results for date 2075-06-01
+2025-05-24 15:36:44,705 - INFO -   ✓ Found 107 decisions for 2075-06-01
+2025-05-24 15:36:46,714 - INFO - Searching date 2075-06-15 (expecting ~52 results)
+2025-05-24 15:36:49,740 - INFO - Parsed 52 decisions from search results for date 2075-06-15
+2025-05-24 15:36:49,740 - INFO -   ✓ Found 52 decisions for 2075-06-15
+2025-05-24 15:36:51,750 - INFO - Searching date 2075-09-01 (expecting ~39 results)
+2025-05-24 15:36:54,151 - INFO - Parsed 39 decisions from search results for date 2075-09-01
+2025-05-24 15:36:54,151 - INFO -   ✓ Found 39 decisions for 2075-09-01
+2025-05-24 15:36:56,157 - INFO - Searching date 2075-09-15 (expecting ~42 results)
+2025-05-24 15:36:59,148 - INFO - Parsed 42 decisions from search results for date 2075-09-15
+2025-05-24 15:36:59,148 - INFO -   ✓ Found 42 decisions for 2075-09-15
+2025-05-24 15:37:01,153 - INFO - Searching date 2075-09-29 (expecting ~15 results)
+2025-05-24 15:37:02,971 - INFO - Parsed 15 decisions from search results for date 2075-09-29
+2025-05-24 15:37:02,971 - INFO -   ✓ Found 15 decisions for 2075-09-29
+2025-05-24 15:37:04,975 - INFO - Searching date 2075-12-01 (expecting ~20 results)
+2025-05-24 15:37:06,583 - INFO - Parsed 20 decisions from search results for date 2075-12-01
+2025-05-24 15:37:06,584 - INFO -   ✓ Found 20 decisions for 2075-12-01
+2025-05-24 15:37:08,588 - INFO - Searching date 2075-12-15 (expecting ~43 results)
+2025-05-24 15:37:11,617 - INFO - Parsed 43 decisions from search results for date 2075-12-15
+2025-05-24 15:37:11,617 - INFO -   ✓ Found 43 decisions for 2075-12-15
+2025-05-24 15:37:13,620 - INFO - Processing year 2076: 11 dates, expecting ~416 results
+2025-05-24 15:37:13,621 - INFO - Searching date 2076-01-15 (expecting ~45 results)
+2025-05-24 15:37:16,915 - INFO - Parsed 45 decisions from search results for date 2076-01-15
+2025-05-24 15:37:16,915 - INFO -   ✓ Found 45 decisions for 2076-01-15
+2025-05-24 15:37:18,921 - INFO - Searching date 2076-01-30 (expecting ~72 results)
+2025-05-24 15:37:23,077 - INFO - Parsed 72 decisions from search results for date 2076-01-30
+2025-05-24 15:37:23,077 - INFO -   ✓ Found 72 decisions for 2076-01-30
+2025-05-24 15:37:25,082 - INFO - Searching date 2076-03-01 (expecting ~26 results)
+2025-05-24 15:37:27,140 - INFO - Parsed 26 decisions from search results for date 2076-03-01
+2025-05-24 15:37:27,140 - INFO -   ✓ Found 26 decisions for 2076-03-01
+2025-05-24 15:37:29,143 - INFO - Searching date 2076-03-15 (expecting ~49 results)
+2025-05-24 15:37:34,890 - INFO - Parsed 49 decisions from search results for date 2076-03-15
+2025-05-24 15:37:34,890 - INFO -   ✓ Found 49 decisions for 2076-03-15
+2025-05-24 15:37:36,895 - INFO - Searching date 2076-03-30 (expecting ~33 results)
+2025-05-24 15:37:39,192 - INFO - Parsed 33 decisions from search results for date 2076-03-30
+2025-05-24 15:37:39,192 - INFO -   ✓ Found 33 decisions for 2076-03-30
+2025-05-24 15:37:41,197 - INFO - Searching date 2076-06-01 (expecting ~59 results)
+2025-05-24 15:37:44,627 - INFO - Parsed 59 decisions from search results for date 2076-06-01
+2025-05-24 15:37:44,627 - INFO -   ✓ Found 59 decisions for 2076-06-01
+2025-05-24 15:37:46,633 - INFO - Searching date 2076-06-29 (expecting ~68 results)
+2025-05-24 15:37:50,810 - INFO - Parsed 68 decisions from search results for date 2076-06-29
+2025-05-24 15:37:50,810 - INFO -   ✓ Found 68 decisions for 2076-06-29
+2025-05-24 15:37:52,814 - INFO - Searching date 2076-09-01 (expecting ~22 results)
+2025-05-24 15:37:54,741 - INFO - Parsed 22 decisions from search results for date 2076-09-01
+2025-05-24 15:37:54,741 - INFO -   ✓ Found 22 decisions for 2076-09-01
+2025-05-24 15:37:56,741 - INFO - Searching date 2076-09-15 (expecting ~13 results)
+2025-05-24 15:37:57,982 - INFO - Parsed 13 decisions from search results for date 2076-09-15
+2025-05-24 15:37:57,982 - INFO -   ✓ Found 13 decisions for 2076-09-15
+2025-05-24 15:37:59,987 - INFO - Searching date 2076-09-29 (expecting ~27 results)
+2025-05-24 15:38:02,026 - INFO - Parsed 27 decisions from search results for date 2076-09-29
+2025-05-24 15:38:02,026 - INFO -   ✓ Found 27 decisions for 2076-09-29

@@ -1,0 +1,388 @@
+2025-05-25 15:30:29,033 - INFO - Starting Foreign Employment Tribunal scraping...
+2025-05-25 15:30:31,173 - INFO - FET page title: फैसला / आदेश को पुर्ण पाठ
+2025-05-25 15:30:31,173 - INFO - Found 1 forms on FET page
+2025-05-25 15:30:31,173 - INFO - Found 0 tables on FET page
+2025-05-25 15:30:31,173 - INFO - Found 0 potential decision links on FET
+2025-05-25 15:30:31,174 - INFO - Trying form submission to http://fet.gov.np/causelist/cpfile.php with data: {'regno': '', 'darta_date': '2080-01-01', 'faisala_date': '2080-01-01'}
+2025-05-25 15:30:33,266 - INFO - No tables found in form response from Foreign Employment Tribunal
+2025-05-25 15:30:33,266 - INFO - Extracted 0 decisions from FET
+2025-05-25 15:30:33,266 - INFO - Starting Revenue Tribunal scraping...
+2025-05-25 15:30:35,365 - INFO - Revenue Tribunal page title: फैसला / आदेश को पुर्ण पाठ
+2025-05-25 15:30:35,366 - INFO - Found 1 forms on Revenue Tribunal page
+2025-05-25 15:30:35,366 - INFO - Trying form submission to https://revenuetribunal.gov.np/rajaswoFaisalaPdf with data: {'regno': '', 'darta_date': '2080-01-01', 'faisala_date': '2080-01-01'}
+2025-05-25 15:30:37,472 - INFO - No tables found in form response from Revenue Tribunal
+2025-05-25 15:30:37,472 - INFO - Extracted 0 decisions from Revenue Tribunal
+2025-05-25 15:30:37,472 - INFO - Starting Administrative Court scraping...
+2025-05-25 15:30:39,790 - INFO - Administrative Court page title: फैसला / आदेश को पुर्ण पाठ
+2025-05-25 15:30:39,790 - INFO - Found 1 forms on Administrative Court page
+2025-05-25 15:30:39,790 - INFO - Trying form submission to https://admincourt.gov.np/adminCourtFaisalaPdf with data: {'regno': '', 'darta_date': '2080-01-01', 'faisala_date': '2080-01-01'}
+2025-05-25 15:30:42,009 - INFO - No tables found in form response from Administrative Court
+2025-05-25 15:30:42,009 - INFO - Extracted 0 decisions from Administrative Court
+2025-05-25 15:33:29,054 - INFO - Starting comprehensive scraping of all redirect courts...
+2025-05-25 15:33:29,055 - INFO - Scraping Foreign Employment Tribunal...
+2025-05-25 15:33:29,055 - INFO - Starting Foreign Employment Tribunal scraping with multiple date ranges...
+2025-05-25 15:33:30,985 - INFO - Foreign Employment Tribunal page title: फैसला / आदेश को पुर्ण पाठ
+2025-05-25 15:33:30,985 - INFO - Trying Foreign Employment Tribunal with date: 2081-01-01
+2025-05-25 15:33:32,659 - INFO - Found 0 records for Foreign Employment Tribunal on 2081-01-01
+2025-05-25 15:33:32,659 - INFO - Trying Foreign Employment Tribunal with date: 2080-01-01
+2025-05-25 15:33:34,305 - INFO - Found 0 records for Foreign Employment Tribunal on 2080-01-01
+2025-05-25 15:33:34,305 - INFO - Trying Foreign Employment Tribunal with date: 2079-01-01
+2025-05-25 15:33:35,958 - INFO - Found 0 records for Foreign Employment Tribunal on 2079-01-01
+2025-05-25 15:33:35,958 - INFO - Trying Foreign Employment Tribunal with date: 2078-01-01
+2025-05-25 15:33:37,538 - INFO - Found 0 records for Foreign Employment Tribunal on 2078-01-01
+2025-05-25 15:33:37,538 - INFO - Trying Foreign Employment Tribunal with date: 2077-01-01
+2025-05-25 15:33:39,166 - INFO - Found 0 records for Foreign Employment Tribunal on 2077-01-01
+2025-05-25 15:33:39,166 - INFO - Trying Foreign Employment Tribunal with date: 2076-01-01
+2025-05-25 15:33:40,818 - INFO - Found 0 records for Foreign Employment Tribunal on 2076-01-01
+2025-05-25 15:33:40,818 - INFO - Trying Foreign Employment Tribunal with date: 2075-01-01
+2025-05-25 15:33:42,475 - INFO - Found 0 records for Foreign Employment Tribunal on 2075-01-01
+2025-05-25 15:33:42,475 - INFO - Trying Foreign Employment Tribunal with date: 2074-01-01
+2025-05-25 15:33:44,055 - INFO - Found 0 records for Foreign Employment Tribunal on 2074-01-01
+2025-05-25 15:33:44,055 - INFO - Total decisions found for Foreign Employment Tribunal: 0
+2025-05-25 15:33:44,056 - INFO - Successfully scraped 0 decisions from fet
+2025-05-25 15:33:44,056 - INFO - Scraping Revenue Tribunal...
+2025-05-25 15:33:44,056 - INFO - Starting Revenue Tribunal scraping with multiple date ranges...
+2025-05-25 15:33:48,073 - INFO - Revenue Tribunal page title: फैसला / आदेश को पुर्ण पाठ
+2025-05-25 15:33:48,073 - INFO - Trying Revenue Tribunal with date: 2081-01-01
+2025-05-25 15:33:50,051 - INFO - Found 0 records for Revenue Tribunal on 2081-01-01
+2025-05-25 15:33:50,052 - INFO - Trying Revenue Tribunal with date: 2080-01-01
+2025-05-25 15:33:53,756 - INFO - Found 0 records for Revenue Tribunal on 2080-01-01
+2025-05-25 15:33:53,757 - INFO - Trying Revenue Tribunal with date: 2079-01-01
+2025-05-25 15:33:55,472 - INFO - Found 0 records for Revenue Tribunal on 2079-01-01
+2025-05-25 15:33:55,472 - INFO - Trying Revenue Tribunal with date: 2078-01-01
+2025-05-25 15:33:57,178 - INFO - Found 0 records for Revenue Tribunal on 2078-01-01
+2025-05-25 15:33:57,178 - INFO - Trying Revenue Tribunal with date: 2077-01-01
+2025-05-25 15:33:58,903 - INFO - Found 0 records for Revenue Tribunal on 2077-01-01
+2025-05-25 15:33:58,904 - INFO - Trying Revenue Tribunal with date: 2076-01-01
+2025-05-25 15:34:01,011 - INFO - Found 0 records for Revenue Tribunal on 2076-01-01
+2025-05-25 15:34:01,012 - INFO - Trying Revenue Tribunal with date: 2075-01-01
+2025-05-25 15:34:03,110 - INFO - Found 0 records for Revenue Tribunal on 2075-01-01
+2025-05-25 15:34:03,110 - INFO - Trying Revenue Tribunal with date: 2074-01-01
+2025-05-25 15:34:39,799 - INFO - Starting Administrative Court scraping with multiple date ranges...
+2025-05-25 15:34:41,050 - INFO - Administrative Court page title: फैसला / आदेश को पुर्ण पाठ
+2025-05-25 15:34:41,051 - INFO - Trying Administrative Court with date: 2081-01-01
+2025-05-25 15:34:42,394 - INFO - Found 5 records for Administrative Court on 2081-01-01
+2025-05-25 15:34:42,395 - INFO - Found results table with 5 data rows
+2025-05-25 15:34:42,397 - INFO - Found 5 decisions for Administrative Court on 2081-01-01
+2025-05-25 15:34:43,518 - INFO - Found 5 records for Administrative Court on 2080-12-01
+2025-05-25 15:34:43,519 - INFO - Found results table with 5 data rows
+2025-05-25 15:34:43,520 - INFO - Found 5 additional decisions for 2080-12-01
+2025-05-25 15:34:44,643 - INFO - Found 5 records for Administrative Court on 2081-02-01
+2025-05-25 15:34:44,644 - INFO - Found results table with 5 data rows
+2025-05-25 15:34:44,645 - INFO - Found 5 additional decisions for 2081-02-01
+2025-05-25 15:34:45,790 - INFO - Found 5 records for Administrative Court on 2080-11-01
+2025-05-25 15:34:45,790 - INFO - Found results table with 5 data rows
+2025-05-25 15:34:45,792 - INFO - Found 5 additional decisions for 2080-11-01
+2025-05-25 15:34:47,407 - INFO - Found 5 records for Administrative Court on 2081-03-01
+2025-05-25 15:34:47,408 - INFO - Found results table with 5 data rows
+2025-05-25 15:34:47,410 - INFO - Found 5 additional decisions for 2081-03-01
+2025-05-25 15:34:47,410 - INFO - Trying Administrative Court with date: 2080-01-01
+2025-05-25 15:34:48,513 - INFO - Found 5 records for Administrative Court on 2080-01-01
+2025-05-25 15:34:48,513 - INFO - Found results table with 5 data rows
+2025-05-25 15:34:48,515 - INFO - Found 5 decisions for Administrative Court on 2080-01-01
+2025-05-25 15:36:37,676 - INFO - Starting comprehensive scraping of all redirect courts...
+2025-05-25 15:36:37,676 - INFO - Scraping Foreign Employment Tribunal...
+2025-05-25 15:36:37,676 - INFO - Starting Foreign Employment Tribunal scraping with multiple date ranges...
+2025-05-25 15:36:39,576 - INFO - Foreign Employment Tribunal page title: फैसला / आदेश को पुर्ण पाठ
+2025-05-25 15:36:39,576 - INFO - Trying Foreign Employment Tribunal with date: 2081-01-01
+2025-05-25 15:36:41,213 - INFO - Found 0 records for Foreign Employment Tribunal on 2081-01-01
+2025-05-25 15:36:41,213 - INFO - Trying Foreign Employment Tribunal with date: 2080-01-01
+2025-05-25 15:36:42,809 - INFO - Found 0 records for Foreign Employment Tribunal on 2080-01-01
+2025-05-25 15:36:42,810 - INFO - Trying Foreign Employment Tribunal with date: 2079-01-01
+2025-05-25 15:36:44,471 - INFO - Found 0 records for Foreign Employment Tribunal on 2079-01-01
+2025-05-25 15:36:44,471 - INFO - Trying Foreign Employment Tribunal with date: 2078-01-01
+2025-05-25 15:36:46,168 - INFO - Found 0 records for Foreign Employment Tribunal on 2078-01-01
+2025-05-25 15:36:46,168 - INFO - Trying Foreign Employment Tribunal with date: 2077-01-01
+2025-05-25 15:36:47,794 - INFO - Found 0 records for Foreign Employment Tribunal on 2077-01-01
+2025-05-25 15:36:47,794 - INFO - Trying Foreign Employment Tribunal with date: 2076-01-01
+2025-05-25 15:36:49,383 - INFO - Found 0 records for Foreign Employment Tribunal on 2076-01-01
+2025-05-25 15:36:49,383 - INFO - Trying Foreign Employment Tribunal with date: 2075-01-01
+2025-05-25 15:36:51,034 - INFO - Found 0 records for Foreign Employment Tribunal on 2075-01-01
+2025-05-25 15:36:51,034 - INFO - Trying Foreign Employment Tribunal with date: 2074-01-01
+2025-05-25 15:36:52,650 - INFO - Found 0 records for Foreign Employment Tribunal on 2074-01-01
+2025-05-25 15:36:52,650 - INFO - Trying Foreign Employment Tribunal with date: 2073-01-01
+2025-05-25 15:36:54,248 - INFO - Found 0 records for Foreign Employment Tribunal on 2073-01-01
+2025-05-25 15:36:54,248 - INFO - Trying Foreign Employment Tribunal with date: 2072-01-01
+2025-05-25 15:36:55,856 - INFO - Found 0 records for Foreign Employment Tribunal on 2072-01-01
+2025-05-25 15:36:55,856 - INFO - Trying Foreign Employment Tribunal with date: 2071-01-01
+2025-05-25 15:36:57,462 - INFO - Found 0 records for Foreign Employment Tribunal on 2071-01-01
+2025-05-25 15:36:57,462 - INFO - Trying Foreign Employment Tribunal with date: 2070-01-01
+2025-05-25 15:36:59,083 - INFO - Found 0 records for Foreign Employment Tribunal on 2070-01-01
+2025-05-25 15:36:59,083 - INFO - Trying Foreign Employment Tribunal with date: 2069-01-01
+2025-05-25 15:37:00,668 - INFO - Found 0 records for Foreign Employment Tribunal on 2069-01-01
+2025-05-25 15:37:00,668 - INFO - Total decisions found for Foreign Employment Tribunal: 0
+2025-05-25 15:37:00,668 - INFO - Successfully scraped 0 decisions from fet
+2025-05-25 15:37:00,668 - INFO - Scraping Revenue Tribunal...
+2025-05-25 15:37:00,668 - INFO - Starting Revenue Tribunal scraping with multiple date ranges...
+2025-05-25 15:37:02,368 - INFO - Revenue Tribunal page title: फैसला / आदेश को पुर्ण पाठ
+2025-05-25 15:37:02,369 - INFO - Trying Revenue Tribunal with date: 2081-01-01
+2025-05-25 15:37:04,268 - INFO - Found 0 records for Revenue Tribunal on 2081-01-01
+2025-05-25 15:37:04,268 - INFO - Trying Revenue Tribunal with date: 2080-01-01
+2025-05-25 15:37:05,991 - INFO - Found 0 records for Revenue Tribunal on 2080-01-01
+2025-05-25 15:37:05,991 - INFO - Trying Revenue Tribunal with date: 2079-01-01
+2025-05-25 15:37:07,618 - INFO - Found 0 records for Revenue Tribunal on 2079-01-01
+2025-05-25 15:37:07,619 - INFO - Trying Revenue Tribunal with date: 2078-01-01
+2025-05-25 15:37:09,222 - INFO - Found 0 records for Revenue Tribunal on 2078-01-01
+2025-05-25 15:37:09,222 - INFO - Trying Revenue Tribunal with date: 2077-01-01
+2025-05-25 15:37:10,862 - INFO - Found 0 records for Revenue Tribunal on 2077-01-01
+2025-05-25 15:37:10,862 - INFO - Trying Revenue Tribunal with date: 2076-01-01
+2025-05-25 15:37:12,522 - INFO - Found 0 records for Revenue Tribunal on 2076-01-01
+2025-05-25 15:37:12,523 - INFO - Trying Revenue Tribunal with date: 2075-01-01
+2025-05-25 15:37:14,136 - INFO - Found 0 records for Revenue Tribunal on 2075-01-01
+2025-05-25 15:37:14,136 - INFO - Trying Revenue Tribunal with date: 2074-01-01
+2025-05-25 15:37:15,876 - INFO - Found 0 records for Revenue Tribunal on 2074-01-01
+2025-05-25 15:37:15,876 - INFO - Trying Revenue Tribunal with date: 2073-01-01
+2025-05-25 15:37:17,569 - INFO - Found 0 records for Revenue Tribunal on 2073-01-01
+2025-05-25 15:37:17,570 - INFO - Trying Revenue Tribunal with date: 2072-01-01
+2025-05-25 15:37:19,269 - INFO - Found 0 records for Revenue Tribunal on 2072-01-01
+2025-05-25 15:37:19,269 - INFO - Trying Revenue Tribunal with date: 2071-01-01
+2025-05-25 15:37:20,941 - INFO - Found 0 records for Revenue Tribunal on 2071-01-01
+2025-05-25 15:37:20,942 - INFO - Trying Revenue Tribunal with date: 2070-01-01
+2025-05-25 15:37:22,568 - INFO - Found 0 records for Revenue Tribunal on 2070-01-01
+2025-05-25 15:37:22,568 - INFO - Trying Revenue Tribunal with date: 2069-01-01
+2025-05-25 15:37:24,569 - INFO - Found 0 records for Revenue Tribunal on 2069-01-01
+2025-05-25 15:37:24,569 - INFO - Total decisions found for Revenue Tribunal: 0
+2025-05-25 15:37:24,569 - INFO - Successfully scraped 0 decisions from revenue
+2025-05-25 15:37:24,570 - INFO - Scraping Administrative Court...
+2025-05-25 15:37:24,570 - INFO - Starting Administrative Court scraping with multiple date ranges...
+2025-05-25 15:37:26,291 - INFO - Administrative Court page title: फैसला / आदेश को पुर्ण पाठ
+2025-05-25 15:37:26,291 - INFO - Trying Administrative Court with date: 2081-01-01
+2025-05-25 15:37:27,914 - INFO - Found 5 records for Administrative Court on 2081-01-01
+2025-05-25 15:37:27,915 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:27,917 - INFO - Found 5 decisions for Administrative Court on 2081-01-01
+2025-05-25 15:37:29,556 - INFO - Found 5 records for Administrative Court on 2080-12-01
+2025-05-25 15:37:29,557 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:29,558 - INFO - Found 5 additional decisions for 2080-12-01
+2025-05-25 15:37:31,211 - INFO - Found 5 records for Administrative Court on 2081-02-01
+2025-05-25 15:37:31,211 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:31,213 - INFO - Found 5 additional decisions for 2081-02-01
+2025-05-25 15:37:32,827 - INFO - Found 5 records for Administrative Court on 2080-11-01
+2025-05-25 15:37:32,828 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:32,829 - INFO - Found 5 additional decisions for 2080-11-01
+2025-05-25 15:37:34,478 - INFO - Found 5 records for Administrative Court on 2081-03-01
+2025-05-25 15:37:34,478 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:34,480 - INFO - Found 5 additional decisions for 2081-03-01
+2025-05-25 15:37:34,480 - INFO - Trying Administrative Court with date: 2080-01-01
+2025-05-25 15:37:36,201 - INFO - Found 5 records for Administrative Court on 2080-01-01
+2025-05-25 15:37:36,201 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:36,202 - INFO - Found 5 decisions for Administrative Court on 2080-01-01
+2025-05-25 15:37:37,805 - INFO - Found 5 records for Administrative Court on 2079-12-01
+2025-05-25 15:37:37,806 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:37,807 - INFO - Found 5 additional decisions for 2079-12-01
+2025-05-25 15:37:39,484 - INFO - Found 5 records for Administrative Court on 2080-02-01
+2025-05-25 15:37:39,484 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:39,486 - INFO - Found 5 additional decisions for 2080-02-01
+2025-05-25 15:37:41,231 - INFO - Found 5 records for Administrative Court on 2079-11-01
+2025-05-25 15:37:41,232 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:41,233 - INFO - Found 5 additional decisions for 2079-11-01
+2025-05-25 15:37:42,852 - INFO - Found 5 records for Administrative Court on 2080-03-01
+2025-05-25 15:37:42,852 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:42,854 - INFO - Found 5 additional decisions for 2080-03-01
+2025-05-25 15:37:42,854 - INFO - Trying Administrative Court with date: 2079-01-01
+2025-05-25 15:37:44,482 - INFO - Found 5 records for Administrative Court on 2079-01-01
+2025-05-25 15:37:44,482 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:44,484 - INFO - Found 5 decisions for Administrative Court on 2079-01-01
+2025-05-25 15:37:46,197 - INFO - Found 5 records for Administrative Court on 2078-12-01
+2025-05-25 15:37:46,197 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:46,198 - INFO - Found 5 additional decisions for 2078-12-01
+2025-05-25 15:37:47,846 - INFO - Found 5 records for Administrative Court on 2079-02-01
+2025-05-25 15:37:47,847 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:47,849 - INFO - Found 5 additional decisions for 2079-02-01
+2025-05-25 15:37:49,475 - INFO - Found 5 records for Administrative Court on 2078-11-01
+2025-05-25 15:37:49,476 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:49,477 - INFO - Found 5 additional decisions for 2078-11-01
+2025-05-25 15:37:51,207 - INFO - Found 5 records for Administrative Court on 2079-03-01
+2025-05-25 15:37:51,207 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:51,209 - INFO - Found 5 additional decisions for 2079-03-01
+2025-05-25 15:37:51,209 - INFO - Trying Administrative Court with date: 2078-01-01
+2025-05-25 15:37:52,859 - INFO - Found 5 records for Administrative Court on 2078-01-01
+2025-05-25 15:37:52,859 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:52,861 - INFO - Found 5 decisions for Administrative Court on 2078-01-01
+2025-05-25 15:37:54,468 - INFO - Found 5 records for Administrative Court on 2077-12-01
+2025-05-25 15:37:54,468 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:54,470 - INFO - Found 5 additional decisions for 2077-12-01
+2025-05-25 15:37:56,160 - INFO - Found 5 records for Administrative Court on 2078-02-01
+2025-05-25 15:37:56,160 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:56,162 - INFO - Found 5 additional decisions for 2078-02-01
+2025-05-25 15:37:57,776 - INFO - Found 5 records for Administrative Court on 2077-11-01
+2025-05-25 15:37:57,777 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:57,778 - INFO - Found 5 additional decisions for 2077-11-01
+2025-05-25 15:37:59,403 - INFO - Found 5 records for Administrative Court on 2078-03-01
+2025-05-25 15:37:59,404 - INFO - Found results table with 5 data rows
+2025-05-25 15:37:59,406 - INFO - Found 5 additional decisions for 2078-03-01
+2025-05-25 15:37:59,406 - INFO - Trying Administrative Court with date: 2077-01-01
+2025-05-25 15:38:01,118 - INFO - Found 5 records for Administrative Court on 2077-01-01
+2025-05-25 15:38:01,119 - INFO - Found results table with 5 data rows
+2025-05-25 15:38:01,121 - INFO - Found 5 decisions for Administrative Court on 2077-01-01
+2025-05-25 15:38:03,665 - INFO - Found 5 records for Administrative Court on 2076-12-01
+2025-05-25 15:38:03,665 - INFO - Found results table with 5 data rows
+2025-05-25 15:38:03,666 - INFO - Found 5 additional decisions for 2076-12-01
+2025-05-25 15:38:27,787 - INFO - Found 5 records for Administrative Court on 2077-02-01
+2025-05-25 15:38:27,788 - INFO - Found results table with 5 data rows
+2025-05-25 15:38:27,789 - INFO - Found 5 additional decisions for 2077-02-01
+2025-05-25 15:38:29,401 - INFO - Found 5 records for Administrative Court on 2076-11-01
+2025-05-25 15:38:29,401 - INFO - Found results table with 5 data rows
+2025-05-25 15:38:29,403 - INFO - Found 5 additional decisions for 2076-11-01
+2025-05-25 15:38:31,044 - INFO - Found 5 records for Administrative Court on 2077-03-01
+2025-05-25 15:38:31,044 - INFO - Found results table with 5 data rows
+2025-05-25 15:38:31,046 - INFO - Found 5 additional decisions for 2077-03-01
+2025-05-25 15:38:31,046 - INFO - Trying Administrative Court with date: 2076-01-01
+2025-05-25 15:38:32,654 - INFO - Found 5 records for Administrative Court on 2076-01-01
+2025-05-25 15:38:32,655 - INFO - Found results table with 5 data rows
+2025-05-25 15:38:32,657 - INFO - Found 5 decisions for Administrative Court on 2076-01-01
+2025-05-25 15:38:34,316 - INFO - Found 5 records for Administrative Court on 2075-12-01
+2025-05-25 15:38:34,317 - INFO - Found results table with 5 data rows
+2025-05-25 15:38:34,320 - INFO - Found 5 additional decisions for 2075-12-01
+2025-05-25 15:38:35,992 - INFO - Found 5 records for Administrative Court on 2076-02-01
+2025-05-25 15:38:35,992 - INFO - Found results table with 5 data rows
+2025-05-25 15:38:35,994 - INFO - Found 5 additional decisions for 2076-02-01
+2025-05-25 15:38:37,627 - INFO - Found 5 records for Administrative Court on 2075-11-01
+2025-05-25 15:38:37,628 - INFO - Found results table with 5 data rows
+2025-05-25 15:38:37,629 - INFO - Found 5 additional decisions for 2075-11-01
+2025-05-25 15:38:39,290 - INFO - Found 5 records for Administrative Court on 2076-03-01
+2025-05-25 15:38:39,290 - INFO - Found results table with 5 data rows
+2025-05-25 15:38:39,291 - INFO - Found 5 additional decisions for 2076-03-01
+2025-05-25 15:38:39,291 - INFO - Trying Administrative Court with date: 2075-01-01
+2025-05-25 15:38:49,219 - INFO - Starting Administrative Court scraping with multiple date ranges...
+2025-05-25 15:38:50,482 - INFO - Administrative Court page title: फैसला / आदेश को पुर्ण पाठ
+2025-05-25 15:38:50,482 - INFO - Trying Administrative Court with date: 2081-01-01
+2025-05-25 15:38:51,621 - INFO - Found 5 records for Administrative Court on 2081-01-01
+2025-05-25 15:38:51,622 - INFO - Found results table with 5 data rows
+2025-05-25 15:38:51,623 - INFO - Found 5 decisions for Administrative Court on 2081-01-01
+2025-05-25 15:38:52,762 - INFO - Found 5 records for Administrative Court on 2080-12-01
+2025-05-25 15:38:52,762 - INFO - Found results table with 5 data rows
+2025-05-25 15:38:52,764 - INFO - Found 5 additional decisions for 2080-12-01
+2025-05-25 15:38:53,897 - INFO - Found 5 records for Administrative Court on 2081-02-01
+2025-05-25 15:38:53,897 - INFO - Found results table with 5 data rows
+2025-05-25 15:38:53,899 - INFO - Found 5 additional decisions for 2081-02-01
+2025-05-25 15:38:55,003 - INFO - Found 5 records for Administrative Court on 2080-11-01
+2025-05-25 15:38:55,004 - INFO - Found results table with 5 data rows
+2025-05-25 15:38:55,005 - INFO - Found 5 additional decisions for 2080-11-01
+2025-05-25 15:38:56,137 - INFO - Found 5 records for Administrative Court on 2081-03-01
+2025-05-25 15:38:56,138 - INFO - Found results table with 5 data rows
+2025-05-25 15:38:56,139 - INFO - Found 5 additional decisions for 2081-03-01
+2025-05-25 15:38:56,139 - INFO - Trying Administrative Court with date: 2080-01-01
+2025-05-25 15:38:57,288 - INFO - Found 5 records for Administrative Court on 2080-01-01
+2025-05-25 15:38:57,289 - INFO - Found results table with 5 data rows
+2025-05-25 15:38:57,291 - INFO - Found 5 decisions for Administrative Court on 2080-01-01
+2025-05-25 15:38:58,398 - INFO - Found 5 records for Administrative Court on 2079-12-01
+2025-05-25 15:38:58,399 - INFO - Found results table with 5 data rows
+2025-05-25 15:38:58,400 - INFO - Found 5 additional decisions for 2079-12-01
+2025-05-25 15:38:59,517 - INFO - Found 5 records for Administrative Court on 2080-02-01
+2025-05-25 15:38:59,518 - INFO - Found results table with 5 data rows
+2025-05-25 15:38:59,519 - INFO - Found 5 additional decisions for 2080-02-01
+2025-05-25 15:39:00,653 - INFO - Found 5 records for Administrative Court on 2079-11-01
+2025-05-25 15:39:00,654 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:00,656 - INFO - Found 5 additional decisions for 2079-11-01
+2025-05-25 15:39:01,768 - INFO - Found 5 records for Administrative Court on 2080-03-01
+2025-05-25 15:39:01,769 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:01,770 - INFO - Found 5 additional decisions for 2080-03-01
+2025-05-25 15:39:01,770 - INFO - Trying Administrative Court with date: 2079-01-01
+2025-05-25 15:39:02,867 - INFO - Found 5 records for Administrative Court on 2079-01-01
+2025-05-25 15:39:02,867 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:02,868 - INFO - Found 5 decisions for Administrative Court on 2079-01-01
+2025-05-25 15:39:04,022 - INFO - Found 5 records for Administrative Court on 2078-12-01
+2025-05-25 15:39:04,022 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:04,024 - INFO - Found 5 additional decisions for 2078-12-01
+2025-05-25 15:39:05,148 - INFO - Found 5 records for Administrative Court on 2079-02-01
+2025-05-25 15:39:05,148 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:05,150 - INFO - Found 5 additional decisions for 2079-02-01
+2025-05-25 15:39:06,279 - INFO - Found 5 records for Administrative Court on 2078-11-01
+2025-05-25 15:39:06,280 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:06,282 - INFO - Found 5 additional decisions for 2078-11-01
+2025-05-25 15:39:07,410 - INFO - Found 5 records for Administrative Court on 2079-03-01
+2025-05-25 15:39:07,410 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:07,412 - INFO - Found 5 additional decisions for 2079-03-01
+2025-05-25 15:39:07,412 - INFO - Trying Administrative Court with date: 2078-01-01
+2025-05-25 15:39:08,647 - INFO - Found 5 records for Administrative Court on 2078-01-01
+2025-05-25 15:39:08,648 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:08,650 - INFO - Found 5 decisions for Administrative Court on 2078-01-01
+2025-05-25 15:39:09,808 - INFO - Found 5 records for Administrative Court on 2077-12-01
+2025-05-25 15:39:09,808 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:09,809 - INFO - Found 5 additional decisions for 2077-12-01
+2025-05-25 15:39:10,979 - INFO - Found 5 records for Administrative Court on 2078-02-01
+2025-05-25 15:39:10,979 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:10,981 - INFO - Found 5 additional decisions for 2078-02-01
+2025-05-25 15:39:12,141 - INFO - Found 5 records for Administrative Court on 2077-11-01
+2025-05-25 15:39:12,141 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:12,142 - INFO - Found 5 additional decisions for 2077-11-01
+2025-05-25 15:39:13,248 - INFO - Found 5 records for Administrative Court on 2078-03-01
+2025-05-25 15:39:13,249 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:13,250 - INFO - Found 5 additional decisions for 2078-03-01
+2025-05-25 15:39:13,250 - INFO - Trying Administrative Court with date: 2077-01-01
+2025-05-25 15:39:14,372 - INFO - Found 5 records for Administrative Court on 2077-01-01
+2025-05-25 15:39:14,372 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:14,373 - INFO - Found 5 decisions for Administrative Court on 2077-01-01
+2025-05-25 15:39:15,480 - INFO - Found 5 records for Administrative Court on 2076-12-01
+2025-05-25 15:39:15,481 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:15,482 - INFO - Found 5 additional decisions for 2076-12-01
+2025-05-25 15:39:16,628 - INFO - Found 5 records for Administrative Court on 2077-02-01
+2025-05-25 15:39:16,629 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:16,630 - INFO - Found 5 additional decisions for 2077-02-01
+2025-05-25 15:39:17,739 - INFO - Found 5 records for Administrative Court on 2076-11-01
+2025-05-25 15:39:17,742 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:17,743 - INFO - Found 5 additional decisions for 2076-11-01
+2025-05-25 15:39:18,868 - INFO - Found 5 records for Administrative Court on 2077-03-01
+2025-05-25 15:39:18,869 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:18,871 - INFO - Found 5 additional decisions for 2077-03-01
+2025-05-25 15:39:18,871 - INFO - Trying Administrative Court with date: 2076-01-01
+2025-05-25 15:39:19,965 - INFO - Found 5 records for Administrative Court on 2076-01-01
+2025-05-25 15:39:19,965 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:19,967 - INFO - Found 5 decisions for Administrative Court on 2076-01-01
+2025-05-25 15:39:21,124 - INFO - Found 5 records for Administrative Court on 2075-12-01
+2025-05-25 15:39:21,125 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:21,126 - INFO - Found 5 additional decisions for 2075-12-01
+2025-05-25 15:39:22,238 - INFO - Found 5 records for Administrative Court on 2076-02-01
+2025-05-25 15:39:22,238 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:22,240 - INFO - Found 5 additional decisions for 2076-02-01
+2025-05-25 15:39:23,397 - INFO - Found 5 records for Administrative Court on 2075-11-01
+2025-05-25 15:39:23,397 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:23,399 - INFO - Found 5 additional decisions for 2075-11-01
+2025-05-25 15:39:24,549 - INFO - Found 5 records for Administrative Court on 2076-03-01
+2025-05-25 15:39:24,550 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:24,551 - INFO - Found 5 additional decisions for 2076-03-01
+2025-05-25 15:39:24,551 - INFO - Trying Administrative Court with date: 2075-01-01
+2025-05-25 15:39:25,722 - INFO - Found 5 records for Administrative Court on 2075-01-01
+2025-05-25 15:39:25,723 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:25,724 - INFO - Found 5 decisions for Administrative Court on 2075-01-01
+2025-05-25 15:39:26,950 - INFO - Found 5 records for Administrative Court on 2074-12-01
+2025-05-25 15:39:26,950 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:26,951 - INFO - Found 5 additional decisions for 2074-12-01
+2025-05-25 15:39:28,066 - INFO - Found 5 records for Administrative Court on 2075-02-01
+2025-05-25 15:39:28,067 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:28,068 - INFO - Found 5 additional decisions for 2075-02-01
+2025-05-25 15:39:29,204 - INFO - Found 5 records for Administrative Court on 2074-11-01
+2025-05-25 15:39:29,205 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:29,206 - INFO - Found 5 additional decisions for 2074-11-01
+2025-05-25 15:39:30,316 - INFO - Found 5 records for Administrative Court on 2075-03-01
+2025-05-25 15:39:30,316 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:30,318 - INFO - Found 5 additional decisions for 2075-03-01
+2025-05-25 15:39:30,318 - INFO - Trying Administrative Court with date: 2074-01-01
+2025-05-25 15:39:31,468 - INFO - Found 5 records for Administrative Court on 2074-01-01
+2025-05-25 15:39:31,469 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:31,470 - INFO - Found 5 decisions for Administrative Court on 2074-01-01
+2025-05-25 15:39:32,589 - INFO - Found 5 records for Administrative Court on 2073-12-01
+2025-05-25 15:39:32,590 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:32,591 - INFO - Found 5 additional decisions for 2073-12-01
+2025-05-25 15:39:33,799 - INFO - Found 5 records for Administrative Court on 2074-02-01
+2025-05-25 15:39:33,799 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:33,801 - INFO - Found 5 additional decisions for 2074-02-01
+2025-05-25 15:39:34,910 - INFO - Found 5 records for Administrative Court on 2073-11-01
+2025-05-25 15:39:34,910 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:34,911 - INFO - Found 5 additional decisions for 2073-11-01
+2025-05-25 15:39:36,170 - INFO - Found 5 records for Administrative Court on 2074-03-01
+2025-05-25 15:39:36,171 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:36,172 - INFO - Found 5 additional decisions for 2074-03-01
+2025-05-25 15:39:36,172 - INFO - Trying Administrative Court with date: 2073-01-01
+2025-05-25 15:39:37,601 - INFO - Found 5 records for Administrative Court on 2073-01-01
+2025-05-25 15:39:37,602 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:37,603 - INFO - Found 5 decisions for Administrative Court on 2073-01-01
+2025-05-25 15:39:38,721 - INFO - Found 5 records for Administrative Court on 2072-12-01
+2025-05-25 15:39:38,721 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:38,723 - INFO - Found 5 additional decisions for 2072-12-01
+2025-05-25 15:39:39,919 - INFO - Found 5 records for Administrative Court on 2073-02-01
+2025-05-25 15:39:39,920 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:39,921 - INFO - Found 5 additional decisions for 2073-02-01
+2025-05-25 15:39:41,039 - INFO - Found 5 records for Administrative Court on 2072-11-01
+2025-05-25 15:39:41,039 - INFO - Found results table with 5 data rows
+2025-05-25 15:39:41,041 - INFO - Found 5 additional decisions for 2072-11-01

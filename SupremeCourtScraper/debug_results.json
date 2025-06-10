@@ -1,0 +1,100 @@
+{
+  "Empty search": {
+    "error": "500 Server Error: Internal Server Error for url: https://supremecourt.gov.np/cp/"
+  },
+  "Court only": {
+    "error": "500 Server Error: Internal Server Error for url: https://supremecourt.gov.np/cp/"
+  },
+  "Recent year 2081": {
+    "success": true,
+    "tables_found": 0,
+    "data_tables_found": 0,
+    "no_results_message": false,
+    "response_length": 15637,
+    "different_from_form": false
+  },
+  "Older year 2075": {
+    "success": true,
+    "tables_found": 0,
+    "data_tables_found": 0,
+    "no_results_message": false,
+    "response_length": 15637,
+    "different_from_form": false
+  },
+  "Very recent 2080": {
+    "success": true,
+    "tables_found": 0,
+    "data_tables_found": 0,
+    "no_results_message": false,
+    "response_length": 15637,
+    "different_from_form": false
+  },
+  "Sample registration number": {
+    "success": true,
+    "tables_found": 0,
+    "data_tables_found": 0,
+    "no_results_message": false,
+    "response_length": 15638,
+    "different_from_form": true
+  },
+  "Partial registration with year": {
+    "success": true,
+    "tables_found": 1,
+    "data_tables_found": 1,
+    "no_results_message": false,
+    "response_length": 19362,
+    "different_from_form": true,
+    "data_table_0_rows": 3,
+    "data_table_0_sample": [
+      [
+        "à¤à¥à¤°.à¤¸à¤.",
+        "à¤¦à¤°à¥à¤¤à¤¾ à¤¨à¤.",
+        "à¤®à¥à¤¦à¥à¤¦à¤¾ à¤¨à¤.",
+        "à¤¦à¤°à¥à¤¤à¤¾ à¤®à¤¿à¤¤à¤¿",
+        "à¤®à¥à¤¦à¥à¤¦à¤¾à¤à¥ à¤à¤¿à¤¸à¤¿à¤®",
+        "à¤®à¥à¤¦à¥à¤¦à¤¾à¤à¥ à¤¨à¤¾à¤®",
+        "à¤µà¤¾à¤¦à¥",
+        "à¤ªà¥à¤°à¤¤à¤¿à¤¬à¤¾à¤¦à¥"
+      ],
+      [
+        "à¥§",
+        "à¥¨à¥¦à¥®à¥¦",
+        "à¥ªà¥©à¥«à¥¨à¥«",
+        "à¥¨à¥¦à¥¬à¥¨-à¥¦à¥«-à¥¦à¥§",
+        "à¤¦à¥à¤µà¤¾à¤¨à¥",
+        "à¤à¤à¥à¤à¤¾ à¤à¤¿à¤à¥à¤²à¤¾",
+        "à¤¸à¥à¤¨à¥à¤¦à¤°  à¤¦à¥à¤µà¥ à¤¸à¤®à¥à¤¤ à¤à",
+        "à¤¸à¥à¤¨à¥à¤²à¤¾à¤²  à¤°à¤¾à¤à¤¤à¤¯à¤¾à¤¦à¤µ"
+      ],
+      [
+        "à¥¨",
+        "à¥¨à¥¦à¥®à¥¦",
+        "à¥ªà¥©à¥«à¥¨à¥«",
+        "à¥¨à¥¦à¥¬à¥¨-à¥¦à¥«-à¥¦à¥§",
+        "à¤¦à¥à¤µà¤¾à¤¨à¥",
+        "à¤à¤à¥à¤à¤¾ à¤à¤¿à¤à¥à¤²à¤¾",
+        "à¤¸à¥à¤¨à¥à¤¦à¤°  à¤¦à¥à¤µà¥ à¤¸à¤®à¥à¤¤ à¤à",
+        "à¤¸à¥à¤¨à¥à¤²à¤¾à¤²  à¤°à¤¾à¤à¤¤à¤¯à¤¾à¤¦à¤µ"
+      ]
+    ]
+  },
+  "Decision date only": {
+    "error": "500 Server Error: Internal Server Error for url: https://supremecourt.gov.np/cp/"
+  },
+  "Different reg format": {
+    "success": true,
+    "tables_found": 0,
+    "data_tables_found": 0,
+    "no_results_message": false,
+    "response_length": 15634,
+    "different_from_form": true
+  },
+  "Broad month search": {
+    "success": true,
+    "tables_found": 0,
+    "data_tables_found": 0,
+    "no_results_message": false,
+    "response_length": 15634,
+    "different_from_form": true
+  }
+}
