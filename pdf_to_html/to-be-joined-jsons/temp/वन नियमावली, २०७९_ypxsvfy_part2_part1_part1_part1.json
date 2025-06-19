@@ -1,0 +1,1510 @@
+{
+    "metadata": {
+        "document_source_url": "www.lawcommission.gov.np"
+    },
+    "schedules": [
+        {
+            "schedule_number": "२",
+            "related_rules": "नियम ८ को उपनियम (५) सँग सम्बन्धित",
+            "schedule_title": "वनस्पति उद्यान प्रवेश तथा अन्य शुल्क",
+            "sections": [
+                {
+                    "section_letter": "क",
+                    "section_title": "राष्ट्रिय वनस्पति उद्यान, गोदावरी",
+                    "items": [
+                        {
+                            "serial_number": "१",
+                            "description": "प्रवेश शुल्क",
+                            "sub_items": [
+                                {
+                                    "sub_item_number": "१.१",
+                                    "description": "स्वदेशी नागरिक प्रतिव्यक्ति",
+                                    "fee_details": [
+                                        {
+                                            "age_group": "१० वर्ष मुनिका",
+                                            "fee_rupees": "२०/-"
+                                        },
+                                        {
+                                            "age_group": "१० वर्ष माथिका",
+                                            "fee_rupees": "५०/-"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sub_item_number": "१.२",
+                                    "description": "सार्क मुलुकको नागरिक प्रतिव्यक्ति",
+                                    "fee_details": [
+                                        {
+                                            "age_group": "१० वर्ष मुनिका",
+                                            "fee_rupees": "१००/-"
+                                        },
+                                        {
+                                            "age_group": "१० वर्ष माथिका",
+                                            "fee_rupees": "२००/-"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sub_item_number": "१.३",
+                                    "description": "अन्य विदेशी मुलुकको नागरिक प्रतिव्यक्ति",
+                                    "fee_details": [
+                                        {
+                                            "age_group": "१० वर्ष मुनिका",
+                                            "fee_rupees": "२००/-"
+                                        },
+                                        {
+                                            "age_group": "१० वर्ष माथिका",
+                                            "fee_rupees": "५००/-"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sub_item_number": "१.४",
+                                    "description": "विद्यार्थी प्रवेश शुल्क (विद्यालय लगायत अन्य शैक्षिक संस्थाबाट आधिकारिक पत्र सहित अध्ययन प्रयोजनको लागि प्रतिव्यक्ति)",
+                                    "fee_rupees": "२०/-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "२",
+                            "description": "पार्किङ्ग शुल्क",
+                            "details": [
+                                {
+                                    "item": "साईकल (थान)",
+                                    "fee_rupees": "५/-"
+                                },
+                                {
+                                    "item": "मोटर साईकल (थान)",
+                                    "fee_rupees": "२५/-"
+                                },
+                                {
+                                    "item": "टेम्पो (थान)",
+                                    "fee_rupees": "४०/-"
+                                },
+                                {
+                                    "item": "कार, जिप, भ्यान (थान)",
+                                    "fee_rupees": "५०/-"
+                                },
+                                {
+                                    "item": "मिनिबस (थान)",
+                                    "fee_rupees": "१००/-"
+                                },
+                                {
+                                    "item": "बस, ट्रक (थान)",
+                                    "fee_rupees": "२००/-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "३",
+                            "description": "क्यामरा/डिजिटल क्यामरा (थान)",
+                            "fee_rupees": "३०/-"
+                        },
+                        {
+                            "serial_number": "४",
+                            "description": "भिडियो क्यामरा (थान)",
+                            "fee_rupees": "२००/-"
+                        },
+                        {
+                            "serial_number": "५",
+                            "description": "चलचित्र सुटिङ्ग/म्युजिक भिडियो तथा अन्य सुटिङ्ग",
+                            "details": [
+                                {
+                                    "item": "सानो पर्दाको लागि (प्रतिदिन)",
+                                    "fee_rupees": "५,०००/-"
+                                },
+                                {
+                                    "item": "स्वदेशी लगानीको चलचित्र (निजी) (प्रतिदिन)",
+                                    "fee_rupees": "१०,०००/-"
+                                },
+                                {
+                                    "item": "स्वदेशी संयुक्त लगानीका चलचित्र (प्रतिदिन)",
+                                    "fee_rupees": "१५,०००/-"
+                                },
+                                {
+                                    "item": "सार्क मुलुकका लगानीका चलचित्र (प्रतिदिन)",
+                                    "fee_rupees": "२५,०००/-"
+                                },
+                                {
+                                    "item": "अन्य विदेशी लगानीका चलचित्र (प्रतिदिन)",
+                                    "fee_rupees": "३०,०००/-"
+                                },
+                                {
+                                    "item": "विवाह तथा अन्य फोटोसुट (प्रतिदिन)",
+                                    "fee_rupees": "२,०००/-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "६",
+                            "description": "विद्युतीय सवारीमा उद्यान परिक्रमा शुल्क",
+                            "sub_items": [
+                                {
+                                    "sub_item_number": "६.१",
+                                    "description": "स्वदेशी नागरिक प्रतिव्यक्ति (प्रतिपटक)",
+                                    "fee_details": [
+                                        {
+                                            "age_group": "१० वर्ष मुनिका",
+                                            "fee_rupees": "१००/-"
+                                        },
+                                        {
+                                            "age_group": "१० वर्ष माथिका",
+                                            "fee_rupees": "२००/-"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sub_item_number": "६.२",
+                                    "description": "सार्क मुलुकको नागरिक (प्रतिपटक)",
+                                    "fee_details": [
+                                        {
+                                            "age_group": "१० वर्ष मुनिका",
+                                            "fee_rupees": "२००/-"
+                                        },
+                                        {
+                                            "age_group": "१० वर्ष माथिका",
+                                            "fee_rupees": "४००/-"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sub_item_number": "६.३",
+                                    "description": "अन्य विदेशी मुलुकको नागरिक (प्रतिपटक)",
+                                    "fee_details": [
+                                        {
+                                            "age_group": "१० वर्ष मुनिका",
+                                            "fee_rupees": "५००/-"
+                                        },
+                                        {
+                                            "age_group": "१० वर्ष माथिका",
+                                            "fee_rupees": "१,०००/-"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sub_item_number": "६.४",
+                                    "description": "विद्यार्थी (विद्यालय लगायत अन्य शैक्षिक संस्थाबाट आधिकारिक पत्र सहित अध्ययन प्रयोजनको लागि प्रतिव्यक्ति, प्रतिपटक)",
+                                    "fee_rupees": "१००/-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "७",
+                            "description": "अस्थायी पसल (दैनिक शुल्क)",
+                            "fee_rupees": "५०/-"
+                        }
+                    ]
+                },
+                {
+                    "section_letter": "ख",
+                    "section_title": "वृन्दावन वनस्पति उद्यान हेटौडा र पर्वतीय वनस्पति उद्यान दामन, मकवानपुर",
+                    "items": [
+                        {
+                            "serial_number": "१",
+                            "description": "प्रवेश शुल्क",
+                            "sub_items": [
+                                {
+                                    "sub_item_number": "१.१",
+                                    "description": "स्वदेशी नागरिक प्रतिव्यक्ति",
+                                    "fee_details": [
+                                        {
+                                            "age_group": "१० वर्ष मुनिका",
+                                            "fee_rupees": "१५/-"
+                                        },
+                                        {
+                                            "age_group": "१० वर्ष माथिका",
+                                            "fee_rupees": "२५/-"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sub_item_number": "१.२",
+                                    "description": "सार्क मुलुकको नागरिक प्रतिव्यक्ति",
+                                    "fee_details": [
+                                        {
+                                            "age_group": "१० वर्ष मुनिका",
+                                            "fee_rupees": "५०/-"
+                                        },
+                                        {
+                                            "age_group": "१० वर्ष माथिका",
+                                            "fee_rupees": "१००/-"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sub_item_number": "१.३",
+                                    "description": "अन्य विदेशी मुलुकको नागरिक प्रतिव्यक्ति",
+                                    "fee_details": [
+                                        {
+                                            "age_group": "१० वर्ष मुनिका",
+                                            "fee_rupees": "१००/-"
+                                        },
+                                        {
+                                            "age_group": "१० वर्ष माथिका",
+                                            "fee_rupees": "२५०/-"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sub_item_number": "१.४",
+                                    "description": "विद्यार्थी प्रवेश शुल्क (विद्यालय लगायत अन्य शैक्षिक संस्थाबाट आधिकारिक पत्र सहित अध्ययन प्रयोजनको लागि प्रतिव्यक्ति)",
+                                    "fee_rupees": "१००/-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "२",
+                            "description": "पार्किङ्ग शुल्क",
+                            "details": [
+                                {
+                                    "item": "साईकल (थान)",
+                                    "fee_rupees": "५/-"
+                                },
+                                {
+                                    "item": "मोटर साईकल (थान)",
+                                    "fee_rupees": "१०/-"
+                                },
+                                {
+                                    "item": "अटो (थान)",
+                                    "fee_rupees": "१५/-"
+                                },
+                                {
+                                    "item": "कार, जिप, भ्यान (थान)",
+                                    "fee_rupees": "२५/-"
+                                },
+                                {
+                                    "item": "बस, ट्रक (थान)",
+                                    "fee_rupees": "१००/-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "३",
+                            "description": "क्यामरा/डिजिटल क्यामरा (थान)",
+                            "fee_rupees": "१५/-"
+                        },
+                        {
+                            "serial_number": "४",
+                            "description": "भिडियो क्यामरा (थान)",
+                            "fee_rupees": "१००/-"
+                        },
+                        {
+                            "serial_number": "५",
+                            "description": "चलचित्र सुटिङ्ग/म्युजिक भिडियो तथा अन्य सुटिङ्ग",
+                            "details": [
+                                {
+                                    "item": "सानो पर्दाको लागि (प्रतिदिन)",
+                                    "fee_rupees": "२,०००/-"
+                                },
+                                {
+                                    "item": "स्वदेशी लगानीको चलचित्र (निजी) (प्रतिदिन)",
+                                    "fee_rupees": "४,०००/-"
+                                },
+                                {
+                                    "item": "स्वदेशी संयुक्त लगानीको चलचित्र (प्रतिदिन)",
+                                    "fee_rupees": "७,०००/-"
+                                },
+                                {
+                                    "item": "सार्क मुलुकका लगानीका चलचित्र (प्रतिदिन)",
+                                    "fee_rupees": "१०,०००/-"
+                                },
+                                {
+                                    "item": "विवाह तथा अन्य फोटोसुट (प्रतिदिन)",
+                                    "fee_rupees": "५००/-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "६",
+                            "description": "सम्मानित वृक्षारोपण (प्रतिबिरुवा)",
+                            "fee_rupees": "२,०००/-"
+                        }
+                    ]
+                },
+                {
+                    "section_letter": "ग",
+                    "section_title": "ढकेरी वनस्पति उद्यान, बाँके र देवरीया वनस्पति उद्यान, कैलाली",
+                    "items": [
+                        {
+                            "serial_number": "१",
+                            "description": "प्रवेश शुल्क",
+                            "sub_items": [
+                                {
+                                    "sub_item_number": "१.१",
+                                    "description": "प्रवेश शुल्क (प्रतिव्यक्ति)",
+                                    "fee_details": [
+                                        {
+                                            "age_group": "१० वर्ष मुनिका",
+                                            "fee_rupees": "१०/-"
+                                        },
+                                        {
+                                            "age_group": "१० वर्ष माथिका",
+                                            "fee_rupees": "२०/-"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sub_item_number": "१.२",
+                                    "description": "विद्यार्थी प्रवेश शुल्क (विद्यालय लगायत अन्य शैक्षिक संस्थाबाट आधिकारिक पत्र सहित अध्ययन प्रयोजनको लागि)",
+                                    "fee_rupees": "१०/-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "२",
+                            "description": "चलचित्र सुटिङ्ग/म्युजिक भिडियो तथा अन्य सुटिङ्ग",
+                            "details": [
+                                {
+                                    "item": "चलचित्र सुटिङ्ग प्रतिदिन",
+                                    "fee_rupees": "५,०००/-"
+                                },
+                                {
+                                    "item": "म्युजिक भिडियो सुटिङ्ग प्रतिदिन",
+                                    "fee_rupees": "२,०००/-"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "notes": [
+                {
+                    "note_number": "१",
+                    "content": "यस अनुसूचीमा उल्लिखित शुल्क दरमा मूल्य अभिवृद्धि कर समेत समावेश गरिएको छ ।"
+                },
+                {
+                    "note_number": "२",
+                    "content": "ज्येष्ठ नागरिकको हकमा उल्लिखित प्रवेश शुल्कको पच्चीस प्रतिशत मात्र शुल्क लाग्नेछ।"
+                }
+            ]
+        },
+        {
+            "schedule_number": "३",
+            "related_rules": "नियम १३ सँग सम्बन्धित",
+            "schedule_title": "चरिचरन दस्तुर",
+            "items": [
+                {
+                    "serial_number": "१",
+                    "animal": "हात्ती प्रत्येकको",
+                    "fee_one_month_rs": "२००।-",
+                    "fee_six_months_rs": null,
+                    "fee_one_year_rs": null
+                },
+                {
+                    "serial_number": "२",
+                    "animal": "उँट प्रत्येकको",
+                    "fee_one_month_rs": "१५०।-",
+                    "fee_six_months_rs": null,
+                    "fee_one_year_rs": null
+                },
+                {
+                    "serial_number": "३",
+                    "animal": "घोडा प्रत्येकको",
+                    "fee_one_month_rs": "४८-",
+                    "fee_six_months_rs": "१२।-",
+                    "fee_one_year_rs": "३० Gera-"
+                },
+                {
+                    "serial_number": "४",
+                    "animal": "गधा, खच्चड प्रत्येकको",
+                    "fee_one_month_rs": "३।५०",
+                    "fee_six_months_rs": "८।-",
+                    "fee_one_year_rs": "२० Gera-"
+                },
+                {
+                    "serial_number": "५",
+                    "animal": "भैंसी, राँगा, याक, चौंरी गाई, झोना (नाक) प्रत्येकको",
+                    "fee_one_month_rs": "३।-",
+                    "fee_six_months_rs": "८।-",
+                    "fee_one_year_rs": "१५ Gera-"
+                },
+                {
+                    "serial_number": "६",
+                    "animal": "गोरु प्रत्येकको",
+                    "fee_one_month_rs": "२।-",
+                    "fee_six_months_rs": "४।-",
+                    "fee_one_year_rs": "८ Gera-"
+                },
+                {
+                    "serial_number": "७",
+                    "animal": "भेडा, च्याङ्ग्रा प्रत्येकको",
+                    "fee_one_month_rs": "१।५०",
+                    "fee_six_months_rs": "४।५०",
+                    "fee_one_year_rs": "७ Gera-"
+                },
+                {
+                    "serial_number": "८",
+                    "animal": "खसी, बोका प्रत्येकको",
+                    "fee_one_month_rs": "१।-",
+                    "fee_six_months_rs": "४।-",
+                    "fee_one_year_rs": "६ Gera-"
+                },
+                {
+                    "serial_number": "९",
+                    "animal": "माहुरी प्रति घारको",
+                    "fee_one_month_rs": "५।-",
+                    "fee_six_months_rs": null,
+                    "fee_one_year_rs": null
+                }
+            ],
+            "notes": [
+                {
+                    "note_number": "१",
+                    "content": "राष्ट्रिय वनक्षेत्रमा नेपाली नागरिकको घरपालुवा जन्तुलाई मात्र चरिचरन गर्न दिइनेछ ।"
+                },
+                {
+                    "note_number": "२",
+                    "content": "गाई चरिचरन गर्न कुनै दस्तुर लाग्ने छैन ।"
+                }
+            ]
+        },
+        {
+            "schedule_number": "४",
+            "related_rules": "नियम १३ सँग सम्बन्धित",
+            "schedule_title": "चरिचरन गराउन दिइने इजाजतपत्रको ढाँचा",
+            "introductory_text_fields": [
+                {
+                    "field_name": "प्रदेश सरकार",
+                    "placeholder": "ही"
+                },
+                {
+                    "field_name": "मन्त्रालय",
+                    "placeholder": "ही"
+                },
+                {
+                    "field_name": "प्रदेश वन निर्देशनालय",
+                    "placeholder": "ही"
+                },
+                {
+                    "field_name": "डिभिजन वन कार्यालय,",
+                    "placeholder": "ही"
+                },
+                {
+                    "field_name": "मिति:",
+                    "placeholder": "ही"
+                }
+            ],
+            "permit_fields": [
+                {
+                    "serial_number": "१",
+                    "description": "इजाजतपत्र प्राप्त गर्नेको नाम, थर, वतन :"
+                },
+                {
+                    "serial_number": "२",
+                    "description": "चरिचरन गराउन इजाजत दिइएको जनावरको नाम र सङ्ख्या :"
+                },
+                {
+                    "serial_number": "३",
+                    "description": "चरिचरन गराउन इजाजत दिइएको वन क्षेत्रको चार किल्ला :"
+                },
+                {
+                    "serial_number": "४",
+                    "description": "चरिचरन गर्ने समय :"
+                },
+                {
+                    "serial_number": "५",
+                    "description": "चरिचरन दस्तुर :"
+                },
+                {
+                    "serial_number": "६",
+                    "description": "चरिचरन गर्न इजाजत दिइएको अवधि :"
+                }
+            ],
+            "issuing_authority": [
+                {
+                    "designation": "डिभिजनल वन अधिकृत"
+                },
+                {
+                    "field_name": "नामः",
+                    "placeholder": "ही"
+                }
+            ],
+            "copy_to_heading": "बोधाथ/कार्यर्थः",
+            "copy_to": [
+                {
+                    "point_number": "१",
+                    "office": "सब डिभिजन वन कार्यालय ।"
+                },
+                {
+                    "point_number": "२",
+                    "office": "डिभिजन वन कार्यालय, ................. लेखा शाखा ।"
+                }
+            ]
+        },
+        {
+            "schedule_number": "५",
+            "related_rules": "नियम १४ को उपनियम (३) सँग सम्बन्धित",
+            "schedule_title": "डिभिजन वन कार्यालयको आवधिक योजनासहितको रणनीतिक योजनामा समावेश हुनु पर्ने विषय",
+            "items": [
+                {
+                    "serial_number": "१",
+                    "description": "परिचय"
+                },
+                {
+                    "serial_number": "२",
+                    "description": "विगतका वन व्यवस्थापन योजना कार्यान्वयनको समीक्षा"
+                },
+                {
+                    "serial_number": "३",
+                    "description": "वन पैदावारको माग र आपूर्तिको अवस्था"
+                },
+                {
+                    "serial_number": "४",
+                    "description": "दूरदृष्टि, लक्ष्य तथा उद्देश्य र प्रक्षेपण"
+                },
+                {
+                    "serial_number": "५",
+                    "description": "वन व्यवस्थापनका रणनीतिहरु"
+                },
+                {
+                    "serial_number": "६",
+                    "description": "वनको सीमाङ्कन",
+                    "sub_items": [
+                        {
+                            "sub_item_letter": "क",
+                            "description": "वनको प्रकार (फरेष्ट टाइप)"
+                        },
+                        {
+                            "sub_item_letter": "ख",
+                            "description": "वनको क्षेत्रफल"
+                        },
+                        {
+                            "sub_item_letter": "ग",
+                            "description": "वन क्षेत्रको स्रोतको अवस्था"
+                        },
+                        {
+                            "sub_item_letter": "घ",
+                            "description": "प्रमुख नदी, खोला तथा जलाधार क्षेत्र"
+                        },
+                        {
+                            "sub_item_letter": "ङ",
+                            "description": "सिमसार क्षेत्र"
+                        }
+                    ]
+                },
+                {
+                    "serial_number": "७",
+                    "description": "वन संरक्षण तथा सुरक्षा सम्बन्धी व्यवस्था",
+                    "sub_items": [
+                        {
+                            "sub_item_letter": "क",
+                            "description": "अतिक्रमण तथा चोरी निकासी नियन्त्रण"
+                        },
+                        {
+                            "sub_item_letter": "ख",
+                            "description": "वन डढेलो नियन्त्रण तथा व्यवस्थापन"
+                        },
+                        {
+                            "sub_item_letter": "ग",
+                            "description": "मिचाहा प्रजाति नियन्त्रण"
+                        },
+                        {
+                            "sub_item_letter": "घ",
+                            "description": "रोग तथा किराबाट नियन्त्रण"
+                        },
+                        {
+                            "sub_item_letter": "ङ",
+                            "description": "चोरी शिकार तथा अवैध व्यापार नियन्त्रण"
+                        },
+                        {
+                            "sub_item_letter": "च",
+                            "description": "वन तथा वन्यजन्तु अपराध नियन्त्रण"
+                        },
+                        {
+                            "sub_item_letter": "छ",
+                            "description": "अन्य सुरक्षा सम्बन्धी व्यवस्था"
+                        }
+                    ]
+                },
+                {
+                    "serial_number": "८",
+                    "description": "जैविक विविधता संरक्षण तथा प्रवर्द्धन",
+                    "sub_items": [
+                        {
+                            "sub_item_letter": "क",
+                            "description": "वन्यजन्तु तथा वनस्पतिको प्रजातीय जैविक विविधता र वासस्थानको विश्लेषण"
+                        },
+                        {
+                            "sub_item_letter": "ख",
+                            "description": "वंशाणुगत स्रोतको संरक्षण"
+                        },
+                        {
+                            "sub_item_letter": "ग",
+                            "description": "वन्यजन्तुको आवतजावत तथा जैविक मार्ग व्यवस्थापन"
+                        },
+                        {
+                            "sub_item_letter": "घ",
+                            "description": "लोपोन्मुख तथा दुर्लभ वन्यजन्तु र वनस्पति प्रजातिको संरक्षण तथा व्यवस्थापन"
+                        },
+                        {
+                            "sub_item_letter": "ङ",
+                            "description": "मानव वन्यजन्तु द्वन्द्व व्यवस्थापन"
+                        },
+                        {
+                            "sub_item_letter": "च",
+                            "description": "विशेष महत्त्वका क्षेत्रको संरक्षण"
+                        },
+                        {
+                            "sub_item_letter": "छ",
+                            "description": "वनक्षेत्र भित्र रहेका धार्मिक, सांस्कृतिक तथा पुरातात्त्विक महत्त्वका सम्पदाहरुको संरक्षण"
+                        }
+                    ]
+                },
+                {
+                    "serial_number": "९",
+                    "description": "जलस्रोत तथा जलाधार संरक्षण",
+                    "sub_items": [
+                        {
+                            "sub_item_letter": "क",
+                            "description": "पानीको स्रोत तथा पानीका मुहान संरक्षण तथा व्यवस्थापन"
+                        },
+                        {
+                            "sub_item_letter": "ख",
+                            "description": "पानीको संरक्षण तथा संरक्षण पोखरी निर्माण"
+                        },
+                        {
+                            "sub_item_letter": "ग",
+                            "description": "भू तथा जलाधार संरक्षण"
+                        },
+                        {
+                            "sub_item_letter": "घ",
+                            "description": "खोला किनार संरक्षण तथा भू-क्षय नियन्त्रण"
+                        },
+                        {
+                            "sub_item_letter": "ङ",
+                            "description": "सिमसार संरक्षण तथा व्यवस्थापन"
+                        }
+                    ]
+                },
+                {
+                    "serial_number": "१०",
+                    "description": "वातावरण संरक्षण तथा जलवायु परिवर्तन नियन्त्रण",
+                    "sub_items": [
+                        {
+                            "sub_item_letter": "क",
+                            "description": "वातावरणीय सेवा मूलप्रवाहीकरण"
+                        },
+                        {
+                            "sub_item_letter": "ख",
+                            "description": "वनको क्षयीकरण र प्रदूषण नियन्त्रण"
+                        },
+                        {
+                            "sub_item_letter": "ग",
+                            "description": "जलवायु परिवर्तन न्यूनीकरण र कार्बन सञ्चिति"
+                        },
+                        {
+                            "sub_item_letter": "घ",
+                            "description": "रेड प्लस"
+                        },
+                        {
+                            "sub_item_letter": "ङ",
+                            "description": "जलवायुजन्य जोखिम न्यूनीकरण तथा अनुकूलनका उपायहरू"
+                        }
+                    ]
+                },
+                {
+                    "serial_number": "११",
+                    "description": "वन व्यवस्थापन पद्धति",
+                    "sub_items": [
+                        {
+                            "sub_item_letter": "क",
+                            "description": "सरकारद्वारा व्यवस्थित वन"
+                        },
+                        {
+                            "sub_item_letter": "ख",
+                            "description": "सामुदायिक वन"
+                        },
+                        {
+                            "sub_item_letter": "ग",
+                            "description": "साझेदारी वन"
+                        },
+                        {
+                            "sub_item_letter": "घ",
+                            "description": "गरिबका लागि कबुलियती वन"
+                        },
+                        {
+                            "sub_item_letter": "ङ",
+                            "description": "धार्मिक वन"
+                        },
+                        {
+                            "sub_item_letter": "च",
+                            "description": "वन संरक्षण क्षेत्र"
+                        }
+                    ]
+                },
+                {
+                    "serial_number": "१२",
+                    "description": "व्यावसायिक कबुलियती वन र पर्यापर्यटन"
+                },
+                {
+                    "serial_number": "१३",
+                    "description": "सार्वजनिक जग्गाको वन, सहरी वन तथा निजी वन"
+                },
+                {
+                    "serial_number": "१४",
+                    "description": "सब डिभिजन वन कार्यालय अनुसार वनको क्षेत्रफल र वन व्यवस्थापन पद्धति"
+                },
+                {
+                    "serial_number": "१५",
+                    "description": "वनस्रोत सर्वेक्षण, विश्लेषण, वन संवर्द्धन प्रणाली अनुसार व्यवस्थापन",
+                    "sub_items": [
+                        {
+                            "sub_item_letter": "क",
+                            "description": "वनस्रोत सर्वेक्षणको तरिका र नक्साङ्कन"
+                        },
+                        {
+                            "sub_item_letter": "ख",
+                            "description": "वृद्धि मौज्दात र राष्ट्रिय वनस्रोत सर्वेक्षणसँगको तादात्म्यता"
+                        },
+                        {
+                            "sub_item_letter": "ग",
+                            "description": "पुनरोत्पादनको अवस्था"
+                        },
+                        {
+                            "sub_item_letter": "घ",
+                            "description": "वन व्यवस्थापन पद्धति अनुसार वन वृद्धि मौज्दात"
+                        },
+                        {
+                            "sub_item_letter": "ङ",
+                            "description": "वन व्यवस्थापन पद्धति अनुसार वार्षिक प्राप्ति"
+                        },
+                        {
+                            "sub_item_letter": "च",
+                            "description": "वन बाली कटान चक्र तथा पुनरोत्पादन तरिका"
+                        },
+                        {
+                            "sub_item_letter": "छ",
+                            "description": "कार्बन मौज्दातको विश्लेषण"
+                        }
+                    ]
+                },
+                {
+                    "serial_number": "१६",
+                    "description": "वन संवर्द्धन प्रणाली",
+                    "sub_items": [
+                        {
+                            "sub_item_letter": "क",
+                            "description": "प्राकृतिक पुनरोत्पादन,"
+                        },
+                        {
+                            "sub_item_letter": "ख",
+                            "description": "बिरुवा उत्पादन र वृक्षारोपण योजना"
+                        },
+                        {
+                            "sub_item_letter": "ग",
+                            "description": "वन संवर्द्धन प्रणाली छनोट गर्ने विधि"
+                        },
+                        {
+                            "sub_item_letter": "घ",
+                            "description": "वन संवर्द्धन प्रणालीको सिफारिस"
+                        },
+                        {
+                            "sub_item_letter": "ङ",
+                            "description": "वन संवर्द्धन प्रणाली अनुसार वन बाली उत्पादन तथा पुनरोत्पादन चक्र"
+                        }
+                    ]
+                },
+                {
+                    "serial_number": "१७",
+                    "description": "जडीबुटी तथा अन्य वन पैदावारको संरक्षण तथा व्यवस्थापन"
+                },
+                {
+                    "serial_number": "१८",
+                    "description": "वृक्षारोपण गर्ने क्षेत्रको पहिचान तथा वृक्षारोपण योजना"
+                },
+                {
+                    "serial_number": "१९",
+                    "description": "वन अनुसन्धान तथा वन बीउ बगैंचा सम्बन्धी व्यवस्था"
+                },
+                {
+                    "serial_number": "२०",
+                    "description": "सामाजिक-सांस्कृतिक तथा आर्थिक विश्लेषण"
+                },
+                {
+                    "serial_number": "२१",
+                    "description": "वन पैदावार उत्पादन तथा आपूर्ति",
+                    "sub_items": [
+                        {
+                            "sub_item_letter": "क",
+                            "description": "वन पैदावारहरुको सङ्कलन, विक्री वितरण",
+                            "points": [
+                                {
+                                    "point_number": "१",
+                                    "description": "काष्ठ वन पैदावार"
+                                },
+                                {
+                                    "point_number": "२",
+                                    "description": "जडीबुटी तथा गैरकाष्ठ वन पैदावार"
+                                },
+                                {
+                                    "point_number": "३",
+                                    "description": "अन्य वन पैदावार"
+                                }
+                            ]
+                        },
+                        {
+                            "sub_item_letter": "ख",
+                            "description": "वन पैदावार ओसारपसार"
+                        },
+                        {
+                            "sub_item_letter": "ग",
+                            "description": "वन पैदावारमा आधारित उद्योग"
+                        }
+                    ]
+                },
+                {
+                    "serial_number": "२२",
+                    "description": "वन व्यवस्थापन सूचना प्रणाली",
+                    "sub_items": [
+                        {
+                            "sub_item_letter": "क",
+                            "description": "वन संरक्षण व्यवस्थापन प्रणालीमा समूह र डिभिजन स्तरका सूचकहरू"
+                        },
+                        {
+                            "sub_item_letter": "ख",
+                            "description": "वन विकास तथा वृक्षारोपण सम्बन्धी सूचकहरु"
+                        },
+                        {
+                            "sub_item_letter": "ग",
+                            "description": "वन पैदावार उत्पादन, बिक्री वितरण तथा ओसारपसार सम्बन्धी सूचकहरू"
+                        },
+                        {
+                            "sub_item_letter": "घ",
+                            "description": "वन पैदावारमा आधारित उद्योग, रोजगारी सम्बन्धी सूचकहरू"
+                        },
+                        {
+                            "sub_item_letter": "ङ",
+                            "description": "जैविक विविधता संरक्षण सम्बन्धी सूचकहरु"
+                        },
+                        {
+                            "sub_item_letter": "च",
+                            "description": "जलस्रोत तथा जलाधार संरक्षण सम्बन्धी सूचकहरु"
+                        },
+                        {
+                            "sub_item_letter": "छ",
+                            "description": "वातावरण संरक्षण सम्बन्धी सूचकहरु"
+                        },
+                        {
+                            "sub_item_letter": "ज",
+                            "description": "लैङ्गिक तथा सामाजिक समावेशीकरण सम्बन्धी सूचकहरू"
+                        },
+                        {
+                            "sub_item_letter": "झ",
+                            "description": "डिभिजन तथा जिल्लास्तरको वन व्यवस्थापन सूचना प्रणालीको स्वचालन"
+                        }
+                    ]
+                },
+                {
+                    "serial_number": "२३",
+                    "description": "वन संरक्षण तथा व्यवस्थापनमा आधुनिक प्रविधिको प्रयोग"
+                },
+                {
+                    "serial_number": "२४",
+                    "description": "वन संरक्षण तथा व्यवस्थापन सम्बन्दी अन्य व्यवस्था"
+                },
+                {
+                    "serial_number": "२५",
+                    "description": "योजना कार्यान्वयन गर्न आवश्यक स्रोत तथा जनशक्ति"
+                },
+                {
+                    "serial_number": "२६",
+                    "description": "अनुगमन, मूल्याङ्कन तथा प्रतिवेदन"
+                }
+            ]
+        },
+        {
+            "schedule_number": "६",
+            "related_rules": "नियम १८ को खण्ड (क), नियम २२ को उपनियम (१) र (४), नियम २४ को उपनियम (२), नियम २५ को उपनियम (२), नियम ३१ को उपनियम (१), नियम ३३ को उपनियम (२) को खण्ड (घ), नियम ३५ को उपनियम (३) र (४), नियम ४९ को उपनियम (४), नियम ६४ को उपनियम (३) र (४), नियम १०३ को उपनियम (१क), नियम १३० र नियम १३१ को खण्ड (क), (ख), (ग), (घ) सँग सम्बन्धित",
+            "schedule_title": "काठ, दाउराको मुल्य दर",
+            "sections": [
+                {
+                    "section_letter": "क",
+                    "section_title": "गोलिया काठको मूल्य",
+                    "items": [
+                        {
+                            "serial_number": "१",
+                            "nepali_name": "जङ्गली सिसौ",
+                            "scientific_name": "Dalbergia sissoo",
+                            "grades": [
+                                {
+                                    "grade": "ए",
+                                    "price_per_cubic_foot_rs": "१,२५० Gera-"
+                                },
+                                {
+                                    "grade": "बी",
+                                    "price_per_cubic_foot_rs": "१००० Gera-"
+                                },
+                                {
+                                    "grade": "सी",
+                                    "price_per_cubic_foot_rs": "६०० Gera-"
+                                },
+                                {
+                                    "grade": "डी",
+                                    "price_per_cubic_foot_rs": "३५० Gera-"
+                                }
+                            ],
+                            "amendment_notes": [
+                                "दोस्रो संशोधनद्वारा संशोधित"
+                            ]
+                        },
+                        {
+                            "serial_number": "२",
+                            "nepali_name": "साल",
+                            "scientific_name": "Shorea robusta",
+                            "grades": [
+                                {
+                                    "grade": "ए",
+                                    "price_per_cubic_foot_rs": "१,२५० Gera-"
+                                },
+                                {
+                                    "grade": "बी",
+                                    "price_per_cubic_foot_rs": "९०० Gera-"
+                                },
+                                {
+                                    "grade": "सी",
+                                    "price_per_cubic_foot_rs": "६०० Gera-"
+                                },
+                                {
+                                    "grade": "डी",
+                                    "price_per_cubic_foot_rs": "३०० Gera-"
+                                }
+                            ],
+                            "amendment_notes": [
+                                "दोस्रो संशोधनद्वारा संशोधित"
+                            ]
+                        },
+                        {
+                            "serial_number": "३",
+                            "nepali_name": "चोप",
+                            "scientific_name": "Magnolia spp.",
+                            "grades": [
+                                {
+                                    "grade": "ए",
+                                    "price_per_cubic_foot_rs": "७०० Gera-"
+                                },
+                                {
+                                    "grade": "बी",
+                                    "price_per_cubic_foot_rs": "५०० Gera-"
+                                },
+                                {
+                                    "grade": "सी",
+                                    "price_per_cubic_foot_rs": "३०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "४",
+                            "nepali_name": "असना",
+                            "scientific_name": "Terminalia tomentosa",
+                            "grades": [
+                                {
+                                    "grade": "ए",
+                                    "price_per_cubic_foot_rs": "४०० Gera-"
+                                },
+                                {
+                                    "grade": "बी",
+                                    "price_per_cubic_foot_rs": "३०० Gera-"
+                                },
+                                {
+                                    "grade": "सी",
+                                    "price_per_cubic_foot_rs": "१०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "५",
+                            "nepali_name": "कर्मा",
+                            "scientific_name": "Haldina cordifolia",
+                            "grades": [
+                                {
+                                    "grade": "ए",
+                                    "price_per_cubic_foot_rs": "४०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "६",
+                            "nepali_name": "जामुन",
+                            "scientific_name": "Syzygium spp.",
+                            "grades": [
+                                {
+                                    "grade": "बी",
+                                    "price_per_cubic_foot_rs": "३०० Gera-"
+                                },
+                                {
+                                    "grade": "सी",
+                                    "price_per_cubic_foot_rs": "१०० Gera-"
+                                },
+                                {
+                                    "grade": "ए",
+                                    "price_per_cubic_foot_rs": "४०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "७",
+                            "nepali_name": "सिसौ (वृक्षारोपण)",
+                            "scientific_name": "Dalbergia sissoo",
+                            "grades": [
+                                {
+                                    "grade": "ए",
+                                    "price_per_cubic_foot_rs": "७०० Gera-"
+                                },
+                                {
+                                    "grade": "बी",
+                                    "price_per_cubic_foot_rs": "५०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "८",
+                            "nepali_name": "खोटे सल्ला",
+                            "scientific_name": "Pinus roxburghii",
+                            "grades": [
+                                {
+                                    "grade": "ए",
+                                    "price_per_cubic_foot_rs": "२५० Gera-"
+                                },
+                                {
+                                    "grade": "बी",
+                                    "price_per_cubic_foot_rs": "१५० Gera-"
+                                }
+                            ],
+                            "amendment_notes": [
+                                "दोस्रो संशोधनद्वारा संशोधित"
+                            ]
+                        },
+                        {
+                            "serial_number": "९",
+                            "nepali_name": "गोब्रे सल्ला",
+                            "scientific_name": "Pinus wallichiana",
+                            "grades": [
+                                {
+                                    "grade": "ए",
+                                    "price_per_cubic_foot_rs": "२०० Gera-"
+                                },
+                                {
+                                    "grade": "बी",
+                                    "price_per_cubic_foot_rs": "१०० Gera-"
+                                }
+                            ],
+                            "amendment_notes": [
+                                "दोस्रो संशोधनद्वारा संशोधित"
+                            ]
+                        },
+                        {
+                            "serial_number": "१०",
+                            "nepali_name": "टुनी",
+                            "scientific_name": "Toona ciliata",
+                            "grades": [
+                                {
+                                    "grade": "ए",
+                                    "price_per_cubic_foot_rs": "३०० Gera-"
+                                },
+                                {
+                                    "grade": "बी",
+                                    "price_per_cubic_foot_rs": "२०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "११",
+                            "nepali_name": "कालो र रातो सिरिस",
+                            "scientific_name": "Albizia spp.",
+                            "grades": [
+                                {
+                                    "grade": "ए",
+                                    "price_per_cubic_foot_rs": "३०० Gera-"
+                                },
+                                {
+                                    "grade": "बी",
+                                    "price_per_cubic_foot_rs": "२०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "१२",
+                            "nepali_name": "गम्हारी",
+                            "scientific_name": "Gmelina arborea",
+                            "grades": [
+                                {
+                                    "grade": "ए",
+                                    "price_per_cubic_foot_rs": "३०० Gera-"
+                                },
+                                {
+                                    "grade": "बी",
+                                    "price_per_cubic_foot_rs": "२०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "१३",
+                            "nepali_name": "उत्तिस",
+                            "scientific_name": "Alnus nepalensis",
+                            "grades": [
+                                {
+                                    "grade": "ए",
+                                    "price_per_cubic_foot_rs": "२०० Gera-"
+                                },
+                                {
+                                    "grade": "बी",
+                                    "price_per_cubic_foot_rs": "१५० Gera-"
+                                }
+                            ],
+                            "amendment_notes": [
+                                "दोस्रो संशोधनद्वारा संशोधित"
+                            ]
+                        },
+                        {
+                            "serial_number": "१४",
+                            "nepali_name": "पट सल्ला",
+                            "scientific_name": "Pinus patula",
+                            "grades": [
+                                {
+                                    "grade": "ए",
+                                    "price_per_cubic_foot_rs": "२०० Gera-"
+                                },
+                                {
+                                    "grade": "बी",
+                                    "price_per_cubic_foot_rs": "१०० Gera-"
+                                }
+                            ],
+                            "amendment_notes": [
+                                "दोस्रो संशोधनद्वारा संशोधित"
+                            ]
+                        },
+                        {
+                            "serial_number": "१५",
+                            "nepali_name": "सतिसाल",
+                            "scientific_name": "Dalbergia latifolia",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "१,६०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "१६",
+                            "nepali_name": "विजयसाल",
+                            "scientific_name": "Pterocarpus marsupium",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "१,००० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "१७",
+                            "nepali_name": "सागवान",
+                            "scientific_name": "Tectona grandis",
+                            "grades": [
+                                {
+                                    "grade": "ए",
+                                    "price_per_cubic_foot_rs": "८०० Gera-"
+                                },
+                                {
+                                    "grade": "बी",
+                                    "price_per_cubic_foot_rs": "६०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "१८",
+                            "nepali_name": "ओखर",
+                            "scientific_name": "Juglans regia",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "५०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "१९",
+                            "nepali_name": "दार",
+                            "scientific_name": "Debregeasia saeneb",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "५०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "२०",
+                            "nepali_name": "सन्दन/पाजन",
+                            "scientific_name": "Desmodium oojeinense",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "३०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "२१",
+                            "nepali_name": "हरों",
+                            "scientific_name": "Terminalia chebula",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "२०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "२२",
+                            "nepali_name": "बर्रो",
+                            "scientific_name": "Terminalia bellirica",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "२०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "२३",
+                            "nepali_name": "फल्दु",
+                            "scientific_name": "Mitragyna parvifolia",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "२०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "२४",
+                            "nepali_name": "कटुस",
+                            "scientific_name": "Castanopsis indica",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "२०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "२५",
+                            "nepali_name": "चिलाउने",
+                            "scientific_name": "Schima wallichii",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "२०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "२६",
+                            "nepali_name": "सौर",
+                            "scientific_name": "Betula alnoides",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "२०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "२७",
+                            "nepali_name": "ठिङ्ग्रे सल्ला",
+                            "scientific_name": "Tsuga dumosa",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "२०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "२८",
+                            "nepali_name": "अन्य सल्ला",
+                            "scientific_name": "Larix spp.",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "२०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "२९",
+                            "nepali_name": "तालीसपत्र",
+                            "scientific_name": "Abis pindrow & Abis spectsbilis",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "२०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "३०",
+                            "nepali_name": "देवदार",
+                            "scientific_name": "Cedrus deodara",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "२०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "३१",
+                            "nepali_name": "स्प्रुस",
+                            "scientific_name": "Picea spp.",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "२०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "३२",
+                            "nepali_name": "आँप",
+                            "scientific_name": "Magnifera indica",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "२०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "३३",
+                            "nepali_name": "मसला",
+                            "scientific_name": "Eucalyptus spp.",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "१२५ Gera-"
+                                }
+                            ],
+                            "amendment_notes": [
+                                "दोस्रो संशोधनद्वारा संशोधित"
+                            ]
+                        },
+                        {
+                            "serial_number": "३४",
+                            "nepali_name": "सिमल",
+                            "scientific_name": "Bombax ceiba",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "१५० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "३५",
+                            "nepali_name": "सेतो सिरिस",
+                            "scientific_name": "Albizia spp.",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "१०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "३६",
+                            "nepali_name": "भुड्कुल",
+                            "scientific_name": "Hymenodictyon orixense",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "१०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "३७",
+                            "nepali_name": "गुटेल",
+                            "scientific_name": "Mallotus repandus",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "१०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "३८",
+                            "nepali_name": "पपलर",
+                            "scientific_name": "Populus spp.",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "१०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "३९",
+                            "nepali_name": "टिकुल",
+                            "scientific_name": null,
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "१०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "४०",
+                            "nepali_name": "बाँझी",
+                            "scientific_name": "Anogeissus latifolia",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "१०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "४१",
+                            "nepali_name": "बोटधगेरो",
+                            "scientific_name": "Lagerstroemia parviflora",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "१०० Gera-"
+                                }
+                            ]
+                        },
+                        {
+                            "serial_number": "४२",
+                            "nepali_name": "खयर (आयतन निकाल्दा लम्बाइलाई पनि अन्तिम",
+                            "scientific_name": "Acacia catechu",
+                            "grades": [
+                                {
+                                    "grade": "—",
+                                    "price_per_cubic_foot_rs": "१,००० Gera-"
+                                }
+                            ],
+                            "additional_fee": "३३।- प्रति किलोग्राम",
+                            "amendment_notes": [
+                                "दोस्रो संशोधनद्वारा संशोधित"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "notes": [
+                {
+                    "note_marker": "•",
+                    "content": "दोस्रो संशोधनद्वारा थप ।"
+                },
+                {
+                    "note_marker": "⌑",
+                    "content": "दोस्रो संशोधनद्वारा संशोधित ।"
+                }
+            ]
+        }
+    ]
+}

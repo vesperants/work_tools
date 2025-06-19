@@ -1,0 +1,2317 @@
+{
+    "metadata": {
+        "header_url": "www.lawcommission.gov.np",
+        "watermark_text": "नेपाल कान्नयन"
+    },
+    "document_sections": [
+        {
+            "type": "pricing_list",
+            "heading_context": "इन्चसम्म नाप्ने",
+            "description": "This appears to be a continuation of a pricing list, likely from a previous section 'क' based on item numbering.",
+            "items": [
+                {
+                    "serial_number": "४३",
+                    "nepali_name": "श्वेत चन्दन (श्रीखण्ड)",
+                    "scientific_name": "Santalum album",
+                    "price_details": [
+                        {
+                            "amount": "३,०००।-",
+                            "unit": null
+                        },
+                        {
+                            "amount": "१००।-",
+                            "unit": "प्रति किलोग्राम"
+                        }
+                    ]
+                },
+                {
+                    "serial_number": "४४",
+                    "nepali_name": "अन्य जात (माथि उल्लेख भए देखि बाहेक)",
+                    "scientific_name": null,
+                    "price_details": [
+                        {
+                            "amount": "१०००।-",
+                            "unit": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "pricing_list_section",
+            "section_marker": "ख",
+            "title": "जरा ठुटाको मूल्य",
+            "table_columns": [
+                "क्र.स.",
+                "नेपाली नाम",
+                "वैज्ञानिक नाम",
+                "मूल्य रु."
+            ],
+            "items": [
+                {
+                    "serial_number": "१",
+                    "nepali_name": "खयर",
+                    "scientific_name": "Acacia catechu",
+                    "price_rupees": "४०।- प्रति किलोग्राम"
+                },
+                {
+                    "serial_number": "२",
+                    "nepali_name": "साल",
+                    "scientific_name": "Shorea robusta",
+                    "price_rupees": "१५०।- प्रति ठुटा"
+                },
+                {
+                    "serial_number": "३",
+                    "nepali_name": "अन्य",
+                    "scientific_name": null,
+                    "price_rupees": "५०।- प्रति ठुटा"
+                }
+            ]
+        },
+        {
+            "type": "pricing_list_section",
+            "section_marker": "ग",
+            "title": "बल्लाबल्लीको मूल्य",
+            "table_columns": [
+                "क्र.स.",
+                "नेपाली नाम",
+                "वैज्ञानिक नाम",
+                "प्रति घनफिट मूल्य रु."
+            ],
+            "items": [
+                {
+                    "serial_number": "१",
+                    "nepali_name": "सागवान (टिक)",
+                    "scientific_name": "Tectona grandis",
+                    "price_per_cubic_foot_rupees": "१७०।-"
+                },
+                {
+                    "serial_number": "२",
+                    "nepali_name": "साल",
+                    "scientific_name": "Shorea robusta",
+                    "price_per_cubic_foot_rupees": "२५०।-"
+                },
+                {
+                    "serial_number": "३",
+                    "nepali_name": "चाँप",
+                    "scientific_name": "Magnolia spp.",
+                    "price_per_cubic_foot_rupees": "२५०।-"
+                },
+                {
+                    "serial_number": "४",
+                    "nepali_name": "सिसौं",
+                    "scientific_name": "Dalbergia sissoo",
+                    "price_per_cubic_foot_rupees": "२००।-"
+                },
+                {
+                    "serial_number": "५",
+                    "nepali_name": "खोटे सल्ला",
+                    "scientific_name": "Pinus roxburghii",
+                    "price_per_cubic_foot_rupees": "१२५।-"
+                },
+                {
+                    "serial_number": "६",
+                    "nepali_name": "असना",
+                    "scientific_name": "Terminalia tomentosa",
+                    "price_per_cubic_foot_rupees": "१५०।-"
+                },
+                {
+                    "serial_number": "७",
+                    "nepali_name": "कर्मा",
+                    "scientific_name": "Haldina cordifolia",
+                    "price_per_cubic_foot_rupees": "१५०।-"
+                },
+                {
+                    "serial_number": "८",
+                    "nepali_name": "जामुन",
+                    "scientific_name": "Syzygium spp.",
+                    "price_per_cubic_foot_rupees": "१५०।-"
+                },
+                {
+                    "serial_number": "९",
+                    "nepali_name": "कालो र रातो सिरिस",
+                    "scientific_name": "Albizia spp.",
+                    "price_per_cubic_foot_rupees": "१००।-"
+                },
+                {
+                    "serial_number": "१०",
+                    "nepali_name": "टुनी",
+                    "scientific_name": "Toona ciliate",
+                    "price_per_cubic_foot_rupees": "१००।-"
+                },
+                {
+                    "serial_number": "११",
+                    "nepali_name": "गोब्रे सल्ला",
+                    "scientific_name": "Pinus wallichiana",
+                    "price_per_cubic_foot_rupees": "१००।-"
+                },
+                {
+                    "serial_number": "१२",
+                    "nepali_name": "गम्हारी",
+                    "scientific_name": "Gmelina arborea",
+                    "price_per_cubic_foot_rupees": "१००।-"
+                },
+                {
+                    "serial_number": "१३",
+                    "nepali_name": "उत्तिस",
+                    "scientific_name": "Alnus nepalensis",
+                    "price_per_cubic_foot_rupees": "१००।-"
+                },
+                {
+                    "serial_number": "१४",
+                    "nepali_name": "पाटे सल्ला",
+                    "scientific_name": "Pinus patula",
+                    "price_per_cubic_foot_rupees": "१००।-"
+                },
+                {
+                    "serial_number": "१५",
+                    "nepali_name": "मसला",
+                    "scientific_name": "Eucalyptus spp.",
+                    "price_per_cubic_foot_rupees": "६०।-"
+                },
+                {
+                    "serial_number": "१६",
+                    "nepali_name": "अन्य जात (माथि उल्लेख भए देखि बाहेक)",
+                    "scientific_name": null,
+                    "price_per_cubic_foot_rupees": "खण्ड (क) मा उल्लिखित गोलिया काठको मूल्यको पचास प्रतिशतले हुन आउने मूल्य"
+                }
+            ]
+        },
+        {
+            "type": "amendment_note",
+            "content": "पहिलो संशोधनद्वारा संशोधित ।"
+        },
+        {
+            "type": "pricing_list_section",
+            "section_marker": "घ",
+            "title": "दाउराको मूल्य",
+            "table_columns": [
+                "क्र.स.",
+                "प्रयोजन",
+                "नेपाली नाम",
+                "वैज्ञानिक नाम",
+                "मूल्य रु."
+            ],
+            "items": [
+                {
+                    "serial_number": "१",
+                    "purpose": "व्यापारिक",
+                    "sub_items": [
+                        {
+                            "sub_item_letter": "क",
+                            "nepali_name": "साल",
+                            "scientific_name": "Shorea robusta",
+                            "price_per_chatta_rupees": "१२,०००।-",
+                            "price_per_kg_rupees": "१।५०",
+                            "additional_details": "(चिरुवा र लप्सटप्स समेत)"
+                        },
+                        {
+                            "sub_item_letter": "ख",
+                            "nepali_name": "सिसौ र टिक",
+                            "scientific_name": "Dalbergia sissoo/Tectona grandis",
+                            "price_per_chatta_rupees": "१२,०००।-",
+                            "price_per_kg_rupees": "१।५०",
+                            "additional_details": "(चिरुवा र लप्सटप्स समेत)"
+                        },
+                        {
+                            "sub_item_letter": "ग",
+                            "nepali_name": "साल र अन्य प्रजाति मिश्रित",
+                            "scientific_name": null,
+                            "price_per_chatta_rupees": "८,०००।-",
+                            "price_per_kg_rupees": "१।००"
+                        },
+                        {
+                            "sub_item_letter": "घ",
+                            "nepali_name": "अन्य",
+                            "scientific_name": null,
+                            "price_per_chatta_rupees": "४,०००।-",
+                            "price_per_kg_rupees": "०।५०",
+                            "additional_details": "(चिरुवा र लप्सटप्स समेत)"
+                        }
+                    ]
+                },
+                {
+                    "serial_number": "२",
+                    "purpose": "शव दाह संस्कार",
+                    "sub_items": [
+                        {
+                            "sub_item_letter": "क",
+                            "nepali_name": "साल",
+                            "scientific_name": "Shorea robusta",
+                            "price_per_chatta_rupees": "२,०००।-",
+                            "price_per_kg_rupees": "०।२५",
+                            "additional_details": "(चिरुवा र लप्सटप्स समेत)"
+                        },
+                        {
+                            "sub_item_letter": "ख",
+                            "nepali_name": "अन्य",
+                            "scientific_name": null,
+                            "price_per_chatta_rupees": "१,०००।-",
+                            "price_per_kg_rupees": "०।१५",
+                            "additional_details": "(चिरुवा र लप्सटप्स समेत)"
+                        }
+                    ]
+                },
+                {
+                    "serial_number": "३",
+                    "purpose": "घरकाज",
+                    "sub_items": [
+                        {
+                            "sub_item_letter": "क",
+                            "nepali_name": "साल",
+                            "scientific_name": "Shorea robusta",
+                            "price_per_chatta_rupees": "५,०००।-",
+                            "price_per_kg_rupees": "०।७५",
+                            "additional_details": "(चिरुवा र लप्सटप्स समेत)"
+                        },
+                        {
+                            "sub_item_letter": "ख",
+                            "nepali_name": "अन्य",
+                            "scientific_name": null,
+                            "price_per_chatta_rupees": "२,५००।-",
+                            "price_per_kg_rupees": "०।५०",
+                            "additional_details": "(चिरुवा र लप्सटप्स समेत)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "note_section",
+            "title": "द्रष्टव्यः",
+            "notes": [
+                {
+                    "note_number": "१",
+                    "content": "विपद्मा परेका परिवारलाई दिइने काठमा माथि उल्लिखित मूल्यको दश प्रतिशत मात्र मूल्य लिइनेछ ।"
+                },
+                {
+                    "note_number": "२",
+                    "content": "खडा रुख र ठुटाबाट काठ, दाउरा मूल्याङ्कन गर्दा स्तर निर्धारण भएको प्रजातिको काठको हकमा “बी” स्तरको मूल्य, स्तर निर्धारण नभएको प्रजातिको काठको हकमा माथि उल्लेख भए बमोजिमको मूल्य र दाउराको हकमा व्यापारिक प्रयोजनको लागि निर्धारित मूल्यको आधारमा मूल्याङ्कन गरी बिगो कायम गरिनेछ। तर “ए” र “बी” स्तर मात्र भएको प्रजातिको हकमा “ए” स्तरको मूल्यको आधारमा मूल्याङ्कन गरी बिगो कायम गरिनेछ।"
+                },
+                {
+                    "note_number": "३",
+                    "content": "प्राकृतिक रुपमा आएको सिसौलाई जङ्गली सिसौ मानिनेछ र जङ्गली वा वृक्षारोपणको सिसौ नछुटिने अवस्था परेमा जङ्गली सिसौको लागि निर्धारित मूल्यको आधारमा मूल्याङ्कन गरी बिगो कायम गरिनेछ।"
+                },
+                {
+                    "note_number": "४",
+                    "marker_type": "square_bullet",
+                    "content": "वन पैदावार विकास समितिले आफैं लगाई हुर्काएको प्रजातिको हकमा माथि उल्लिखित राजस्व दरको पचास प्रतिशत रकम मात्र राजस्व खातामा दाखिला गर्नु पर्नेछ ।"
+                }
+            ]
+        },
+        {
+            "type": "amendment_note",
+            "content": "दोस्रो संशोधनद्वारा थप ।"
+        },
+        {
+            "type": "schedule",
+            "schedule_number": "७",
+            "reference_rules": "(नियम १८ को खण्ड (ख), नियम २९ को उपनियम (३), (६) र (८), नियम ३० को उपनियम (२), नियम ४९ को उपनियम (४) र नियम १३० र नियम १३१ को खण्ड (ङ) सँग सम्बन्धित)",
+            "title": "जडीबुटीको नाम र मुल्य दर",
+            "categories": [
+                {
+                    "category_marker": "क",
+                    "title": "जरा तथा गानो जाति",
+                    "table_columns": [
+                        "क्र.स.",
+                        "नेपाली नाम",
+                        "वैज्ञानिक नाम",
+                        "मूल्य दर प्रति किलोग्राम (रु.)"
+                    ],
+                    "items": [
+                        {
+                            "serial_number": "१",
+                            "nepali_name": "अतिस",
+                            "scientific_name": "Aconitum heterophylloides Acotinum heterophyllum/Delphinium himalayai",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "२",
+                            "nepali_name": "अनन्तमूल",
+                            "scientific_name": "Hemidesmus indicus",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "३",
+                            "nepali_name": "अश्वगन्धा",
+                            "scientific_name": "Withania somnifera",
+                            "price_rate_per_kg_rupees": "२५।-"
+                        },
+                        {
+                            "serial_number": "४",
+                            "nepali_name": "असारेफूल/धोविनी",
+                            "scientific_name": "Mussaenda spp.",
+                            "price_rate_per_kg_rupees": "८।-"
+                        },
+                        {
+                            "serial_number": "५",
+                            "nepali_name": "आरडिक्स",
+                            "scientific_name": "Rdix tinosporae",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "६",
+                            "nepali_name": "इन्द्रेणी",
+                            "scientific_name": "Citrullus colocynthis/ Trichosanthes wallichiana",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "७",
+                            "nepali_name": "उन्यू",
+                            "scientific_name": "Dryopteris cochleata, Huperzia javanica",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "८",
+                            "nepali_name": "ऐंसेलु",
+                            "scientific_name": "Rubus ellipticus",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "९",
+                            "nepali_name": "कचुर",
+                            "scientific_name": "Curcuma aromatica",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "१०",
+                            "nepali_name": "कपुरकबरी",
+                            "scientific_name": "Hedychium spicatum",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "११",
+                            "nepali_name": "काकोली/वन लसुन",
+                            "scientific_name": "Fritillaria cirrhosa",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "१२",
+                            "nepali_name": "कामराज, मयुरखुट्टे",
+                            "scientific_name": "Helminthostachys zeylanica",
+                            "price_rate_per_kg_rupees": "६।-"
+                        },
+                        {
+                            "serial_number": "१३",
+                            "nepali_name": "कालो निगुरो",
+                            "scientific_name": "Dryoathyrium boryanum",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "१४",
+                            "nepali_name": "कुकुरडाइनो",
+                            "scientific_name": "Smilax spp.",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "१५",
+                            "nepali_name": "कुकुरतरुल, वनतरुल, भ्याकुर",
+                            "scientific_name": "Dioscorea spp.",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "१६",
+                            "nepali_name": "कुचिला",
+                            "scientific_name": "Strychnos nux-vomica",
+                            "price_rate_per_kg_rupees": "७।-"
+                        },
+                        {
+                            "serial_number": "१७",
+                            "nepali_name": "कुट्की",
+                            "scientific_name": "Neopicrorhiza scrophulariiflora",
+                            "price_rate_per_kg_rupees": "४०।-"
+                        },
+                        {
+                            "serial_number": "१८",
+                            "nepali_name": "कुथ",
+                            "scientific_name": "Saussurea costus",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "१९",
+                            "nepali_name": "कुरिलो/सतावरी",
+                            "scientific_name": "Asparagus spp.",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "२०",
+                            "nepali_name": "क्रेमास्तरा",
+                            "scientific_name": "Cremastra appendiculata",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "२१",
+                            "nepali_name": "खसखस/उशीर/भेटिभेर",
+                            "scientific_name": "Chrysopogon zizanioides, Vetiveria zizanioides",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "२२",
+                            "nepali_name": "खिरौले (मेदा)/खिरौला/सेतकचिनी",
+                            "scientific_name": "Polygonatum spp.",
+                            "price_rate_per_kg_rupees": "२५।-"
+                        },
+                        {
+                            "serial_number": "२३",
+                            "nepali_name": "गन्धाईनो",
+                            "scientific_name": "Angelica glauca",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "२४",
+                            "nepali_name": "गन्नाइनो",
+                            "scientific_name": "Pleurospermum spp.",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "२५",
+                            "nepali_name": "गुजरगानो/निमी लहरा",
+                            "scientific_name": "Stephania spp.",
+                            "price_rate_per_kg_rupees": "७।-"
+                        },
+                        {
+                            "serial_number": "२६",
+                            "nepali_name": "गुर्जो/गुडुची/गुड्की",
+                            "scientific_name": "Tinospora sinensis",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "२७",
+                            "nepali_name": "गोकुलधुप",
+                            "scientific_name": "Commiphora mukul",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "२८",
+                            "nepali_name": "गोलकाँक्री",
+                            "scientific_name": "Solena amplexicaulis",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "२९",
+                            "nepali_name": "चुत्रो/दारुहल्दी",
+                            "scientific_name": "Berberis spp.",
+                            "price_rate_per_kg_rupees": "८।-"
+                        },
+                        {
+                            "serial_number": "३०",
+                            "nepali_name": "जटामसी",
+                            "scientific_name": "Nardostachys jatamansi",
+                            "price_rate_per_kg_rupees": "७५।-"
+                        },
+                        {
+                            "serial_number": "३१",
+                            "nepali_name": "जमानेमान्द्रो",
+                            "scientific_name": "Mahonia napaulensis",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "३२",
+                            "nepali_name": "जेठीमधु (येष्ठीमधु)",
+                            "scientific_name": "Glycyrrhiza glabra",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "३३",
+                            "nepali_name": "जोरपाते बेली गानो",
+                            "scientific_name": "Psammosilene tunicoides",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "३४",
+                            "nepali_name": "झुलो",
+                            "scientific_name": "Gerbera macrophyla",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "३५",
+                            "nepali_name": "टुकीफूल",
+                            "scientific_name": "Taraxacum spp.",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "३६",
+                            "nepali_name": "ठूलो/बुढो ओखती",
+                            "scientific_name": "Astilbe rivularis",
+                            "price_rate_per_kg_rupees": "७।-"
+                        },
+                        {
+                            "serial_number": "३७",
+                            "nepali_name": "डाइसोमा",
+                            "scientific_name": "Dysosma versipellis",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "३८",
+                            "nepali_name": "नक्कली सतुवा",
+                            "scientific_name": "Trillidium govanianum",
+                            "price_rate_per_kg_rupees": "४०।-"
+                        },
+                        {
+                            "serial_number": "३९",
+                            "nepali_name": "नागरमोथे, मोथे",
+                            "scientific_name": "Cyperus spp.",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "४०",
+                            "nepali_name": "नारु",
+                            "scientific_name": "Silene spp.",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "४१",
+                            "nepali_name": "निरमसी/निरबिषी",
+                            "scientific_name": "Delphinium denudatum/Aconitum palmatum/Aconitum orochryseum",
+                            "price_rate_per_kg_rupees": "६०।-"
+                        },
+                        {
+                            "serial_number": "४२",
+                            "nepali_name": "पदमचाल/अमलवेद",
+                            "scientific_name": "Rheum austral, Rheum emodi",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "४३",
+                            "nepali_name": "पदमपुष्कर/निनाइजडि",
+                            "scientific_name": "Iris decora",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "४४",
+                            "nepali_name": "पाखनवेद/पाषाणभेद",
+                            "scientific_name": "Bergenia pacumbis/Bergenia ciliate",
+                            "price_rate_per_kg_rupees": "७।-"
+                        },
+                        {
+                            "serial_number": "४५",
+                            "nepali_name": "पाँच औले",
+                            "scientific_name": "Dactylorhiza hatagirea",
+                            "price_rate_per_piece_rupees": "५००।-"
+                        },
+                        {
+                            "serial_number": "४६",
+                            "nepali_name": "पिपला/पिपली",
+                            "scientific_name": "Piper longum",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "४७",
+                            "nepali_name": "बज्रदन्ती",
+                            "scientific_name": "Potentilla spp.",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "४८",
+                            "nepali_name": "बायजडि",
+                            "scientific_name": "Hippolytia dolichophylla",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "४९",
+                            "nepali_name": "बोजो",
+                            "scientific_name": "Acorus calamus",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "५०",
+                            "nepali_name": "भूतकेश",
+                            "scientific_name": "Selinum wallichianum",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "५१",
+                            "nepali_name": "ममिरा",
+                            "scientific_name": "Parnassia nubicola",
+                            "price_rate_per_kg_rupees": "७०।-"
+                        },
+                        {
+                            "serial_number": "५२",
+                            "nepali_name": "मुसली (कालो)",
+                            "scientific_name": "Curculigo orchioides",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "५३",
+                            "nepali_name": "मुसली (सेतो)",
+                            "scientific_name": "Chlorophytum spp.",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "५४",
+                            "nepali_name": "रास्गरी/भूइसरो",
+                            "scientific_name": "Roscoea spp.",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "५५",
+                            "nepali_name": "लघुपत्र",
+                            "scientific_name": "Podophyllum hexandrum",
+                            "price_rate_per_kg_rupees": "७।-"
+                        },
+                        {
+                            "serial_number": "५६",
+                            "nepali_name": "वन प्याज",
+                            "scientific_name": "Allium spp.",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "५७",
+                            "nepali_name": "वन हलेदो",
+                            "scientific_name": "Curcuma angustifolia",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "५८",
+                            "nepali_name": "वनमुला",
+                            "scientific_name": "Dipsacus inermis",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "५९",
+                            "nepali_name": "वनलसुन",
+                            "scientific_name": "Allium wallichii",
+                            "price_rate_per_kg_rupees": "३०।-"
+                        },
+                        {
+                            "serial_number": "६०",
+                            "nepali_name": "वनलसुन/खिरौंले",
+                            "scientific_name": "Lilium nepalense",
+                            "price_rate_per_kg_rupees": "३०।-"
+                        },
+                        {
+                            "serial_number": "६१",
+                            "nepali_name": "वाँको/सर्पको मकै",
+                            "scientific_name": "Arisaema spp.",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "६२",
+                            "nepali_name": "बाटुल्पाते",
+                            "scientific_name": "Cissampelos pareira",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "६३",
+                            "nepali_name": "विदारीकन्द",
+                            "scientific_name": "Pueraria phaseoloides",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "६४",
+                            "nepali_name": "विलौने",
+                            "scientific_name": "Maesa chisia",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "६५",
+                            "nepali_name": "विष, विषमा",
+                            "scientific_name": "Aconitum spp.",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "६६",
+                            "nepali_name": "विषफेज",
+                            "scientific_name": "Polypodiodes amoena",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "६७",
+                            "nepali_name": "वेत लौरी",
+                            "scientific_name": "Cheilocostus speciosus",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "६८",
+                            "nepali_name": "शटी/गाइसरो",
+                            "scientific_name": "Hedychium spicatum",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "६९",
+                            "nepali_name": "सतुवा",
+                            "scientific_name": "Paris polyphylla",
+                            "price_rate_per_kg_rupees": "५०।-"
+                        },
+                        {
+                            "serial_number": "७०",
+                            "nepali_name": "सर्पगन्धा/चाँदमरुवा",
+                            "scientific_name": "Rauvolfia serpentina",
+                            "price_rate_per_kg_rupees": "५०।-"
+                        },
+                        {
+                            "serial_number": "७१",
+                            "nepali_name": "सातगाँठे",
+                            "scientific_name": "Panax pseudoginseng",
+                            "price_rate_per_kg_rupees": "५०।-"
+                        },
+                        {
+                            "serial_number": "७२",
+                            "nepali_name": "सिस्नु",
+                            "scientific_name": "Urtica spp.",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "७३",
+                            "nepali_name": "सुगन्धवाल",
+                            "scientific_name": "Valeriana jatamansi",
+                            "price_rate_per_kg_rupees": "२५।-"
+                        },
+                        {
+                            "serial_number": "७४",
+                            "nepali_name": "सुनडाँठगानो",
+                            "scientific_name": "Gastrodia elata",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        }
+                    ]
+                },
+                {
+                    "category_marker": "ख",
+                    "title": "बोक्रा जाति",
+                    "table_columns": [
+                        "क्र.स.",
+                        "नेपाली नाम",
+                        "वैज्ञानिक नाम",
+                        "मूल्य दर प्रति किलोग्राम (रु.)"
+                    ],
+                    "items": [
+                        {
+                            "serial_number": "१",
+                            "nepali_name": "अँगेरी",
+                            "scientific_name": "Lyonia ovalifolia",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "२",
+                            "nepali_name": "अर्जुन",
+                            "scientific_name": "Terminalia arjuna",
+                            "price_rate_per_kg_rupees": "१०।"
+                        },
+                        {
+                            "serial_number": "३",
+                            "nepali_name": "अशोक",
+                            "scientific_name": "Saraca asoca",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "४",
+                            "nepali_name": "ओखर",
+                            "scientific_name": "Juglans regia",
+                            "price_rate_per_kg_rupees": "१००।-"
+                        },
+                        {
+                            "serial_number": "५",
+                            "nepali_name": "काफल",
+                            "scientific_name": "Myrica esculenta",
+                            "price_rate_per_kg_rupees": "१००।-"
+                        },
+                        {
+                            "serial_number": "६",
+                            "nepali_name": "कुटमिरो/काल्चुरी",
+                            "scientific_name": "Litsea monopetala",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "७",
+                            "nepali_name": "कोइरालो/कचनार",
+                            "scientific_name": "Bauhinia variegata",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "८",
+                            "nepali_name": "खमारी",
+                            "scientific_name": "Gmelina arborea",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "९",
+                            "nepali_name": "गिनेरी",
+                            "scientific_name": "Premna barbata",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "१०",
+                            "nepali_name": "चुत्रो/दारुहल्दी",
+                            "scientific_name": "Berberis spp.",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "११",
+                            "nepali_name": "छतिवन",
+                            "scientific_name": "Alstonia scholaris/A.neriifolia",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "१२",
+                            "nepali_name": "जमानेमान्द्रो/केशरी/जमानेचुत्रो",
+                            "scientific_name": "Mohania nepaulensis",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "१३",
+                            "nepali_name": "टटेलो/टोटला",
+                            "scientific_name": "Oroxylum indicum",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "१४",
+                            "nepali_name": "टाँकी",
+                            "scientific_name": "Bauhinia purpurea",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "१५",
+                            "nepali_name": "दार/दारगिठी",
+                            "scientific_name": "Boehmaria rugulosa",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "१६",
+                            "nepali_name": "धूपी",
+                            "scientific_name": "Juniperus spp.",
+                            "price_rate_per_kg_rupees": "२५।-"
+                        },
+                        {
+                            "serial_number": "१७",
+                            "nepali_name": "निम",
+                            "scientific_name": "Azadirachta indica",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "१८",
+                            "nepali_name": "नेपाली दालचिनी/सिन्कौली",
+                            "scientific_name": "Cinnamomum tamala",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "१९",
+                            "nepali_name": "पलास",
+                            "scientific_name": "Butea monosperma",
+                            "price_rate_per_kg_rupees": "२५।-"
+                        },
+                        {
+                            "serial_number": "२०",
+                            "nepali_name": "पातली",
+                            "scientific_name": "Stereospemum suaveolenis",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "२१",
+                            "nepali_name": "पावन/काठे काउलो",
+                            "scientific_name": "Machilus duthiei",
+                            "price_rate_per_kg_rupees": "३०।-"
+                        },
+                        {
+                            "serial_number": "२२",
+                            "nepali_name": "पैंयु",
+                            "scientific_name": "Prunus cerasoides",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "२३",
+                            "nepali_name": "बकाइनो",
+                            "scientific_name": "Melia azedarach",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "२४",
+                            "nepali_name": "बबुल",
+                            "scientific_name": "Acacia nilotica",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "२५",
+                            "nepali_name": "भोजपत्र",
+                            "scientific_name": "Betula utilis",
+                            "price_rate_per_kg_rupees": "२०।-"
+                        },
+                        {
+                            "serial_number": "२६",
+                            "nepali_name": "भोर्ला/मालु",
+                            "scientific_name": "Bauhinia vahlii",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "२७",
+                            "nepali_name": "लोध",
+                            "scientific_name": "Symplocos racemossa",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "२८",
+                            "nepali_name": "वनखिर्रो/कुटज/इन्द्र जौ",
+                            "scientific_name": "Holarrhena pubescens/Holarrhena antidecentrica",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "२९",
+                            "nepali_name": "वनसुडो",
+                            "scientific_name": "Viburnum spp.",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "३०",
+                            "nepali_name": "विलौने",
+                            "scientific_name": "Maesa chisia",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "३१",
+                            "nepali_name": "सल्ला",
+                            "scientific_name": "Pinus spp.",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "३२",
+                            "nepali_name": "सिप्लीकान",
+                            "scientific_name": "Creatave nurvala",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "३३",
+                            "nepali_name": "सेतो काउलो",
+                            "scientific_name": "Persea odoratissima",
+                            "price_rate_per_kg_rupees": "३०।-"
+                        }
+                    ]
+                },
+                {
+                    "category_marker": "ग",
+                    "title": "पात/डाँठ जाति",
+                    "table_columns": [
+                        "क्र.स.",
+                        "नेपाली नाम",
+                        "वैज्ञानिक नाम",
+                        "मूल्य दर प्रति किलोग्राम (रु.)"
+                    ],
+                    "items": [
+                        {
+                            "serial_number": "१",
+                            "nepali_name": "अखेनो, घोडेमच्चो",
+                            "scientific_name": "Thymus linearis",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "२",
+                            "nepali_name": "अदुवाघाँस/हातकटुवा",
+                            "scientific_name": "Carex spp.",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "३",
+                            "nepali_name": "अमलवेद/पदमचाल चुल्ठे अमिलो/काराज चुल्ठी",
+                            "scientific_name": "Rheum australe",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "४",
+                            "nepali_name": "असुरो/अडुस/वासक",
+                            "scientific_name": "Justicia adhatoda",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "५",
+                            "nepali_name": "उन्यू",
+                            "scientific_name": "Dryopteris cochleata",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "६",
+                            "nepali_name": "ऐसेलु",
+                            "scientific_name": "Rubus ellipticus",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "७",
+                            "nepali_name": "करिपत्ता",
+                            "scientific_name": "Murraya koenigii",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "८",
+                            "nepali_name": "गुडमार",
+                            "scientific_name": "Gymnema sylvestre",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "९",
+                            "nepali_name": "गुर्जोलहरा/गुडुची",
+                            "scientific_name": "Tinospora sinensis",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "१०",
+                            "nepali_name": "गेन्टियना",
+                            "scientific_name": "Gentiana spp.",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "११",
+                            "nepali_name": "घिउकुमारी",
+                            "scientific_name": "Aloe vera",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "१२",
+                            "nepali_name": "चरि अमिलो",
+                            "scientific_name": "Oxalis corniculata",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "१३",
+                            "nepali_name": "चुत्रो",
+                            "scientific_name": "Berberis spp.",
+                            "price_rate_per_kg_rupees": "८।-"
+                        },
+                        {
+                            "serial_number": "१४",
+                            "nepali_name": "चुम्लानी",
+                            "scientific_name": "Skimmia laureola",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "१५",
+                            "nepali_name": "जगर/जिगर/वन सुपारी",
+                            "scientific_name": "Caryota urens",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "१६",
+                            "nepali_name": "जेठीमधु (येष्ठीमधु)",
+                            "scientific_name": "Glycyzrrhiza glabra",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "१७",
+                            "nepali_name": "जोरपाते बेली गानो",
+                            "scientific_name": "Psammosilene tunicoides",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "१८",
+                            "nepali_name": "टोकला, टोटला",
+                            "scientific_name": null,
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "१९",
+                            "nepali_name": "ठिगुरेसल्ला/ठिङ्ग्रेसल्ला",
+                            "scientific_name": "Tsuga dumosa",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "२०",
+                            "nepali_name": "डालेचुक",
+                            "scientific_name": "Hippophae spp.",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "२१",
+                            "nepali_name": "तालिसपत्र",
+                            "scientific_name": "Abies spectabilis",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "२२",
+                            "nepali_name": "तितेपाती",
+                            "scientific_name": "Artemisia spp.",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "२३",
+                            "nepali_name": "तेजपात",
+                            "scientific_name": "Cinnamomum tamala",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "२४",
+                            "nepali_name": "दुधेलहरा/सरीवा",
+                            "scientific_name": "Cryptolepis dubia",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "२५",
+                            "nepali_name": "धसिंग्रे/मछिनो/पटपटे",
+                            "scientific_name": "Gaultheria fragrantissima",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "२६",
+                            "nepali_name": "धूपी",
+                            "scientific_name": "Juniperus spp.",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "२७",
+                            "nepali_name": "निरगुण्डी",
+                            "scientific_name": "Pitax nirgundi",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "२८",
+                            "nepali_name": "निसोद",
+                            "scientific_name": "Opurculina turpethum",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "२९",
+                            "nepali_name": "नुनढिकी",
+                            "scientific_name": "Osyris lanceolata",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "३०",
+                            "nepali_name": "पानी अमला",
+                            "scientific_name": "Nephrolepis cordifolia",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "३१",
+                            "nepali_name": "पामारोजा",
+                            "scientific_name": "Cymbopogon martini",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "३२",
+                            "nepali_name": "बोहोरी",
+                            "scientific_name": "Cordia spp.",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "३३",
+                            "nepali_name": "भिडेत्ती",
+                            "scientific_name": "Elcholtzia fruticosa",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "३४",
+                            "nepali_name": "मजिठो",
+                            "scientific_name": "Rubia manjith",
+                            "price_rate_per_kg_rupees": "७।-"
+                        },
+                        {
+                            "serial_number": "३५",
+                            "nepali_name": "मलाटा",
+                            "scientific_name": "Macaranga spp.",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "३६",
+                            "nepali_name": "मसला",
+                            "scientific_name": "Eucalyptus spp.",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "३७",
+                            "nepali_name": "मेकोनोप्सिस",
+                            "scientific_name": "Meconopsis spp.",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "३८",
+                            "nepali_name": "लेमनग्रास",
+                            "scientific_name": "Cymbopogon flexuosus",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "३९",
+                            "nepali_name": "लौठसल्ला",
+                            "scientific_name": "Taxus spp.",
+                            "price_rate_per_kg_rupees": "५०।-"
+                        },
+                        {
+                            "serial_number": "४०",
+                            "nepali_name": "विजयसाल",
+                            "scientific_name": "Pterocarpus marsupium",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "४१",
+                            "nepali_name": "सिकाकाई",
+                            "scientific_name": "Acacia rugata",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "४२",
+                            "nepali_name": "सिट्रोनेला",
+                            "scientific_name": "Cymbopogon winterianus",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "४३",
+                            "nepali_name": "सिस्नु",
+                            "scientific_name": "Urtica spp.",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "४४",
+                            "nepali_name": "सुनपाती",
+                            "scientific_name": "Rhododendron anthopogon",
+                            "price_rate_per_kg_rupees": "७।-"
+                        },
+                        {
+                            "serial_number": "४५",
+                            "nepali_name": "सोमलता",
+                            "scientific_name": "Ephedra spp.",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "४६",
+                            "nepali_name": "हिंगुवा/चियापाते",
+                            "scientific_name": "Camellia kissi",
+                            "price_rate_per_kg_rupees": "१।-"
+                        }
+                    ]
+                },
+                {
+                    "category_marker": "घ",
+                    "title": "फूल र भूवा जाति",
+                    "table_columns": [
+                        "क्र.स.",
+                        "नेपाली नाम",
+                        "वैज्ञानिक नाम",
+                        "मूल्य दर प्रति किलोग्राम (रु.)"
+                    ],
+                    "items": [
+                        {
+                            "serial_number": "१",
+                            "nepali_name": "असुरो/अडुस/वासक",
+                            "scientific_name": "Justicia adhatoda",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "२",
+                            "nepali_name": "आँकको भूवा",
+                            "scientific_name": "Calotropis spp.",
+                            "price_rate_per_kg_rupees": "४८-"
+                        },
+                        {
+                            "serial_number": "३",
+                            "nepali_name": "उत्तिसको फूल",
+                            "scientific_name": "Alnus nepalensis",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "४",
+                            "nepali_name": "कमलगट्टा",
+                            "scientific_name": "Nelumbo nucifera",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "५",
+                            "nepali_name": "कोइरालो/कचनार",
+                            "scientific_name": "Bauhinia variegata",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "६",
+                            "nepali_name": "गुराँस/चिमाल",
+                            "scientific_name": "Rhododendron spp.",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "७",
+                            "nepali_name": "टटेलोफूल/टोटला",
+                            "scientific_name": "Oroxylum indicum",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "८",
+                            "nepali_name": "टुकीफूल",
+                            "scientific_name": "Taraxacum spp.",
+                            "price_rate_per_kg_rupees": "७।-"
+                        },
+                        {
+                            "serial_number": "९",
+                            "nepali_name": "धंयरो",
+                            "scientific_name": "Woodfordia fruticosa",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "१०",
+                            "nepali_name": "नागेश्वर/नारेश्वर",
+                            "scientific_name": "Mesua ferrea",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "११",
+                            "nepali_name": "पदमपुष्कर/निनाइजडि",
+                            "scientific_name": "Iris decora",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "१२",
+                            "nepali_name": "बुकीफूल",
+                            "scientific_name": "Anaphalis spp./Pseudognaphalium spp.",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "१३",
+                            "nepali_name": "मौवा (तराई)",
+                            "scientific_name": "Madhuca latifolia",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "१४",
+                            "nepali_name": "मौवा (पहाडी)",
+                            "scientific_name": "Engelhardtia spicata",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "१५",
+                            "nepali_name": "रुखकमल",
+                            "scientific_name": "Magnolia grandiflora",
+                            "price_rate_per_kg_rupees": "२५।-"
+                        },
+                        {
+                            "serial_number": "१६",
+                            "nepali_name": "सिमलको फूल",
+                            "scientific_name": "Bombax ceiba",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "१७",
+                            "nepali_name": "सिमलको भूवा",
+                            "scientific_name": "Bombax ceiba",
+                            "price_rate_per_kg_rupees": "४।-"
+                        },
+                        {
+                            "serial_number": "१८",
+                            "nepali_name": "सुनपाती",
+                            "scientific_name": "Rhododendron anthopogon",
+                            "price_rate_per_kg_rupees": "५।-"
+                        }
+                    ]
+                },
+                {
+                    "category_marker": "ङ",
+                    "title": "फल र वीज जाति",
+                    "table_columns": [
+                        "क्र.स.",
+                        "नेपाली नाम",
+                        "वैज्ञानिक नाम",
+                        "मूल्य दर प्रति किलोग्राम (रु.)"
+                    ],
+                    "items": [
+                        {
+                            "serial_number": "१",
+                            "nepali_name": "अंडेर",
+                            "scientific_name": "Ricinus communis",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "२",
+                            "nepali_name": "अपमार्ग/दतिवन",
+                            "scientific_name": "Achyranthtu aspera",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "३",
+                            "nepali_name": "अमला",
+                            "scientific_name": "Phyllanthus emblica",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "४",
+                            "nepali_name": "असना/साज",
+                            "scientific_name": "Terminalia tomentosa",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "५",
+                            "nepali_name": "इन्द्रजौ",
+                            "scientific_name": "Holarrhena pubescens",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "६",
+                            "nepali_name": "इन्द्रेणी",
+                            "scientific_name": "Citrullus colosynthis/Trichosanthes wallichiana",
+                            "price_rate_per_kg_rupees": "८।-"
+                        },
+                        {
+                            "serial_number": "७",
+                            "nepali_name": "उत्तिस",
+                            "scientific_name": "Alnus nepalensis",
+                            "price_rate_per_kg_rupees": "५०।-"
+                        },
+                        {
+                            "serial_number": "८",
+                            "nepali_name": "ओखर फल",
+                            "scientific_name": "Juglans regia",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "९",
+                            "nepali_name": "ओखर फलको बोक्रा",
+                            "scientific_name": "Juglans regia",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "१०",
+                            "nepali_name": "औलेलौठ (जैतुन)",
+                            "scientific_name": "Olea spp.",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "११",
+                            "nepali_name": "कञ्जा",
+                            "scientific_name": "Pongamia pinnata",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "१२",
+                            "nepali_name": "कड्जा/करञ्जा",
+                            "scientific_name": "Caesalpinia bondus",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "१३",
+                            "nepali_name": "कन्टकारी",
+                            "scientific_name": "Solanum xanthocarpum",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "१४",
+                            "nepali_name": "कस्मर्द",
+                            "scientific_name": "Cassia occidentalis",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "१५",
+                            "nepali_name": "काइयो फल/टकाली",
+                            "scientific_name": "Pavetta tomentosa",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "१६",
+                            "nepali_name": "काउसो",
+                            "scientific_name": "Mucuna pruriens",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "१७",
+                            "nepali_name": "काक्नासा",
+                            "scientific_name": "Martynia annua",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "१८",
+                            "nepali_name": "कालादाना",
+                            "scientific_name": "Ipomoea spp.",
+                            "price_rate_per_kg_rupees": "७।-"
+                        },
+                        {
+                            "serial_number": "१९",
+                            "nepali_name": "कालीकाठको दाना",
+                            "scientific_name": "Myrsine semiserrata",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "२०",
+                            "nepali_name": "कुचिला",
+                            "scientific_name": "Strychnos nux-vomica",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "२१",
+                            "nepali_name": "कुसुम",
+                            "scientific_name": "Schleichera oleosa",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "२२",
+                            "nepali_name": "कोइरालो/कचनार",
+                            "scientific_name": "Bauhinia variegata",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "२३",
+                            "nepali_name": "कौडिल्ला",
+                            "scientific_name": "Coix lachryma (jobi)",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "२४",
+                            "nepali_name": "खमारी",
+                            "scientific_name": "Gmelina arborea",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "२५",
+                            "nepali_name": "खयर",
+                            "scientific_name": "Acacia catechu",
+                            "price_rate_per_kg_rupees": "२५।-"
+                        },
+                        {
+                            "serial_number": "२६",
+                            "nepali_name": "खोटेसल्लाको बीउ",
+                            "scientific_name": "Pinus roxburghii",
+                            "price_rate_per_kg_rupees": "२००।-"
+                        },
+                        {
+                            "serial_number": "२७",
+                            "nepali_name": "गोखुकाँडा",
+                            "scientific_name": "Tribulus terrestris",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "२८",
+                            "nepali_name": "चम्पावती/चाँप",
+                            "scientific_name": "Magnolia champaca",
+                            "price_rate_per_kg_rupees": "५०।-"
+                        },
+                        {
+                            "serial_number": "२९",
+                            "nepali_name": "चिउरी",
+                            "scientific_name": "Diploknema butyracea",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "३०",
+                            "nepali_name": "चिलाउनेको गेडा",
+                            "scientific_name": "Schima wallichii",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "३१",
+                            "nepali_name": "जङ्गली आरु (चुली)",
+                            "scientific_name": "Prunus davidiana",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "३२",
+                            "nepali_name": "जङ्गली गुलाब",
+                            "scientific_name": "Rosa sericea",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "३३",
+                            "nepali_name": "जङ्गली जीरा (वन जिरा)",
+                            "scientific_name": "Carum carvi",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "३४",
+                            "nepali_name": "जङ्गली ज्वानो",
+                            "scientific_name": "Apium graveolens",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "३५",
+                            "nepali_name": "जामुन",
+                            "scientific_name": "Syzygium cumini",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "३६",
+                            "nepali_name": "टाप्रे",
+                            "scientific_name": "Senna tora",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "३७",
+                            "nepali_name": "टिमुर",
+                            "scientific_name": "Zanthoxylum armatum",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "३८",
+                            "nepali_name": "डालेचुक",
+                            "scientific_name": "Hippophae spp.",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "३९",
+                            "nepali_name": "ढटेलो",
+                            "scientific_name": "Prinsepia utilis",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "४०",
+                            "nepali_name": "ढालेकटुस",
+                            "scientific_name": "Castanopsis indica",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "४१",
+                            "nepali_name": "तिगेडी",
+                            "scientific_name": null,
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "४२",
+                            "nepali_name": "थाकलको फल",
+                            "scientific_name": "Phoenix spp.",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "४३",
+                            "nepali_name": "देवदार",
+                            "scientific_name": "Cedrus deodara",
+                            "price_rate_per_kg_rupees": "१००।-"
+                        },
+                        {
+                            "serial_number": "४४",
+                            "nepali_name": "धतुरो",
+                            "scientific_name": "Datura spp.",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "४५",
+                            "nepali_name": "धूपीको गेडा",
+                            "scientific_name": "Juniperus spp.",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "४६",
+                            "nepali_name": "नागवेली",
+                            "scientific_name": "Lycopodium japonicum",
+                            "price_rate_per_kg_rupees": "५०।-"
+                        },
+                        {
+                            "serial_number": "४७",
+                            "nepali_name": "नागेश्वर/नारेश्वर",
+                            "scientific_name": "Mesua ferrea",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "४८",
+                            "nepali_name": "निमको बीउ",
+                            "scientific_name": "Azadirachta indica",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "४९",
+                            "nepali_name": "पलाँस",
+                            "scientific_name": "Butea monosperma",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "५०",
+                            "nepali_name": "पाङ्ग्रा/लेक पाङ्ग्रा",
+                            "scientific_name": "Entada phaseoloides/Aesculus indica",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "५१",
+                            "nepali_name": "पानी अमला",
+                            "scientific_name": "Nephrolepis cordifolia",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "५२",
+                            "nepali_name": "पिपला/पिपली",
+                            "scientific_name": "Piper longum",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "५३",
+                            "nepali_name": "पियारको फल",
+                            "scientific_name": "Buchanania latifolia",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "५४",
+                            "nepali_name": "पैयुको फल",
+                            "scientific_name": "Prunus cerasoides",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "५५",
+                            "nepali_name": "बकाइनो",
+                            "scientific_name": "Melia azedarach",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "५६",
+                            "nepali_name": "बयर",
+                            "scientific_name": "Ziziphus mauritiana",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "५७",
+                            "nepali_name": "बर्रो",
+                            "scientific_name": "Terminalia bellirica",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "५८",
+                            "nepali_name": "बाक्ची",
+                            "scientific_name": "Psoralia corylifolia",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "५९",
+                            "nepali_name": "बीरेन्द्रफूलको फल",
+                            "scientific_name": "Jacaranda mimosifolia",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "६०",
+                            "nepali_name": "बेत",
+                            "scientific_name": "Calamus spp.",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "६१",
+                            "nepali_name": "बेल",
+                            "scientific_name": "Aegle marmelos",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "६२",
+                            "nepali_name": "भलायो",
+                            "scientific_name": "Semecarpus anacardium",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "६३",
+                            "nepali_name": "भूजेत्रो/भूलेत्रो",
+                            "scientific_name": "Butea minor",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "६४",
+                            "nepali_name": "मरोरफली",
+                            "scientific_name": "Helicteris isora",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "६५",
+                            "nepali_name": "माल्कागुनो",
+                            "scientific_name": "Celastrus paniculatus",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "६६",
+                            "nepali_name": "मैनाफल",
+                            "scientific_name": "Randiadum etorum",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "६७",
+                            "nepali_name": "मौवा (तराई)",
+                            "scientific_name": "Madhuca latifolia",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "६८",
+                            "nepali_name": "मौवा (पहाडी)",
+                            "scientific_name": "Engelhardtia spicata",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "६९",
+                            "nepali_name": "रतीगेडी/लालगेडी",
+                            "scientific_name": "Abrus precatorius",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "७०",
+                            "nepali_name": "राजवृक्ष",
+                            "scientific_name": "Cassia fistula",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "७१",
+                            "nepali_name": "रामफल/आटी/सरिफा",
+                            "scientific_name": "Annona reticulata",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "७२",
+                            "nepali_name": "रिठ्ठा",
+                            "scientific_name": "Sapindus mukorossi",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "७३",
+                            "nepali_name": "रुखकमलको फल",
+                            "scientific_name": "Magnolia grandiflora",
+                            "price_rate_per_kg_rupees": "२५।-"
+                        },
+                        {
+                            "serial_number": "७४",
+                            "nepali_name": "रुद्राक्ष, भद्राक्ष",
+                            "scientific_name": "Elaeocarpus sphaericus",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "७५",
+                            "nepali_name": "रोहिणी/सिंदुरे",
+                            "scientific_name": "Mallotus philippensis",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "७६",
+                            "nepali_name": "लताकस्तुरी",
+                            "scientific_name": "Abelmoschus moschatus",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "७७",
+                            "nepali_name": "लप्सी",
+                            "scientific_name": "Choerospondias axillaris",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "७८",
+                            "nepali_name": "लहरे उन्यू",
+                            "scientific_name": "Lygodium Japonicum",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "७९",
+                            "nepali_name": "वन करेला",
+                            "scientific_name": "Herpetospermum pedunculosum",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "८०",
+                            "nepali_name": "शिवलिङ्गी",
+                            "scientific_name": "Bryonia laciniosa",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "८१",
+                            "nepali_name": "सजिवन",
+                            "scientific_name": "Jatropha curcas",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "८२",
+                            "nepali_name": "सतिसाल",
+                            "scientific_name": "Dalbergia latifolia",
+                            "price_rate_per_kg_rupees": "३०।-"
+                        },
+                        {
+                            "serial_number": "८३",
+                            "nepali_name": "सालको बीउ",
+                            "scientific_name": "Shorea robusta",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "८४",
+                            "nepali_name": "सिकाकाई/रसुल्ला",
+                            "scientific_name": "Acacia concinna",
+                            "price_rate_per_kg_rupees": "४।-"
+                        },
+                        {
+                            "serial_number": "८५",
+                            "nepali_name": "सिमलको फल",
+                            "scientific_name": "Bombax ceiba",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "८६",
+                            "nepali_name": "सिल्टीमुर",
+                            "scientific_name": "Lindera neesiana",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "८७",
+                            "nepali_name": "सिसौको कोसा",
+                            "scientific_name": "Dalbergia sissoo",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "८८",
+                            "nepali_name": "सिताफल",
+                            "scientific_name": "Annona squamosa",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "८९",
+                            "nepali_name": "सुगन्धकोकिला/मलायागेडी",
+                            "scientific_name": "Cinnamomum glanduliferum/Cinnamomum tenuipile",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "९०",
+                            "nepali_name": "हर्रो",
+                            "scientific_name": "Terminalia chebula",
+                            "price_rate_per_kg_rupees": "२।-"
+                        }
+                    ]
+                },
+                {
+                    "category_marker": "च",
+                    "title": "बिरुवा जाति",
+                    "table_columns": [
+                        "क्र.स.",
+                        "नेपाली नाम",
+                        "वैज्ञानिक नाम",
+                        "मूल्य दर प्रति किलोग्राम (रु.)"
+                    ],
+                    "items": [
+                        {
+                            "serial_number": "१",
+                            "nepali_name": "अपमार्ग/दतिवन",
+                            "scientific_name": "Achyranthtu aspera",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "२",
+                            "nepali_name": "अस्थिसमहर्क",
+                            "scientific_name": "Cissus quadrangularis",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "३",
+                            "nepali_name": "आकाशवेली",
+                            "scientific_name": "Cuscuta reflexa",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "४",
+                            "nepali_name": "एक्लेवीर",
+                            "scientific_name": "Lobelia pyramidalis",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "५",
+                            "nepali_name": "काँस",
+                            "scientific_name": "Sacchrum spontaneum",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "६",
+                            "nepali_name": "कालमेग",
+                            "scientific_name": "Andrographis paniculata",
+                            "price_rate_per_kg_rupees": "७।-"
+                        },
+                        {
+                            "serial_number": "७",
+                            "nepali_name": "काली कुइया",
+                            "scientific_name": null,
+                            "price_rate_per_kg_rupees": "५ ।-"
+                        },
+                        {
+                            "serial_number": "८",
+                            "nepali_name": "कालो दुवो",
+                            "scientific_name": null,
+                            "price_rate_per_kg_rupees": "२ ।-"
+                        },
+                        {
+                            "serial_number": "९",
+                            "nepali_name": "कुमकुम",
+                            "scientific_name": "Didymocarpus cinereus",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "१०",
+                            "nepali_name": "गाईतिहारे",
+                            "scientific_name": "Inula cappa",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "११",
+                            "nepali_name": "गुच्ची च्याउ",
+                            "scientific_name": "Morchella spp.",
+                            "price_rate_per_kg_rupees": "५००।-"
+                        },
+                        {
+                            "serial_number": "१२",
+                            "nepali_name": "गेन्टियना",
+                            "scientific_name": "Gentiana spp.",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "१३",
+                            "nepali_name": "गोरखमुण्डी",
+                            "scientific_name": "Sphaernthus indica",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "१४",
+                            "nepali_name": "गोल्को",
+                            "scientific_name": null,
+                            "price_rate_per_kg_rupees": "५ ।-"
+                        },
+                        {
+                            "serial_number": "१५",
+                            "nepali_name": "घोडताप्रे/ब्राम्ही",
+                            "scientific_name": "Centella asiatica",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "१६",
+                            "nepali_name": "चावा",
+                            "scientific_name": "Piper chaba",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "१७",
+                            "nepali_name": "चिराइतो",
+                            "scientific_name": "Swertia spp.",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "१८",
+                            "nepali_name": "जलब्रामी",
+                            "scientific_name": "Bacopa monnieri",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "१९",
+                            "nepali_name": "झ्याउ",
+                            "scientific_name": "Lichen",
+                            "price_rate_per_kg_rupees": "५०।-"
+                        },
+                        {
+                            "serial_number": "२०",
+                            "nepali_name": "टाप्रे",
+                            "scientific_name": "Senna tora",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "२१",
+                            "nepali_name": "तितेपाती",
+                            "scientific_name": "Artemisia spp.",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "२२",
+                            "nepali_name": "द्रोणपुष्पी",
+                            "scientific_name": "Leucas cephalotes",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "२३",
+                            "nepali_name": "नागवेली",
+                            "scientific_name": "Lycopodium japonicum",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "२४",
+                            "nepali_name": "पिप्लामुल",
+                            "scientific_name": null,
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "२५",
+                            "nepali_name": "पुडाइनो",
+                            "scientific_name": null,
+                            "price_rate_per_kg_rupees": "५ ।-"
+                        },
+                        {
+                            "serial_number": "२६",
+                            "nepali_name": "पुदिना",
+                            "scientific_name": "Mentha spp.",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "२७",
+                            "nepali_name": "पुनर्नवा",
+                            "scientific_name": "Boerhavia diffusa",
+                            "price_rate_per_kg_rupees": "८।-"
+                        },
+                        {
+                            "serial_number": "२८",
+                            "nepali_name": "प्रिस्नपर्णि",
+                            "scientific_name": "Uraria picta",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "२९",
+                            "nepali_name": "भूमि अमला",
+                            "scientific_name": "Phyllanthus niruri",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "३०",
+                            "nepali_name": "भूईकस्तुरी",
+                            "scientific_name": "Chenopodium ambrosioides",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "३१",
+                            "nepali_name": "भृंगराज",
+                            "scientific_name": "Eclipta prostrata",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "३२",
+                            "nepali_name": "मेकोनोपसिस",
+                            "scientific_name": "Meconopsis spp.",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "३३",
+                            "nepali_name": "यार्सागुम्बा (यार्चगुम्बू)",
+                            "scientific_name": "Ophiocordyceps spp.",
+                            "price_rate_per_kg_rupees": "३१,०००।-"
+                        },
+                        {
+                            "serial_number": "३४",
+                            "nepali_name": "रगतसिंगे",
+                            "scientific_name": null,
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "३५",
+                            "nepali_name": "रातो च्याउ",
+                            "scientific_name": "Ganoderma lucidum",
+                            "price_rate_per_kg_rupees": "५०।-"
+                        },
+                        {
+                            "serial_number": "३६",
+                            "nepali_name": "लज्जावती",
+                            "scientific_name": "Mimosa pudica",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "३७",
+                            "nepali_name": "वनालु/कस्तुरी/लताकस्तुरी",
+                            "scientific_name": "Abelmoschus moschatus",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "३८",
+                            "nepali_name": "विहिकाँडा",
+                            "scientific_name": "Solanum nigrmum",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "३९",
+                            "nepali_name": "शंखपुष्पी",
+                            "scientific_name": "Evolvulusal sinoides",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "४०",
+                            "nepali_name": "साधारण च्याउ",
+                            "scientific_name": "Wild mushroom",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "४१",
+                            "nepali_name": "सालपर्णि",
+                            "scientific_name": "Uraria picta",
+                            "price_rate_per_kg_rupees": "२।-"
+                        },
+                        {
+                            "serial_number": "४२",
+                            "nepali_name": "सिमझार",
+                            "scientific_name": "Rotala rotundifolia",
+                            "price_rate_per_kg_rupees": "१०।-"
+                        },
+                        {
+                            "serial_number": "४३",
+                            "nepali_name": "सिलाजिनेला",
+                            "scientific_name": "Selaginella spp.",
+                            "price_rate_per_kg_rupees": "१।-"
+                        },
+                        {
+                            "serial_number": "४४",
+                            "nepali_name": "सुनाखरी/सुनगाभा/जीवन्ती/गामाडोल (पाँचऔले बाहेक)",
+                            "scientific_name": "Orchid",
+                            "price_rate_per_kg_rupees": "५००।-"
+                        },
+                        {
+                            "serial_number": "४५",
+                            "nepali_name": "हडचुर",
+                            "scientific_name": "Viscum album, V. articulatum",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "४६",
+                            "nepali_name": "हलहले",
+                            "scientific_name": "Rumex nepalensis",
+                            "price_rate_per_kg_rupees": "३।-"
+                        },
+                        {
+                            "serial_number": "४७",
+                            "nepali_name": "हिमाली गुलाब",
+                            "scientific_name": null,
+                            "price_rate_per_kg_rupees": "७ ।-"
+                        }
+                    ]
+                },
+                {
+                    "category_marker": "छ",
+                    "title": "गम, रेजिन, लोहावन जाति",
+                    "table_columns": [
+                        "क्र.स.",
+                        "नेपाली नाम",
+                        "वैज्ञानिक नाम",
+                        "मूल्य दर प्रति किलोग्राम (रु.)"
+                    ],
+                    "items": [
+                        {
+                            "serial_number": "१",
+                            "nepali_name": "अगरउड (काठ)",
+                            "scientific_name": "Aquilaria spp.",
+                            "price_rate_per_kg_rupees": "५०।-"
+                        },
+                        {
+                            "serial_number": "२",
+                            "nepali_name": "काकरसिंगी",
+                            "scientific_name": "Insect gall on Pistacia integerrima",
+                            "price_rate_per_kg_rupees": "२०।-"
+                        },
+                        {
+                            "serial_number": "३",
+                            "nepali_name": "मइन",
+                            "scientific_name": "Bee wax",
+                            "price_rate_per_kg_rupees": "५।-"
+                        },
+                        {
+                            "serial_number": "४",
+                            "nepali_name": "मह (जङ्गली)",
+                            "scientific_name": "Bee honey",
+                            "price_rate_per_kg_rupees": "२०।-"
+                        },
+                        {
+                            "serial_number": "५",
+                            "nepali_name": "लाहा/लोहवान",
+                            "scientific_name": "Lac gum",
+                            "price_rate_per_kg_rupees": "४०।-"
+                        },
+                        {
+                            "serial_number": "६",
+                            "nepali_name": "शिलाजित",
+                            "scientific_name": "Rock exudate/Asphaltum",
+                            "price_rate_per_kg_rupees": "५०।-"
+                        },
+                        {
+                            "serial_number": "७",
+                            "nepali_name": "सल्लाको खोटो",
+                            "scientific_name": "Pinus spp.",
+                            "price_rate_per_kg_rupees": "१२।-"
+                        },
+                        {
+                            "serial_number": "८",
+                            "nepali_name": "सालधुप",
+                            "scientific_name": "Shorea robusta",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "९",
+                            "nepali_name": "सिमल",
+                            "scientific_name": "Bombax ceiba",
+                            "price_rate_per_kg_rupees": "१५।-"
+                        },
+                        {
+                            "serial_number": "१०",
+                            "nepali_name": "हिङ्ग",
+                            "scientific_name": "Ferula asafoetida",
+                            "price_rate_per_kg_rupees": "५०।-"
+                        }
+                    ]
+                }
+            ],
+            "notes_for_schedule": [
+                {
+                    "note_number": "१",
+                    "content": "गैरकानूनी तवरले ल्याइएको नेपालमा नपाइने प्रजातिको हकमा सम्बन्धित मुलुकको गुणा मूल्य कायम गरिनेछ।"
+                },
+                {
+                    "note_number": "२",
+                    "content": "माथि उल्लिखित जडीबुटी हरियो वा सुकेको जुनसुकै अवस्थामा भएपनि मूल्य एउटै रहनेछ ।"
+                }
+            ]
+        }
+    ]
+}

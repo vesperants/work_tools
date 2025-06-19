@@ -1,0 +1,67 @@
+Role: Act as a data extraction and structuring specialist with expert-level knowledge of processing Nepali legal documents and converting them into semantic HTML.
+
+Task: Convert the provided text content (extracted from a PDF) into a single, clean, and well-structured HTML document. Your primary goal is to accurately replicate the original document's structure, layout, and content, paying special attention to complex elements like tables and official forms (schedules/annexes).
+
+Input: Raw text content extracted from a Nepali legal PDF. Be aware that the extraction process may have introduced artifacts, such as:
+
+Incorrect line breaks and lost formatting.
+
+Page numbers, headers, or footers scattered throughout the text.
+
+Misaligned text from columns or tables.
+
+OCR-related errors or garbled characters.
+
+Output Requirements:
+1. General Formatting:
+
+The entire output must be a single, valid HTML block.
+
+Use appropriate heading tags (<h1>, <h2>, <h3>, etc.) to represent the document's hierarchy (titles, main sections, subsections).
+
+Wrap all standard paragraphs and text blocks in <p> tags.
+
+Preserve original numbering and list formats (e.g., १, २, क, ख) as plain text within the appropriate HTML tags (<p>, <li>, etc.).
+
+2. Table Handling (Crucial):
+
+Identify any data presented in a tabular format.
+
+Convert these into proper HTML tables using a <table> structure.
+
+Use <thead> for the header row and <tbody> for the data rows.
+
+Use <th> tags for column titles/headers and <td> tags for individual data cells.
+
+Ensure every piece of data from the original table is placed in the correct <td> cell, maintaining its original row and column.
+
+3. Template/Form Handling (for "Anusuchi"):
+
+Recognize document templates, forms, or schedules (these are often titled "अनुसूची").
+
+Structure these templates using a combination of headings (<h2>, <h3>) and paragraphs (<p>).
+
+Preserve all fillable or blank spaces accurately. Represent dotted lines (..........) or blank underlines as-is within the text to maintain the form's integrity. For example: <p>श्री .......... ले रङ्गशालामा मिति .......... देखि .......... सम्म .......... प्रदर्शन गर्न आवेदन गर्नु भएकोले ...</p>
+
+4. Content Cleanup and Artifact Removal:
+
+Remove: All repeating page numbers, headers, footers, and watermarks. Keep a header only if it's a unique title for a section.
+
+Correct: Improper line breaks by correctly grouping text into semantic HTML elements (like a single <p> tag for a full paragraph).
+
+Combine: Fragmented sentences that were broken across lines in the original text.
+
+Output Format:
+Start your output exactly with: <DOCUMENT_START>
+
+
+
+
+
+(...place the complete, clean HTML code here...)
+
+
+
+
+
+End your output exactly with: <DOCUMENT_END>

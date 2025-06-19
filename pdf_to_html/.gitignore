@@ -1,0 +1,6 @@
+venv/
+uploads/
+generated_json/
+__pycache__/
+*.pyc
+*.log
