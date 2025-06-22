@@ -1,3 +1,15 @@
+import sys
+import pkg_resources
+
+print("--- Python Environment Diagnostic ---")
+print(f"Python Executable: {sys.executable}")
+try:
+    version = pkg_resources.get_distribution('google-generativeai').version
+    print(f"Loaded 'google-generativeai' version: {version}")
+except pkg_resources.DistributionNotFound:
+    print("'google-generativeai' is NOT FOUND in this environment.")
+print("-----------------------------------")
+
 # app.py - Enhanced version with better PDF extraction and improved HTML generation
 
 import os
@@ -49,7 +61,7 @@ app.secret_key = os.getenv('FLASK_SECRET_KEY', os.urandom(24))
 
 # --- Configure Executor ---
 app.config['EXECUTOR_TYPE'] = 'thread'
-app.config['EXECUTOR_MAX_WORKERS'] = 5
+app.config['EXECUTOR_MAX_WORKERS'] = 50 # Increased from 5 to support higher concurrency
 executor = Executor(app)
 
 # --- Gemini API Setup ---
@@ -137,7 +149,7 @@ def delete_gemini_file_safely(file_object):
     if file_object and hasattr(file_object, 'name'):
         try:
             print(f"Attempting to delete temporary Gemini file: {file_object.name}")
-            genai.delete_file(file_object.name)
+            genai.files.delete_file(file_object.name)
             print(f"Successfully deleted temporary Gemini file: {file_object.name}")
             return True
         except Exception as delete_err:
@@ -668,7 +680,7 @@ def split_pdf(pdf_path, original_filename):
         return None
 
 # --- ENHANCED: Background Task Function ---
-def process_single_pdf_html(job_id, file_id, prompt, pdf_path, original_filename, current_split_depth=0):
+def process_single_pdf_html(job_id, file_id, prompt, pdf_path, original_filename, current_split_depth=0, key_to_use=None):
     """Enhanced PDF processing that outputs HTML with improved styling and layout."""
     print(f"[Enhanced Job {job_id}, File {file_id}, Depth {current_split_depth}] Starting enhanced HTML processing for: {original_filename}")
 
@@ -677,11 +689,32 @@ def process_single_pdf_html(job_id, file_id, prompt, pdf_path, original_filename
         print(f"[Job {job_id}, File {file_id}] Error: Job not found.")
         return
     job_data = job_status_db[job_id]
+    
+    # --- NEW: Acquire Job-Specific Semaphore to control concurrency ---
+    semaphore = job_data.get('semaphore')
+    if not semaphore:
+        print(f"[Job {job_id}, File {file_id}] Error: Job semaphore not found.")
+        if job_id in job_status_db:
+            file_info = next((f for f in job_status_db[job_id]['files'] if f['id'] == file_id), None)
+            if file_info:
+                file_info['status'] = 'failed'
+                file_info['error'] = 'Job semaphore not found, could not process.'
+                file_info['error_type'] = 'internal_job_error'
+        return
+
+    print(f"[Job {job_id}, File {file_id}] Waiting to acquire semaphore...")
+    with semaphore:
+        print(f"[Job {job_id}, File {file_id}] Semaphore acquired. Starting processing.")
+        _process_pdf_with_concurrency_control(job_id, file_id, prompt, pdf_path, original_filename, current_split_depth, key_to_use)
+
+def _process_pdf_with_concurrency_control(job_id, file_id, prompt, pdf_path, original_filename, current_split_depth=0, key_to_use=None):
+    """The actual processing logic, wrapped by the semaphore control."""
+    job_data = job_status_db[job_id] # Assumes job_data exists
     api_keys = job_data.get('api_keys', [])
+
     if not api_keys:
         api_keys = [api_key]
         job_data['api_keys'] = api_keys
-        job_data['current_key_index'] = 0
         print(f"[Job {job_id}] Warning: No API keys found in job, using default.")
 
     # --- Update File Status to Processing ---
@@ -738,25 +771,21 @@ def process_single_pdf_html(job_id, file_id, prompt, pdf_path, original_filename
     status = 'failed'
     processed_successfully_this_attempt = False
 
-    while not processed_successfully_this_attempt:
-        current_key_index = job_data.get('current_key_index', 0)
-        
-        if current_key_index >= len(api_keys):
-            print(f"[Job {job_id}, File {file_id}] All API keys have been tried and failed.")
-            error_message = "All available API keys failed (quota/limit reached)."
-            error_type = 'api_quota_exhausted'
-            status = 'failed'
-            break
+    # Determine which key to use for this attempt
+    keys_to_try = [key_to_use] if key_to_use else api_keys
+    
+    for key_index, current_api_key in enumerate(keys_to_try):
+        if processed_successfully_this_attempt:
+            break # Exit if we succeeded with a previous key in the list
 
-        current_api_key = api_keys[current_key_index]
-        print(f"[Job {job_id}, File {file_id}, Depth {current_split_depth}] Attempting with API key index {current_key_index} (...{current_api_key[-4:]})")
+        print(f"[Job {job_id}, File {file_id}, Depth {current_split_depth}] Attempting with API key ...{current_api_key[-4:]}")
         
         try:
             genai.configure(api_key=current_api_key)
             
             if gemini_file_object is None:
                 print(f"[Job {job_id}, File {file_id}] Uploading to Gemini: {pdf_path}")
-                gemini_file_object = genai.upload_file(
+                gemini_file_object = genai.files.upload_file(
                     path=pdf_path,
                     display_name=f"{job_id}_{file_id}_{original_filename}",
                     mime_type='application/pdf'
@@ -817,7 +846,7 @@ def process_single_pdf_html(job_id, file_id, prompt, pdf_path, original_filename
                 error_message = f"Failed to save HTML file: {str(io_err)}"
                 error_type = 'file_save_error'
                 status = 'failed' 
-                job_data['current_key_index'] = current_key_index + 1
+                processed_successfully_this_attempt = True # Break outer loop
                 continue
 
             if is_complete:
@@ -845,6 +874,7 @@ def process_single_pdf_html(job_id, file_id, prompt, pdf_path, original_filename
                         
                         # Queue first half
                         first_half_id = f"{file_id}_p1_d{current_split_depth+1}"
+                        first_half_key = keys_to_try[(key_index) % len(keys_to_try)] # Rotate key for split parts
                         job_status_db[job_id]['files'].append({
                             'id': first_half_id, 'original_name': split_result['first_half']['filename'],
                             'pdf_path': split_result['first_half']['path'], 'status': 'pending',
@@ -853,10 +883,11 @@ def process_single_pdf_html(job_id, file_id, prompt, pdf_path, original_filename
                         })
                         executor.submit(process_single_pdf_html, job_id, first_half_id, parent_prompt,
                                         split_result['first_half']['path'], split_result['first_half']['filename'],
-                                        current_split_depth + 1)
+                                        current_split_depth + 1, first_half_key)
 
                         # Queue second half
                         second_half_id = f"{file_id}_p2_d{current_split_depth+1}"
+                        second_half_key = keys_to_try[(key_index + 1) % len(keys_to_try)] # Rotate key for split parts
                         job_status_db[job_id]['files'].append({
                             'id': second_half_id, 'original_name': split_result['second_half']['filename'],
                             'pdf_path': split_result['second_half']['path'], 'status': 'pending',
@@ -865,7 +896,7 @@ def process_single_pdf_html(job_id, file_id, prompt, pdf_path, original_filename
                         })
                         executor.submit(process_single_pdf_html, job_id, second_half_id, parent_prompt,
                                         split_result['second_half']['path'], split_result['second_half']['filename'],
-                                        current_split_depth + 1)
+                                        current_split_depth + 1, second_half_key)
                         
                         if gemini_file_object: 
                             delete_gemini_file_safely(gemini_file_object)
@@ -907,13 +938,17 @@ def process_single_pdf_html(job_id, file_id, prompt, pdf_path, original_filename
                 'quota exceeded', 'limit exceeded', 'rate limit', 'resource exhausted', 'api key invalid', '429'
             ])
 
-            if is_quota_error:
-                print(f"[Job {job_id}, File {file_id}] Quota/Limit Error. Moving to next key.")
+            if is_quota_error and not key_to_use: # Only retry with next key if a specific key wasn't enforced
+                print(f"[Job {job_id}, File {file_id}] Quota/Limit Error. Moving to next key in job list.")
                 error_type = 'api_quota_error_retry'
-                job_data['current_key_index'] = current_key_index + 1 
+                # The loop will naturally move to the next key
             else:
-                print(f"[Job {job_id}, File {file_id}] General API error. Failing this file for this attempt.")
-                processed_successfully_this_attempt = True
+                if is_quota_error:
+                    print(f"[Job {job_id}, File {file_id}] Quota/Limit Error on a specifically assigned key. Failing this file.")
+                    error_type = 'api_quota_error_no_retry'
+                else:
+                    print(f"[Job {job_id}, File {file_id}] General API error. Failing this file for this attempt.")
+                processed_successfully_this_attempt = True # Stop trying other keys for this file
 
     # --- Cleanup ---
     if gemini_file_object:
@@ -987,10 +1022,17 @@ def upload_queue_files():
 
     # --- Create Job ID and Setup ---
     job_id = str(uuid.uuid4())
+    
+    # --- NEW: Set concurrency limit based on number of API keys ---
+    concurrency_limit = len(api_keys) * 5
+    job_semaphore = threading.Semaphore(concurrency_limit)
+    print(f"Created new job {job_id} with a concurrency limit of {concurrency_limit} ({len(api_keys)} keys * 5)")
+
     job_status_db[job_id] = {
         'prompt': prompt,
         'api_keys': api_keys,
-        'current_key_index': 0,
+        'current_key_index': 0, # Note: This is now less critical due to round-robin
+        'semaphore': job_semaphore, # Store semaphore for this job
         'files': [],
         'timestamp': time.time()
     }
@@ -998,7 +1040,7 @@ def upload_queue_files():
     print(f"Created new enhanced job: {job_id} with {len(api_keys)} key(s) and prompt: {prompt}")
 
     # --- Process Each Valid File ---
-    for file in valid_files_to_process:
+    for idx, file in enumerate(valid_files_to_process):
         file_id = str(uuid.uuid4())
         original_filename = file.filename
         
@@ -1009,6 +1051,10 @@ def upload_queue_files():
             print(f"Error saving file {original_filename} to {pdf_path}: {e}")
             print(f"Skipping file due to save error.")
             continue
+        
+        # --- NEW: Assign API key using round-robin ---
+        key_to_use = api_keys[idx % len(api_keys)]
+        print(f"Assigning file {original_filename} to key ending in ...{key_to_use[-4:]}")
         
         job_status_db[job_id]['files'].append({
             'id': file_id,
@@ -1028,7 +1074,8 @@ def upload_queue_files():
             prompt,
             pdf_path,
             original_filename,
-            0
+            0,
+            key_to_use # Pass the assigned key
         )
         
         print(f"Queued file for enhanced processing: {original_filename} with ID: {file_id} at depth 0")
