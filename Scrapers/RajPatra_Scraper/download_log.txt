@@ -1,0 +1,536 @@
+2025-06-21 13:19:24,679 - [Thread-8831716480] - INFO - Starting multi-threaded Nepal Rajpatra download with 4 threads...
+2025-06-21 13:19:24,679 - [Thread-8831716480] - INFO - Fetching main page to extract gazette collections...
+2025-06-21 13:19:26,123 - [Thread-8831716480] - INFO - Found 150 gazette collections
+2025-06-21 13:19:26,124 - [Thread-8831716480] - INFO - Processing 150 collections with 4 threads
+2025-06-21 13:19:26,124 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2082
+2025-06-21 13:19:26,124 - [Thread-6142160896] - INFO - [6142160896] Processing: अरि 2082
+2025-06-21 13:19:26,125 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2081
+2025-06-21 13:19:26,126 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2081
+2025-06-21 13:20:08,168 - [Thread-6142160896] - INFO - [6142160896] Completed अरि_2082: 15/15 downloaded
+2025-06-21 13:20:08,171 - [Thread-6142160896] - INFO - [6142160896] Processing: संख्या 2080
+2025-06-21 13:20:08,171 - [Thread-8831716480] - INFO - Progress: 1/150 collections completed
+2025-06-21 13:20:57,092 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2082: 24/24 downloaded
+2025-06-21 13:20:57,095 - [Thread-6125334528] - INFO - [6125334528] Processing: अरि 2080
+2025-06-21 13:20:57,095 - [Thread-8831716480] - INFO - Progress: 2/150 collections completed
+2025-06-21 13:26:50,779 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2081: 131/131 downloaded
+2025-06-21 13:26:50,780 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2079
+2025-06-21 13:26:50,780 - [Thread-8831716480] - INFO - Progress: 3/150 collections completed
+2025-06-21 13:27:19,276 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2081: 104/104 downloaded
+2025-06-21 13:27:19,276 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2079
+2025-06-21 13:27:19,277 - [Thread-8831716480] - INFO - Progress: 4/150 collections completed
+2025-06-21 13:27:35,409 - [Thread-6125334528] - INFO - [6125334528] Completed अरि_2080: 103/103 downloaded
+2025-06-21 13:27:35,411 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2078
+2025-06-21 13:27:35,411 - [Thread-8831716480] - INFO - Progress: 5/150 collections completed
+2025-06-21 13:28:17,719 - [Thread-6142160896] - INFO - [6142160896] Completed संख्या_2080: 151/151 downloaded
+2025-06-21 13:28:17,719 - [Thread-6142160896] - INFO - [6142160896] Processing: अरि 2078
+2025-06-21 13:28:17,719 - [Thread-8831716480] - INFO - Progress: 6/150 collections completed
+2025-06-21 13:35:21,274 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2079: 128/128 downloaded
+2025-06-21 13:35:21,276 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2077
+2025-06-21 13:35:21,276 - [Thread-8831716480] - INFO - Progress: 7/150 collections completed
+2025-06-21 13:35:33,915 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2079: 122/122 downloaded
+2025-06-21 13:35:33,917 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2077
+2025-06-21 13:35:33,918 - [Thread-8831716480] - INFO - Progress: 8/150 collections completed
+2025-06-21 13:36:05,709 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2078: 166/166 downloaded
+2025-06-21 13:36:05,710 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2076
+2025-06-21 13:36:05,710 - [Thread-8831716480] - INFO - Progress: 9/150 collections completed
+2025-06-21 13:37:28,830 - [Thread-6142160896] - INFO - [6142160896] Completed अरि_2078: 153/153 downloaded
+2025-06-21 13:37:28,830 - [Thread-6142160896] - INFO - [6142160896] Processing: अरि 2076
+2025-06-21 13:37:28,831 - [Thread-8831716480] - INFO - Progress: 10/150 collections completed
+2025-06-21 13:40:25,995 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2077: 99/99 downloaded
+2025-06-21 13:40:25,997 - [Thread-6325039104] - INFO - [6325039104] Processing: संख्या 2075
+2025-06-21 13:40:25,997 - [Thread-8831716480] - INFO - Progress: 11/150 collections completed
+2025-06-21 13:41:05,106 - [Thread-6142160896] - INFO - [6142160896] Completed अरि_2076: 74/74 downloaded
+2025-06-21 13:41:05,107 - [Thread-6142160896] - INFO - [6142160896] Processing: अरि 2075
+2025-06-21 13:41:05,107 - [Thread-8831716480] - INFO - Progress: 12/150 collections completed
+2025-06-21 13:44:34,856 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2077: 187/187 downloaded
+2025-06-21 13:44:34,857 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2074
+2025-06-21 13:44:34,857 - [Thread-8831716480] - INFO - Progress: 13/150 collections completed
+2025-06-21 13:45:13,820 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2076: 183/183 downloaded
+2025-06-21 13:45:13,821 - [Thread-6125334528] - INFO - [6125334528] Processing: अरि 2074
+2025-06-21 13:45:13,821 - [Thread-8831716480] - INFO - Progress: 14/150 collections completed
+2025-06-21 13:46:39,516 - [Thread-6325039104] - INFO - [6325039104] Completed संख्या_2075: 131/131 downloaded
+2025-06-21 13:46:39,518 - [Thread-6325039104] - INFO - [6325039104] Processing: संख्या 2073
+2025-06-21 13:46:39,518 - [Thread-8831716480] - INFO - Progress: 15/150 collections completed
+2025-06-21 13:46:44,943 - [Thread-6142160896] - INFO - [6142160896] Completed अरि_2075: 97/97 downloaded
+2025-06-21 13:46:44,944 - [Thread-6142160896] - INFO - [6142160896] Processing: अरि 2073
+2025-06-21 13:46:44,944 - [Thread-8831716480] - INFO - Progress: 16/150 collections completed
+2025-06-21 13:47:01,204 - [Thread-6142160896] - ERROR - Failed to download सामुहिक कर असुल ऐन: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=22361
+2025-06-21 13:50:05,743 - [Thread-6142160896] - ERROR - Failed to download आर्थिक ऐन, २०७३: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=22522
+2025-06-21 13:50:15,506 - [Thread-6125334528] - ERROR - Failed to download आर्थिक ऐन २०७४: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=23145
+2025-06-21 13:52:32,200 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2074: 108/108 downloaded
+2025-06-21 13:52:32,203 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2072
+2025-06-21 13:52:32,203 - [Thread-8831716480] - INFO - Progress: 17/150 collections completed
+2025-06-21 13:55:47,759 - [Thread-6325039104] - ERROR - Failed to download गाउपालिका नगरपालिका उपनगरपालिका महानगरपनलिकाको क्ष: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=22690
+2025-06-21 13:56:31,585 - [Thread-6125334528] - INFO - [6125334528] Completed अरि_2074: 120/121 downloaded
+2025-06-21 13:56:31,586 - [Thread-6125334528] - INFO - [6125334528] Processing: अरि 2072
+2025-06-21 13:56:31,587 - [Thread-8831716480] - INFO - Progress: 18/150 collections completed
+2025-06-21 13:56:43,529 - [Thread-6142160896] - INFO - [6142160896] Completed अरि_2073: 81/83 downloaded
+2025-06-21 13:56:43,530 - [Thread-6142160896] - INFO - [6142160896] Processing: संख्या 2071
+2025-06-21 13:56:43,530 - [Thread-8831716480] - INFO - Progress: 19/150 collections completed
+2025-06-21 13:58:00,067 - [Thread-6125334528] - ERROR - Failed to download सामयिक कर असुल ऐन, २०१२ को दफा ३ ले आदेश जारी गरेक: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=22404
+2025-06-21 13:58:24,539 - [Thread-6125334528] - ERROR - Failed to download सामयिक कर असुल ऐन, २०१२ को दफा ३ ले आदेश जारी गरेक: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=22442
+2025-06-21 13:59:42,419 - [Thread-6158987264] - ERROR - Failed to download चिया वगानमा काम गर्ने कर्मचारीको न्यूनतम पारिश्रमि: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=22348
+2025-06-21 13:59:45,704 - [Thread-6325039104] - INFO - [6325039104] Completed संख्या_2073: 132/133 downloaded
+2025-06-21 13:59:45,704 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2071
+2025-06-21 13:59:45,704 - [Thread-8831716480] - INFO - Progress: 20/150 collections completed
+2025-06-21 13:59:56,084 - [Thread-6325039104] - ERROR - Failed to download प्रहरी नियमावली, २०७१: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=22207
+2025-06-21 14:00:21,277 - [Thread-6125334528] - ERROR - Failed to download विनियोजन ऐन, २०७२: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=22519
+2025-06-21 14:00:40,645 - [Thread-6325039104] - ERROR - Failed to download सामयिक कर असुल ऐन: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=22213
+2025-06-21 14:01:18,713 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2072: 87/88 downloaded
+2025-06-21 14:01:18,716 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2070
+2025-06-21 14:01:18,716 - [Thread-8831716480] - INFO - Progress: 21/150 collections completed
+2025-06-21 14:02:20,799 - [Thread-6125334528] - INFO - [6125334528] Completed अरि_2072: 52/55 downloaded
+2025-06-21 14:02:20,799 - [Thread-6125334528] - INFO - [6125334528] Processing: अरि 2070
+2025-06-21 14:02:20,799 - [Thread-8831716480] - INFO - Progress: 22/150 collections completed
+2025-06-21 14:03:41,245 - [Thread-6142160896] - INFO - [6142160896] Completed संख्या_2071: 91/91 downloaded
+2025-06-21 14:03:41,248 - [Thread-6142160896] - INFO - [6142160896] Processing: संख्या 2069
+2025-06-21 14:03:41,249 - [Thread-8831716480] - INFO - Progress: 23/150 collections completed
+2025-06-21 14:05:27,723 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2071: 64/66 downloaded
+2025-06-21 14:05:27,724 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2069
+2025-06-21 14:05:27,724 - [Thread-8831716480] - INFO - Progress: 24/150 collections completed
+2025-06-21 14:05:28,473 - [Thread-6125334528] - ERROR - Failed to download आर्थिक अध्यादेश २०७०: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=21935
+2025-06-21 14:07:51,878 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2070: 86/86 downloaded
+2025-06-21 14:07:51,881 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2068
+2025-06-21 14:07:51,881 - [Thread-8831716480] - INFO - Progress: 25/150 collections completed
+2025-06-21 14:08:49,819 - [Thread-6125334528] - ERROR - Failed to download विनियोज ऐन २०७०: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=21964
+2025-06-21 14:10:29,290 - [Thread-6125334528] - INFO - [6125334528] Completed अरि_2070: 62/64 downloaded
+2025-06-21 14:10:29,293 - [Thread-6125334528] - INFO - [6125334528] Processing: अरि 2068
+2025-06-21 14:10:29,293 - [Thread-8831716480] - INFO - Progress: 26/150 collections completed
+2025-06-21 14:11:54,840 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2069: 101/101 downloaded
+2025-06-21 14:11:54,841 - [Thread-6325039104] - INFO - [6325039104] Processing: संख्या 2067
+2025-06-21 14:11:54,841 - [Thread-8831716480] - INFO - Progress: 27/150 collections completed
+2025-06-21 14:12:44,809 - [Thread-6125334528] - ERROR - Failed to download सामायिक कर असुल ऐन २०१२ को दफा ३ ले दिएको अधिकारले: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=21460
+2025-06-21 14:13:27,627 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2068: 82/82 downloaded
+2025-06-21 14:13:27,628 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2067
+2025-06-21 14:13:27,629 - [Thread-8831716480] - INFO - Progress: 28/150 collections completed
+2025-06-21 14:14:44,452 - [Thread-6142160896] - INFO - [6142160896] Completed संख्या_2069: 167/167 downloaded
+2025-06-21 14:14:44,457 - [Thread-6142160896] - INFO - [6142160896] Processing: संख्या 2066
+2025-06-21 14:14:44,457 - [Thread-8831716480] - INFO - Progress: 29/150 collections completed
+2025-06-21 14:17:50,882 - [Thread-6325039104] - INFO - [6325039104] Completed संख्या_2067: 87/87 downloaded
+2025-06-21 14:17:50,885 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2066
+2025-06-21 14:17:50,886 - [Thread-8831716480] - INFO - Progress: 30/150 collections completed
+2025-06-21 14:18:47,869 - [Thread-6125334528] - INFO - [6125334528] Completed अरि_2068: 124/125 downloaded
+2025-06-21 14:18:47,870 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2065
+2025-06-21 14:18:47,870 - [Thread-8831716480] - INFO - Progress: 31/150 collections completed
+2025-06-21 14:20:08,661 - [Thread-6142160896] - INFO - [6142160896] Completed संख्या_2066: 79/79 downloaded
+2025-06-21 14:20:08,662 - [Thread-6142160896] - INFO - [6142160896] Processing: अरि 2065
+2025-06-21 14:20:08,663 - [Thread-8831716480] - INFO - Progress: 32/150 collections completed
+2025-06-21 14:20:15,419 - [Thread-6158987264] - ERROR - Failed to download विनियोजन ऐन २०६७: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=21330
+2025-06-21 14:21:15,797 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2067: 114/115 downloaded
+2025-06-21 14:21:15,798 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2064
+2025-06-21 14:21:15,798 - [Thread-8831716480] - INFO - Progress: 33/150 collections completed
+2025-06-21 14:23:20,231 - [Thread-6325039104] - ERROR - Failed to download आर्थिक ऐन, २०६६: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=21112
+2025-06-21 14:24:59,179 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2065: 104/104 downloaded
+2025-06-21 14:24:59,181 - [Thread-6125334528] - INFO - [6125334528] Processing: अरि 2064
+2025-06-21 14:24:59,181 - [Thread-8831716480] - INFO - Progress: 34/150 collections completed
+2025-06-21 14:25:22,867 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2066: 103/104 downloaded
+2025-06-21 14:25:22,869 - [Thread-6325039104] - INFO - [6325039104] Processing: संख्या 2063
+2025-06-21 14:25:22,869 - [Thread-8831716480] - INFO - Progress: 35/150 collections completed
+2025-06-21 14:25:47,917 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2064: 64/64 downloaded
+2025-06-21 14:25:47,922 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2063
+2025-06-21 14:25:47,922 - [Thread-8831716480] - INFO - Progress: 36/150 collections completed
+2025-06-21 14:27:51,114 - [Thread-6158987264] - ERROR - Failed to download सामयिक कर अशूल ऐन, २०१२ एेन अन्तर्गत अादेश जारी गर: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=20353
+2025-06-21 14:27:58,028 - [Thread-6125334528] - ERROR - Failed to download सामयिक कर असुल ऐन २०१२ को दफा ३ ले दिएको अधिकार प्: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=20671
+2025-06-21 14:28:55,577 - [Thread-6158987264] - ERROR - Failed to download सशस्त्र प्रहरी (दोस्रो संशोधन) नियमावली, २०६३: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 14:29:22,753 - [Thread-6142160896] - ERROR - Failed to download आर्थिक ऐन, २०६५: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=20956
+2025-06-21 14:31:35,292 - [Thread-6325039104] - INFO - [6325039104] Completed संख्या_2063: 55/55 downloaded
+2025-06-21 14:31:35,294 - [Thread-6325039104] - INFO - [6325039104] Processing: संख्या 2062
+2025-06-21 14:31:35,294 - [Thread-8831716480] - INFO - Progress: 37/150 collections completed
+2025-06-21 14:35:29,905 - [Thread-6158987264] - ERROR - Failed to download आर्थिक ऐन, २०६३: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=20430
+2025-06-21 14:36:23,555 - [Thread-6142160896] - INFO - [6142160896] Completed अरि_2065: 174/175 downloaded
+2025-06-21 14:36:23,556 - [Thread-6142160896] - INFO - [6142160896] Processing: अरि 2062
+2025-06-21 14:36:23,556 - [Thread-8831716480] - INFO - Progress: 38/150 collections completed
+2025-06-21 14:36:24,628 - [Thread-6125334528] - ERROR - Failed to download आर्थिक ऐन २०६४: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=20727
+2025-06-21 14:38:01,967 - [Thread-6125334528] - INFO - [6125334528] Completed अरि_2064: 111/113 downloaded
+2025-06-21 14:38:01,972 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2061
+2025-06-21 14:38:01,972 - [Thread-8831716480] - INFO - Progress: 39/150 collections completed
+2025-06-21 14:39:27,350 - [Thread-6325039104] - INFO - [6325039104] Completed संख्या_2062: 86/86 downloaded
+2025-06-21 14:39:27,352 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2061
+2025-06-21 14:39:27,353 - [Thread-8831716480] - INFO - Progress: 40/150 collections completed
+2025-06-21 14:42:08,832 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2061: 61/61 downloaded
+2025-06-21 14:42:08,834 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2060
+2025-06-21 14:42:08,834 - [Thread-8831716480] - INFO - Progress: 41/150 collections completed
+2025-06-21 14:43:46,407 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2063: 159/162 downloaded
+2025-06-21 14:43:46,409 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2060
+2025-06-21 14:43:46,409 - [Thread-8831716480] - INFO - Progress: 42/150 collections completed
+2025-06-21 14:46:13,975 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2060: 61/61 downloaded
+2025-06-21 14:46:13,979 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2059
+2025-06-21 14:46:13,979 - [Thread-8831716480] - INFO - Progress: 43/150 collections completed
+2025-06-21 14:47:14,925 - [Thread-6142160896] - INFO - [6142160896] Completed अरि_2062: 113/113 downloaded
+2025-06-21 14:47:14,926 - [Thread-6142160896] - INFO - [6142160896] Processing: अरि 2059
+2025-06-21 14:47:14,926 - [Thread-8831716480] - INFO - Progress: 44/150 collections completed
+2025-06-21 14:50:01,573 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2059: 56/56 downloaded
+2025-06-21 14:50:01,576 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2058
+2025-06-21 14:50:01,576 - [Thread-8831716480] - INFO - Progress: 45/150 collections completed
+2025-06-21 14:51:43,707 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2061: 149/149 downloaded
+2025-06-21 14:51:43,708 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2058
+2025-06-21 14:51:43,708 - [Thread-8831716480] - INFO - Progress: 46/150 collections completed
+2025-06-21 14:54:38,609 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2058: 54/54 downloaded
+2025-06-21 14:54:38,609 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2057
+2025-06-21 14:54:38,610 - [Thread-8831716480] - INFO - Progress: 47/150 collections completed
+2025-06-21 14:56:03,744 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2060: 176/176 downloaded
+2025-06-21 14:56:03,747 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2057
+2025-06-21 14:56:03,747 - [Thread-8831716480] - INFO - Progress: 48/150 collections completed
+2025-06-21 14:58:23,812 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2057: 59/59 downloaded
+2025-06-21 14:58:23,815 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2056
+2025-06-21 14:58:23,815 - [Thread-8831716480] - INFO - Progress: 49/150 collections completed
+2025-06-21 15:01:38,581 - [Thread-6142160896] - INFO - [6142160896] Completed अरि_2059: 206/206 downloaded
+2025-06-21 15:01:38,583 - [Thread-6142160896] - INFO - [6142160896] Processing: अरि 2056
+2025-06-21 15:01:38,583 - [Thread-8831716480] - INFO - Progress: 50/150 collections completed
+2025-06-21 15:02:53,074 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2056: 74/74 downloaded
+2025-06-21 15:02:53,075 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2055
+2025-06-21 15:02:53,075 - [Thread-8831716480] - INFO - Progress: 51/150 collections completed
+2025-06-21 15:08:33,089 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2058: 194/194 downloaded
+2025-06-21 15:08:33,091 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2055
+2025-06-21 15:08:33,091 - [Thread-8831716480] - INFO - Progress: 52/150 collections completed
+2025-06-21 15:09:53,895 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2057: 172/172 downloaded
+2025-06-21 15:09:53,897 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2054
+2025-06-21 15:09:53,897 - [Thread-8831716480] - INFO - Progress: 53/150 collections completed
+2025-06-21 15:10:34,567 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2055: 89/89 downloaded
+2025-06-21 15:10:34,568 - [Thread-6125334528] - INFO - [6125334528] Processing: अरि 2054
+2025-06-21 15:10:34,568 - [Thread-8831716480] - INFO - Progress: 54/150 collections completed
+2025-06-21 15:15:14,815 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2054: 64/64 downloaded
+2025-06-21 15:15:14,816 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2053
+2025-06-21 15:15:14,816 - [Thread-8831716480] - INFO - Progress: 55/150 collections completed
+2025-06-21 15:15:24,052 - [Thread-6142160896] - ERROR - Failed to download स्थानीय स्वायत्त शासन नियमावली २०५६: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=18743
+2025-06-21 15:21:07,260 - [Thread-6142160896] - INFO - [6142160896] Completed अरि_2056: 163/164 downloaded
+2025-06-21 15:21:07,263 - [Thread-6142160896] - INFO - [6142160896] Processing: अरि 2053
+2025-06-21 15:21:07,263 - [Thread-8831716480] - INFO - Progress: 56/150 collections completed
+2025-06-21 15:29:06,546 - [Thread-6142160896] - ERROR - Failed to download परराष्ट्र मन्त्रालयको कार्यभार फत्तेहसिंह थारुले स: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 15:34:27,613 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2053: 89/89 downloaded
+2025-06-21 15:34:27,616 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2052
+2025-06-21 15:34:27,616 - [Thread-8831716480] - INFO - Progress: 57/150 collections completed
+2025-06-21 15:39:05,776 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2055: 208/208 downloaded
+2025-06-21 15:39:05,782 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2052
+2025-06-21 15:39:05,782 - [Thread-8831716480] - INFO - Progress: 58/150 collections completed
+2025-06-21 15:39:17,691 - [Thread-6125334528] - INFO - [6125334528] Completed अरि_2054: 206/206 downloaded
+2025-06-21 15:39:17,692 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2051
+2025-06-21 15:39:17,692 - [Thread-8831716480] - INFO - Progress: 59/150 collections completed
+2025-06-21 15:39:52,703 - [Thread-6158987264] - ERROR - Failed to download उद्योग क्षेत्रको लागि वातावरणीय प्रभाव मूल्याङ्कन : ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 15:41:35,482 - [Thread-6158987264] - ERROR - Failed to download पर्यटन तथा नागरीक उड्यन मन्त्रालयको सूचना, सेवा अव: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 15:45:08,820 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2052: 44/46 downloaded
+2025-06-21 15:45:08,822 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2051
+2025-06-21 15:45:08,822 - [Thread-8831716480] - INFO - Progress: 60/150 collections completed
+2025-06-21 15:47:20,522 - [Thread-6158987264] - ERROR - Failed to download अर्थ सम्वन्धि प्रस्तावलाई कार्यान्वयन गर्न बनेको ऐ: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out. (read timeout=30)
+2025-06-21 15:47:53,288 - [Thread-6158987264] - ERROR - Failed to download निजामति सेवा नियमावलीमा हेरफेर गरेको: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Max retries exceeded with url: /welcome/download?ref=17160 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x1490d4800>, 'Connection to rajpatra.dop.gov.np timed out. (connect timeout=30)'))
+2025-06-21 15:47:59,879 - [Thread-6125334528] - ERROR - Failed to download अपाङ्ग संरक्षण तथा कल्याण नियमावली २०५१: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out.
+2025-06-21 15:47:59,943 - [Thread-6142160896] - ERROR - Failed to download धितोपत्र कारोबार दोस्रो संशोधन ऐन २०५३: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out.
+2025-06-21 15:47:59,944 - [Thread-6325039104] - ERROR - Failed to download राष्ट्रिय बीमा संस्थानको अधिकृत लाई रुपै तोकेको: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out.
+2025-06-21 15:49:28,514 - [Thread-6158987264] - ERROR - Failed to download नेपाल ईन्जिनियरीङ्ग सेवा नियमहरु २०५१: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out.
+2025-06-21 15:49:31,012 - [Thread-6125334528] - ERROR - Failed to download निर्वाचन आयोगको भूलसूधार: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out.
+2025-06-21 15:49:31,110 - [Thread-6325039104] - ERROR - Failed to download आय निर्धारण समितिको कार्यबधि थप गरेको: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out.
+2025-06-21 15:49:31,681 - [Thread-6142160896] - ERROR - Failed to download वातावरण संरक्षण ऐन २०५३: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out.
+2025-06-21 15:51:47,742 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2051: 58/60 downloaded
+2025-06-21 15:51:47,743 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2050
+2025-06-21 15:51:47,743 - [Thread-8831716480] - INFO - Progress: 61/150 collections completed
+2025-06-21 15:55:54,778 - [Thread-6142160896] - INFO - [6142160896] Completed अरि_2053: 211/214 downloaded
+2025-06-21 15:55:54,780 - [Thread-6142160896] - INFO - [6142160896] Processing: अरि 2050
+2025-06-21 15:55:54,780 - [Thread-8831716480] - INFO - Progress: 62/150 collections completed
+2025-06-21 16:03:03,270 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2052: 184/186 downloaded
+2025-06-21 16:03:03,272 - [Thread-6325039104] - INFO - [6325039104] Processing: संख्या 2049
+2025-06-21 16:03:03,272 - [Thread-8831716480] - INFO - Progress: 63/150 collections completed
+2025-06-21 16:04:45,749 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2050: 135/135 downloaded
+2025-06-21 16:04:45,750 - [Thread-6125334528] - INFO - [6125334528] Processing: अरि 2049
+2025-06-21 16:04:45,750 - [Thread-8831716480] - INFO - Progress: 64/150 collections completed
+2025-06-21 16:06:12,305 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2051: 160/163 downloaded
+2025-06-21 16:06:12,307 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2048
+2025-06-21 16:06:12,307 - [Thread-8831716480] - INFO - Progress: 65/150 collections completed
+2025-06-21 16:11:04,027 - [Thread-6142160896] - ERROR - Failed to download आर्थिक ऐन  २०४९: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=17061
+2025-06-21 16:11:24,840 - [Thread-6142160896] - ERROR - Failed to download आर्थिक ऐन: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=17062
+2025-06-21 16:11:48,607 - [Thread-6142160896] - ERROR - Failed to download आर्थिक ऐन २०४९: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=17064
+2025-06-21 16:11:50,348 - [Thread-6142160896] - INFO - [6142160896] Completed अरि_2050: 154/157 downloaded
+2025-06-21 16:11:50,348 - [Thread-6142160896] - INFO - [6142160896] Processing: अरि 2048
+2025-06-21 16:11:50,348 - [Thread-8831716480] - INFO - Progress: 66/150 collections completed
+2025-06-21 16:13:13,136 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2048: 127/127 downloaded
+2025-06-21 16:13:13,139 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2047
+2025-06-21 16:13:13,139 - [Thread-8831716480] - INFO - Progress: 67/150 collections completed
+2025-06-21 16:13:36,920 - [Thread-6325039104] - INFO - [6325039104] Completed संख्या_2049: 116/116 downloaded
+2025-06-21 16:13:36,921 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2047
+2025-06-21 16:13:36,921 - [Thread-8831716480] - INFO - Progress: 68/150 collections completed
+2025-06-21 16:16:07,586 - [Thread-6125334528] - ERROR - Failed to download आर्थिक बर्ष २०४९।५० को बजेट बक्तव्य: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=16395
+2025-06-21 16:16:54,162 - [Thread-6125334528] - INFO - [6125334528] Completed अरि_2049: 159/160 downloaded
+2025-06-21 16:16:54,164 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2046
+2025-06-21 16:16:54,164 - [Thread-8831716480] - INFO - Progress: 69/150 collections completed
+2025-06-21 16:21:58,121 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2047: 149/149 downloaded
+2025-06-21 16:21:58,124 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2046
+2025-06-21 16:21:58,124 - [Thread-8831716480] - INFO - Progress: 70/150 collections completed
+2025-06-21 16:22:26,602 - [Thread-6325039104] - ERROR - Failed to download दैविक प्रकोप पीडितोढार पदक प्रदान: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=15301
+2025-06-21 16:27:22,505 - [Thread-6142160896] - INFO - [6142160896] Completed अरि_2048: 186/186 downloaded
+2025-06-21 16:27:22,507 - [Thread-6142160896] - INFO - [6142160896] Processing: संख्या 2045
+2025-06-21 16:27:22,507 - [Thread-8831716480] - INFO - Progress: 71/150 collections completed
+2025-06-21 16:31:47,760 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2047: 287/287 downloaded
+2025-06-21 16:31:47,762 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2045
+2025-06-21 16:31:47,762 - [Thread-8831716480] - INFO - Progress: 72/150 collections completed
+2025-06-21 16:33:05,138 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2046: 188/188 downloaded
+2025-06-21 16:33:05,141 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2044
+2025-06-21 16:33:05,141 - [Thread-8831716480] - INFO - Progress: 73/150 collections completed
+2025-06-21 16:33:48,712 - [Thread-6158987264] - ERROR - Failed to download अर्थ मन्त्रालयको कार्यभार प्रधानमन्त्रीले सम्हाल्न: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 16:38:17,670 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2046: 131/132 downloaded
+2025-06-21 16:38:17,672 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2044
+2025-06-21 16:38:17,672 - [Thread-8831716480] - INFO - Progress: 74/150 collections completed
+2025-06-21 16:41:39,540 - [Thread-6325039104] - ERROR - Failed to download सामयिक कर असूल ऐनअन्तर्गतको आदेश: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=14416
+2025-06-21 16:43:11,646 - [Thread-6158987264] - ERROR - Failed to download नगर विकास ऐन २०४५: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 16:46:28,965 - [Thread-6142160896] - INFO - [6142160896] Completed संख्या_2045: 238/238 downloaded
+2025-06-21 16:46:28,966 - [Thread-6142160896] - INFO - [6142160896] Processing: संख्या 2043
+2025-06-21 16:46:28,967 - [Thread-8831716480] - INFO - Progress: 75/150 collections completed
+2025-06-21 16:47:31,494 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2045: 160/162 downloaded
+2025-06-21 16:47:31,495 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2043
+2025-06-21 16:47:31,495 - [Thread-8831716480] - INFO - Progress: 76/150 collections completed
+2025-06-21 16:48:05,149 - [Thread-6325039104] - ERROR - Failed to download केही घरेलु उद्योगहरुबाट उत्पादित वस्तुहरुमा पच्चीस: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 16:48:41,832 - [Thread-6125334528] - ERROR - Failed to download खण्ड ३५ मिति २०४२-३-३१ संख्या १४ मा प्रकाशित अर्थ : ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 16:51:48,541 - [Thread-6325039104] - ERROR - Failed to download आर्थिक ऐन, २०४४: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=14556
+2025-06-21 16:52:54,288 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2044: 232/233 downloaded
+2025-06-21 16:52:54,290 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2042
+2025-06-21 16:52:54,290 - [Thread-8831716480] - INFO - Progress: 77/150 collections completed
+2025-06-21 16:56:01,165 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2044: 167/170 downloaded
+2025-06-21 16:56:01,168 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2042
+2025-06-21 16:56:01,168 - [Thread-8831716480] - INFO - Progress: 78/150 collections completed
+2025-06-21 17:00:16,541 - [Thread-6125334528] - ERROR - Failed to download उम्मेदवारको उपयुक्तता जाँच्ने कार्यको लागि केही अध: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 17:00:42,508 - [Thread-6142160896] - ERROR - Failed to download अर्थ मन्त्रालयको सूचना, बिक्री कर छुट सम्बन्धी: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 17:02:26,079 - [Thread-6142160896] - INFO - [6142160896] Completed संख्या_2043: 143/144 downloaded
+2025-06-21 17:02:26,080 - [Thread-6142160896] - INFO - [6142160896] Processing: संख्या 2041
+2025-06-21 17:02:26,080 - [Thread-8831716480] - INFO - Progress: 79/150 collections completed
+2025-06-21 17:05:19,213 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2043: 167/167 downloaded
+2025-06-21 17:05:19,215 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2041
+2025-06-21 17:05:19,216 - [Thread-8831716480] - INFO - Progress: 80/150 collections completed
+2025-06-21 17:06:59,071 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2042: 183/184 downloaded
+2025-06-21 17:06:59,074 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2040
+2025-06-21 17:06:59,074 - [Thread-8831716480] - INFO - Progress: 81/150 collections completed
+2025-06-21 17:10:24,844 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2042: 199/199 downloaded
+2025-06-21 17:10:24,846 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2040
+2025-06-21 17:10:24,846 - [Thread-8831716480] - INFO - Progress: 82/150 collections completed
+2025-06-21 17:14:07,042 - [Thread-6158987264] - ERROR - Failed to download बागमती विशेष अदालतको अध्यक्षको कम गर्न तोकेको: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out. (read timeout=30)
+2025-06-21 17:14:08,149 - [Thread-6125334528] - ERROR - Failed to download रामभद्र अडिगालाई सुपरीण्टेण्ड पदमा सरुवा गरेको: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out. (read timeout=30)
+2025-06-21 17:14:08,297 - [Thread-6142160896] - ERROR - Failed to download संक्रामक रोग नियन्त्रण तथा रोकथाम गर्ने सम्बन्धमा : HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out. (read timeout=30)
+2025-06-21 17:14:36,539 - [Thread-6325039104] - ERROR - Failed to download यादवप्रसाद पन्तले आर्थिक बर्ष २०४० र २०४१को वजेट ब: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out.
+2025-06-21 17:15:25,917 - [Thread-6158987264] - ERROR - Failed to download राजसभा स्थानीय समितिको सभापति पदको कार्यभार सम्हाल: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out.
+2025-06-21 17:19:17,544 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2041: 143/145 downloaded
+2025-06-21 17:19:17,545 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2039
+2025-06-21 17:19:17,545 - [Thread-8831716480] - INFO - Progress: 83/150 collections completed
+2025-06-21 17:21:14,962 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2040: 131/132 downloaded
+2025-06-21 17:21:14,965 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2039
+2025-06-21 17:21:14,966 - [Thread-8831716480] - INFO - Progress: 84/150 collections completed
+2025-06-21 17:21:55,173 - [Thread-6142160896] - INFO - [6142160896] Completed संख्या_2041: 335/336 downloaded
+2025-06-21 17:21:55,174 - [Thread-6142160896] - INFO - [6142160896] Processing: संख्या 2038
+2025-06-21 17:21:55,175 - [Thread-8831716480] - INFO - Progress: 85/150 collections completed
+2025-06-21 17:22:58,071 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2040: 270/271 downloaded
+2025-06-21 17:22:58,073 - [Thread-6125334528] - INFO - [6125334528] Processing: अरि 2038
+2025-06-21 17:22:58,073 - [Thread-8831716480] - INFO - Progress: 86/150 collections completed
+2025-06-21 17:28:45,962 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2039: 131/131 downloaded
+2025-06-21 17:28:45,965 - [Thread-6325039104] - INFO - [6325039104] Processing: संख्या 2037
+2025-06-21 17:28:45,965 - [Thread-8831716480] - INFO - Progress: 87/150 collections completed
+2025-06-21 17:33:26,856 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2039: 317/317 downloaded
+2025-06-21 17:33:26,858 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2037
+2025-06-21 17:33:26,858 - [Thread-8831716480] - INFO - Progress: 88/150 collections completed
+2025-06-21 17:36:58,704 - [Thread-6125334528] - INFO - [6125334528] Completed अरि_2038: 275/275 downloaded
+2025-06-21 17:36:58,705 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2036
+2025-06-21 17:36:58,705 - [Thread-8831716480] - INFO - Progress: 89/150 collections completed
+2025-06-21 17:37:02,883 - [Thread-6142160896] - INFO - [6142160896] Completed संख्या_2038: 316/316 downloaded
+2025-06-21 17:37:02,884 - [Thread-6142160896] - INFO - [6142160896] Processing: अरि 2036
+2025-06-21 17:37:02,884 - [Thread-8831716480] - INFO - Progress: 90/150 collections completed
+2025-06-21 17:40:55,711 - [Thread-6325039104] - INFO - [6325039104] Completed संख्या_2037: 264/264 downloaded
+2025-06-21 17:40:55,715 - [Thread-6325039104] - INFO - [6325039104] Processing: संख्या 2035
+2025-06-21 17:40:55,715 - [Thread-8831716480] - INFO - Progress: 91/150 collections completed
+2025-06-21 17:41:53,053 - [Thread-6158987264] - ERROR - Failed to download आर्थिक ऐन २०३७: 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=11401
+2025-06-21 17:44:18,023 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2037: 163/164 downloaded
+2025-06-21 17:44:18,026 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2035
+2025-06-21 17:44:18,026 - [Thread-8831716480] - INFO - Progress: 92/150 collections completed
+2025-06-21 17:45:35,758 - [Thread-6142160896] - INFO - [6142160896] Completed अरि_2036: 150/150 downloaded
+2025-06-21 17:45:35,759 - [Thread-6142160896] - INFO - [6142160896] Processing: संख्या 2034
+2025-06-21 17:45:35,760 - [Thread-8831716480] - INFO - Progress: 93/150 collections completed
+2025-06-21 17:48:27,550 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2036: 243/243 downloaded
+2025-06-21 17:48:27,553 - [Thread-6125334528] - INFO - [6125334528] Processing: अरि 2034
+2025-06-21 17:48:27,555 - [Thread-8831716480] - INFO - Progress: 94/150 collections completed
+2025-06-21 17:53:30,089 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2035: 155/155 downloaded
+2025-06-21 17:53:30,093 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2033
+2025-06-21 17:53:30,093 - [Thread-8831716480] - INFO - Progress: 95/150 collections completed
+2025-06-21 17:55:02,293 - [Thread-6325039104] - INFO - [6325039104] Completed संख्या_2035: 290/290 downloaded
+2025-06-21 17:55:02,296 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2033
+2025-06-21 17:55:02,297 - [Thread-8831716480] - INFO - Progress: 96/150 collections completed
+2025-06-21 17:57:14,469 - [Thread-6125334528] - INFO - [6125334528] Completed अरि_2034: 149/149 downloaded
+2025-06-21 17:57:14,471 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2032
+2025-06-21 17:57:14,472 - [Thread-8831716480] - INFO - Progress: 97/150 collections completed
+2025-06-21 18:04:20,437 - [Thread-6142160896] - INFO - [6142160896] Completed संख्या_2034: 369/369 downloaded
+2025-06-21 18:04:20,440 - [Thread-6142160896] - INFO - [6142160896] Processing: अरि 2032
+2025-06-21 18:04:20,440 - [Thread-8831716480] - INFO - Progress: 98/150 collections completed
+2025-06-21 18:06:37,297 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2033: 162/162 downloaded
+2025-06-21 18:06:37,299 - [Thread-6325039104] - INFO - [6325039104] Processing: संख्या 2031
+2025-06-21 18:06:37,299 - [Thread-8831716480] - INFO - Progress: 99/150 collections completed
+2025-06-21 18:10:47,551 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2033: 289/289 downloaded
+2025-06-21 18:10:47,553 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2031
+2025-06-21 18:10:47,554 - [Thread-8831716480] - INFO - Progress: 100/150 collections completed
+2025-06-21 18:18:50,976 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2032: 313/313 downloaded
+2025-06-21 18:18:50,979 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2030
+2025-06-21 18:18:50,980 - [Thread-8831716480] - INFO - Progress: 101/150 collections completed
+2025-06-21 18:20:45,066 - [Thread-6142160896] - INFO - [6142160896] Completed अरि_2032: 165/165 downloaded
+2025-06-21 18:20:45,068 - [Thread-6142160896] - INFO - [6142160896] Processing: अरि 2030
+2025-06-21 18:20:45,068 - [Thread-8831716480] - INFO - Progress: 102/150 collections completed
+2025-06-21 18:21:09,267 - [Thread-6158987264] - ERROR - Failed to download कर्णाली अञ्चलाधिश पदमा श्री हरिनाथ वांसतोलालाई निय: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 18:25:43,782 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2031: 93/94 downloaded
+2025-06-21 18:25:43,785 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2029
+2025-06-21 18:25:43,785 - [Thread-8831716480] - INFO - Progress: 103/150 collections completed
+2025-06-21 18:33:59,970 - [Thread-6325039104] - INFO - [6325039104] Completed संख्या_2031: 337/337 downloaded
+2025-06-21 18:33:59,973 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2029
+2025-06-21 18:33:59,973 - [Thread-8831716480] - INFO - Progress: 104/150 collections completed
+2025-06-21 18:35:32,760 - [Thread-6142160896] - INFO - [6142160896] Completed अरि_2030: 169/169 downloaded
+2025-06-21 18:35:32,761 - [Thread-6142160896] - INFO - [6142160896] Processing: संख्या 2028
+2025-06-21 18:35:32,762 - [Thread-8831716480] - INFO - Progress: 105/150 collections completed
+2025-06-21 18:36:09,892 - [Thread-6125334528] - ERROR - Failed to download जल उपादेयता विषय संयुक्त अध्ययन र विकास गराउन समित: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 18:39:17,771 - [Thread-6142160896] - ERROR - Failed to download श्री पद्यराज मिश्र र रामशरण शर्मालाई खटाएको: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 18:45:28,789 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2030: 336/337 downloaded
+2025-06-21 18:45:28,792 - [Thread-6125334528] - INFO - [6125334528] Processing: अरि 2028
+2025-06-21 18:45:28,792 - [Thread-8831716480] - INFO - Progress: 106/150 collections completed
+2025-06-21 18:46:35,984 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2029: 117/117 downloaded
+2025-06-21 18:46:35,985 - [Thread-6325039104] - INFO - [6325039104] Processing: संख्या 2027
+2025-06-21 18:46:35,985 - [Thread-8831716480] - INFO - Progress: 107/150 collections completed
+2025-06-21 18:46:56,582 - [Thread-6325039104] - ERROR - Failed to download गृह पञ्चायत  मन्त्रालयको सूचना, श्री वेदराम अधिकार: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 18:46:56,583 - [Thread-6125334528] - ERROR - Failed to download परराष्ट्र, स्वास्थ्य मन्त्रालयको कार्यभार सम्मानीय: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 18:48:16,842 - [Thread-6158987264] - ERROR - Failed to download न्याय मन्त्रालयको सूचनाको दफाहरुमा हेरफेर गरेको: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 18:48:20,813 - [Thread-6125334528] - ERROR - Failed to download श्री ५ महाराजाधिराजबाट कानून समीक्षा समिति गठन गरि: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 18:49:28,770 - [Thread-6325039104] - ERROR - Failed to download प्रमुख जिल्ला अधिकारी पदमा का.मु.म मुकरर: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 18:52:08,678 - [Thread-6125334528] - ERROR - Failed to download स्थानीय प्रशासन ऐन २०२८: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 18:56:20,745 - [Thread-6158987264] - ERROR - Failed to download शाही सेनाको तालीम गुल्म ब्यारेक घर बनाउनको लागि जग: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 18:56:47,103 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2029: 341/343 downloaded
+2025-06-21 18:56:47,105 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2027
+2025-06-21 18:56:47,105 - [Thread-8831716480] - INFO - Progress: 108/150 collections completed
+2025-06-21 18:58:32,960 - [Thread-6325039104] - ERROR - Failed to download रक्षा मन्त्रालयको सूचना, शाही सेनाको सम्बन्धमा मले: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 19:04:21,528 - [Thread-6125334528] - INFO - [6125334528] Completed अरि_2028: 129/132 downloaded
+2025-06-21 19:04:21,530 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2026
+2025-06-21 19:04:21,530 - [Thread-8831716480] - INFO - Progress: 109/150 collections completed
+2025-06-21 19:09:00,733 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2027: 105/105 downloaded
+2025-06-21 19:09:00,735 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2026
+2025-06-21 19:09:00,736 - [Thread-8831716480] - INFO - Progress: 110/150 collections completed
+2025-06-21 19:11:37,835 - [Thread-6142160896] - INFO - [6142160896] Completed संख्या_2028: 374/375 downloaded
+2025-06-21 19:11:37,837 - [Thread-6142160896] - INFO - [6142160896] Processing: संख्या 2025
+2025-06-21 19:11:37,837 - [Thread-8831716480] - INFO - Progress: 111/150 collections completed
+2025-06-21 19:17:35,334 - [Thread-6325039104] - ERROR - Failed to download श्री ५ को सरकार  नेपाल तथा प्रजातान्त्रीक गणतन्त्र: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 19:17:39,474 - [Thread-6158987264] - ERROR - Failed to download श्री ५ बाट राष्ट्रिय पञ्चायतको पन्ध्रैा अधिवेसन अन: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 19:18:44,948 - [Thread-6158987264] - ERROR - Failed to download सार्वजनिक सूरक्षा ऐन अन्तरगतको अधिकार प्रदान गरेको: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 19:20:29,458 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2026: 100/102 downloaded
+2025-06-21 19:20:29,459 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2025
+2025-06-21 19:20:29,460 - [Thread-8831716480] - INFO - Progress: 112/150 collections completed
+2025-06-21 19:21:06,413 - [Thread-6142160896] - ERROR - Failed to download सरुवा गरेको: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 19:21:44,861 - [Thread-6158987264] - ERROR - Failed to download विभूषण, मान तथा आदरपत्र बक्सेको: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 19:28:30,658 - [Thread-6325039104] - INFO - [6325039104] Completed संख्या_2027: 369/373 downloaded
+2025-06-21 19:28:30,661 - [Thread-6325039104] - INFO - [6325039104] Processing: संख्या 2024
+2025-06-21 19:28:30,661 - [Thread-8831716480] - INFO - Progress: 113/150 collections completed
+2025-06-21 19:34:14,148 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2025: 99/100 downloaded
+2025-06-21 19:34:14,149 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2024
+2025-06-21 19:34:14,149 - [Thread-8831716480] - INFO - Progress: 114/150 collections completed
+2025-06-21 19:34:37,742 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2026: 298/298 downloaded
+2025-06-21 19:34:37,743 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2023
+2025-06-21 19:34:37,743 - [Thread-8831716480] - INFO - Progress: 115/150 collections completed
+2025-06-21 19:40:36,722 - [Thread-6325039104] - ERROR - Failed to download बन मन्त्रालयको सुचना नियुक्ति गरिएको: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 19:40:54,119 - [Thread-6142160896] - INFO - [6142160896] Completed संख्या_2025: 298/299 downloaded
+2025-06-21 19:40:54,121 - [Thread-6142160896] - INFO - [6142160896] Processing: अरि 2023
+2025-06-21 19:40:54,122 - [Thread-8831716480] - INFO - Progress: 116/150 collections completed
+2025-06-21 19:48:28,824 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2024: 82/82 downloaded
+2025-06-21 19:48:28,828 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2022
+2025-06-21 19:48:28,828 - [Thread-8831716480] - INFO - Progress: 117/150 collections completed
+2025-06-21 19:50:29,721 - [Thread-6325039104] - INFO - [6325039104] Completed संख्या_2024: 240/241 downloaded
+2025-06-21 19:50:29,722 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2022
+2025-06-21 19:50:29,722 - [Thread-8831716480] - INFO - Progress: 118/150 collections completed
+2025-06-21 19:56:52,895 - [Thread-6142160896] - INFO - [6142160896] Completed अरि_2023: 132/132 downloaded
+2025-06-21 19:56:52,898 - [Thread-6142160896] - INFO - [6142160896] Processing: संख्या 2021
+2025-06-21 19:56:52,898 - [Thread-8831716480] - INFO - Progress: 119/150 collections completed
+2025-06-21 19:57:23,963 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2023: 275/275 downloaded
+2025-06-21 19:57:23,965 - [Thread-6125334528] - INFO - [6125334528] Processing: अरि 2021
+2025-06-21 19:57:23,966 - [Thread-8831716480] - INFO - Progress: 120/150 collections completed
+2025-06-21 19:57:59,891 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2022: 82/82 downloaded
+2025-06-21 19:57:59,892 - [Thread-6325039104] - INFO - [6325039104] Processing: संख्या 2020
+2025-06-21 19:57:59,893 - [Thread-8831716480] - INFO - Progress: 121/150 collections completed
+2025-06-21 20:00:39,569 - [Thread-6158987264] - ERROR - Failed to download अर्थ मन्त्रालयको सूचना भन्सार महसुल सम्बन्धी: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-21 20:02:14,807 - [Thread-6142160896] - ERROR - Failed to download कर्मचारी स‌ंचयकोषको भूल सुधार: ('Connection broken: IncompleteRead(3847 bytes read, 4345 more expected)', IncompleteRead(3847 bytes read, 4345 more expected))
+2025-06-21 20:03:09,535 - [Thread-6125334528] - INFO - [6125334528] Completed अरि_2021: 87/87 downloaded
+2025-06-21 20:03:09,536 - [Thread-6125334528] - INFO - [6125334528] Processing: अरि 2020
+2025-06-21 20:03:09,536 - [Thread-8831716480] - INFO - Progress: 122/150 collections completed
+2025-06-21 20:06:19,011 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2022: 304/305 downloaded
+2025-06-21 20:06:19,012 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2019
+2025-06-21 20:06:19,012 - [Thread-8831716480] - INFO - Progress: 123/150 collections completed
+2025-06-21 20:08:14,013 - [Thread-6125334528] - INFO - [6125334528] Completed अरि_2020: 74/74 downloaded
+2025-06-21 20:08:14,015 - [Thread-6125334528] - INFO - [6125334528] Processing: अरि 2019
+2025-06-21 20:08:14,015 - [Thread-8831716480] - INFO - Progress: 124/150 collections completed
+2025-06-21 20:11:52,059 - [Thread-6325039104] - INFO - [6325039104] Completed संख्या_2020: 252/252 downloaded
+2025-06-21 20:11:52,060 - [Thread-6325039104] - INFO - [6325039104] Processing: संख्या 2018
+2025-06-21 20:11:52,061 - [Thread-8831716480] - INFO - Progress: 125/150 collections completed
+2025-06-21 20:15:45,367 - [Thread-6142160896] - INFO - [6142160896] Completed संख्या_2021: 330/331 downloaded
+2025-06-21 20:15:45,369 - [Thread-6142160896] - INFO - [6142160896] Processing: अरि 2018
+2025-06-21 20:15:45,369 - [Thread-8831716480] - INFO - Progress: 126/150 collections completed
+2025-06-21 20:16:27,333 - [Thread-6125334528] - ERROR - Failed to download आवादी,मिच्ने,पजनि,घर बनायने महल,धर्मपूत्र आदी गरी : 500 Server Error: Internal Server Error for url: http://rajpatra.dop.gov.np/welcome/download?ref=3093
+2025-06-21 20:17:44,095 - [Thread-6125334528] - INFO - [6125334528] Completed अरि_2019: 147/148 downloaded
+2025-06-21 20:17:44,096 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2017
+2025-06-21 20:17:44,097 - [Thread-8831716480] - INFO - Progress: 127/150 collections completed
+2025-06-21 20:19:40,158 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2019: 275/275 downloaded
+2025-06-21 20:19:40,158 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2017
+2025-06-21 20:19:40,158 - [Thread-8831716480] - INFO - Progress: 128/150 collections completed
+2025-06-21 20:20:58,832 - [Thread-6142160896] - INFO - [6142160896] Completed अरि_2018: 86/86 downloaded
+2025-06-21 20:20:58,834 - [Thread-6142160896] - INFO - [6142160896] Processing: संख्या 2016
+2025-06-21 20:20:58,834 - [Thread-8831716480] - INFO - Progress: 129/150 collections completed
+2025-06-21 20:23:36,853 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2017: 63/63 downloaded
+2025-06-21 20:23:36,854 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2016
+2025-06-21 20:23:36,854 - [Thread-8831716480] - INFO - Progress: 130/150 collections completed
+2025-06-21 20:23:59,299 - [Thread-6325039104] - ERROR - Failed to download गृह मन्त्रालयको सूचना बिशेष अदालत ऐन २०१३: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out. (read timeout=30)
+2025-06-21 20:24:02,983 - [Thread-6125334528] - ERROR - Failed to download भोजपुरलार्इ शहरी क्षेत्र तोकेको: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out. (read timeout=30)
+2025-06-21 20:24:10,664 - [Thread-6142160896] - ERROR - Failed to download त्रि-चन्द्र कलेज विकास समिती गठन आदेश, २०१५: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out. (read timeout=30)
+2025-06-21 20:24:12,640 - [Thread-6158987264] - ERROR - Failed to download नेपाल राष्ट्रपरिषद ऐनलाइढ संशोधन गर्न बनेको ऐन: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out. (read timeout=30)
+2025-06-21 20:25:08,315 - [Thread-6142160896] - ERROR - Failed to download स‌‌सद सचिवालयको सूचना: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out. (read timeout=30)
+2025-06-21 20:25:08,693 - [Thread-6325039104] - ERROR - Failed to download पाईनियर बटालियनको तलब स्केल: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out. (read timeout=30)
+2025-06-21 20:25:09,095 - [Thread-6125334528] - ERROR - Failed to download श्रीविश्वशंकर शुक्ललार्इ का: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out. (read timeout=30)
+2025-06-21 20:25:10,649 - [Thread-6158987264] - ERROR - Failed to download जनप्रतिनिधित्व ऐनलाइ संशोधन गर्ने ऐन: HTTPConnectionPool(host='rajpatra.dop.gov.np', port=80): Read timed out. (read timeout=30)
+2025-06-21 20:25:30,728 - [Thread-6325039104] - INFO - [6325039104] Completed संख्या_2018: 207/209 downloaded
+2025-06-21 20:25:30,730 - [Thread-6325039104] - INFO - [6325039104] Processing: संख्या 2015
+2025-06-21 20:25:30,731 - [Thread-8831716480] - INFO - Progress: 131/150 collections completed
+2025-06-21 20:28:25,938 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2016: 50/52 downloaded
+2025-06-21 20:28:25,940 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2015
+2025-06-21 20:28:25,941 - [Thread-8831716480] - INFO - Progress: 132/150 collections completed
+2025-06-21 20:30:43,496 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2017: 229/231 downloaded
+2025-06-21 20:30:43,497 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 2014
+2025-06-21 20:30:43,497 - [Thread-8831716480] - INFO - Progress: 133/150 collections completed
+2025-06-21 20:31:02,188 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2015: 40/40 downloaded
+2025-06-21 20:31:02,189 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2014
+2025-06-21 20:31:02,189 - [Thread-8831716480] - INFO - Progress: 134/150 collections completed
+2025-06-21 20:31:47,261 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2014: 14/14 downloaded
+2025-06-21 20:31:47,262 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2013
+2025-06-21 20:31:47,263 - [Thread-8831716480] - INFO - Progress: 135/150 collections completed
+2025-06-21 20:32:56,017 - [Thread-6142160896] - INFO - [6142160896] Completed संख्या_2016: 210/212 downloaded
+2025-06-21 20:32:56,018 - [Thread-6142160896] - INFO - [6142160896] Processing: अरि 2013
+2025-06-21 20:32:56,019 - [Thread-8831716480] - INFO - Progress: 136/150 collections completed
+2025-06-21 20:34:42,037 - [Thread-6142160896] - INFO - [6142160896] Completed अरि_2013: 22/22 downloaded
+2025-06-21 20:34:42,038 - [Thread-6142160896] - INFO - [6142160896] Processing: संख्या 2012
+2025-06-21 20:34:42,038 - [Thread-8831716480] - INFO - Progress: 137/150 collections completed
+2025-06-21 20:37:31,555 - [Thread-6325039104] - INFO - [6325039104] Completed संख्या_2015: 227/227 downloaded
+2025-06-21 20:37:31,556 - [Thread-6325039104] - INFO - [6325039104] Processing: अरि 2012
+2025-06-21 20:37:31,557 - [Thread-8831716480] - INFO - Progress: 138/150 collections completed
+2025-06-21 20:37:48,523 - [Thread-6325039104] - INFO - [6325039104] Completed अरि_2012: 5/5 downloaded
+2025-06-21 20:37:48,523 - [Thread-6325039104] - INFO - [6325039104] Processing: संख्या 2011
+2025-06-21 20:37:48,524 - [Thread-8831716480] - INFO - Progress: 139/150 collections completed
+2025-06-21 20:41:07,204 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2013: 187/187 downloaded
+2025-06-21 20:41:07,204 - [Thread-6158987264] - INFO - [6158987264] Processing: अरि 2011
+2025-06-21 20:41:07,205 - [Thread-8831716480] - INFO - Progress: 140/150 collections completed
+2025-06-21 20:41:45,131 - [Thread-6158987264] - INFO - [6158987264] Completed अरि_2011: 12/12 downloaded
+2025-06-21 20:41:45,132 - [Thread-6158987264] - INFO - [6158987264] Processing: संख्या 2010
+2025-06-21 20:41:45,133 - [Thread-8831716480] - INFO - Progress: 141/150 collections completed
+2025-06-21 20:41:46,317 - [Thread-6142160896] - INFO - [6142160896] Completed संख्या_2012: 127/127 downloaded
+2025-06-21 20:41:46,317 - [Thread-6142160896] - INFO - [6142160896] Processing: संख्या 2009
+2025-06-21 20:41:46,317 - [Thread-8831716480] - INFO - Progress: 142/150 collections completed
+2025-06-21 20:42:05,810 - [Thread-6325039104] - INFO - [6325039104] Completed संख्या_2011: 85/85 downloaded
+2025-06-21 20:42:05,811 - [Thread-6325039104] - INFO - [6325039104] Processing: संख्या 2008
+2025-06-21 20:42:05,811 - [Thread-8831716480] - INFO - Progress: 143/150 collections completed
+2025-06-21 20:43:09,953 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_2014: 243/243 downloaded
+2025-06-21 20:43:09,955 - [Thread-6125334528] - INFO - [6125334528] Processing: अरि 2008
+2025-06-21 20:43:09,955 - [Thread-8831716480] - INFO - Progress: 144/150 collections completed
+2025-06-21 20:43:13,855 - [Thread-6125334528] - INFO - [6125334528] Completed अरि_2008: 1/1 downloaded
+2025-06-21 20:43:13,856 - [Thread-6125334528] - INFO - [6125334528] Processing: संख्या 1910
+2025-06-21 20:43:13,856 - [Thread-8831716480] - INFO - Progress: 145/150 collections completed
+2025-06-21 20:43:38,898 - [Thread-6125334528] - INFO - [6125334528] Completed संख्या_1910: 1/1 downloaded
+2025-06-21 20:43:38,901 - [Thread-6125334528] - INFO - [6125334528] Processing: अरि 1077
+2025-06-21 20:43:38,901 - [Thread-8831716480] - INFO - Progress: 146/150 collections completed
+2025-06-21 20:43:42,053 - [Thread-6125334528] - INFO - [6125334528] Completed अरि_1077: 1/1 downloaded
+2025-06-21 20:43:42,054 - [Thread-8831716480] - INFO - Progress: 147/150 collections completed
+2025-06-21 20:49:30,908 - [Thread-6158987264] - INFO - [6158987264] Completed संख्या_2010: 168/168 downloaded
+2025-06-21 20:49:30,910 - [Thread-8831716480] - INFO - Progress: 148/150 collections completed
+2025-06-21 20:51:23,613 - [Thread-6325039104] - INFO - [6325039104] Completed संख्या_2008: 176/176 downloaded
+2025-06-21 20:51:23,616 - [Thread-8831716480] - INFO - Progress: 149/150 collections completed
+2025-06-21 20:54:02,013 - [Thread-6142160896] - INFO - [6142160896] Completed संख्या_2009: 238/238 downloaded
+2025-06-21 20:54:02,015 - [Thread-8831716480] - INFO - Progress: 150/150 collections completed
+2025-06-21 20:54:02,271 - [Thread-8831716480] - INFO - Metadata saved to nepal_gazettes_threaded/download_metadata.json
