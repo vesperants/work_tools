@@ -1,0 +1,11 @@
+# Local environment variables
+.env
+
+# Firebase service account credentials
+service-account.json
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*~ 

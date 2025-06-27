@@ -1,0 +1,12 @@
+# Core dependencies for Gemini PDF Processor
+google-genai>=0.3.0
+python-dotenv>=1.0.0
+pathlib2>=2.3.7
+
+# Firebase dependencies (from existing project)
+firebase-admin>=6.2.0
+google-cloud-firestore
+
+# Additional utilities
+argparse  # Built-in, but listed for clarity 
+google-auth 
