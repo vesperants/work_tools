@@ -1,0 +1,185 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+main.py – merge / up-sert the July Rajpatra batches into the latest master CSV
+───────────────────────────────────────────────────────────────────────────────
+• Reads the current master file         →  rajpatra_upload4.csv
+• Reads every *new_rajpatras_*.csv file →  new_rajpatras_jul_7.csv,
+                                           new_rajpatras_jul_08.csv,
+                                           new_rajpatras_july_13.csv
+• Writes the deduplicated result        →  rajpatra_upload5.csv
+
+A row is uniquely identified by its `link`.  If a July row shares a link with
+an existing master row, the July version **wins** (full overwrite).
+
+All six canonical columns are preserved in this order:
+    file_name, file_name_old, link, year, html, text_normalized
+
+For *every* row coming from the July CSVs we copy `file_name` → `file_name_old`
+(as per previous convention).
+
+The script prints a concise log of:
+    • initial master size
+    • rows updated (same link)
+    • brand-new rows added
+    • final total written rows
+
+It also keeps a simple modules_documentation.csv (auto-created / updated) so
+that the folder always contains the latest description of every module.
+
+Usage (run in the folder containing the CSVs):
+
+    python3 main.py
+"""
+
+from __future__ import annotations
+
+import csv
+import sys
+from pathlib import Path
+from typing import Dict, List
+
+###############################################################################
+# 0. CONSTANTS
+###############################################################################
+MASTER_CSV  = Path("rajpatra_upload5.csv")
+OUTPUT_CSV  = Path("rajpatra_upload6.csv")
+NEW_CSV_GLOBS = [
+    "new_rajpatras_jul_7.csv",
+    "new_rajpatras_jul_08.csv",
+    "new_rajpatras_july_13.csv",
+    "new_rajpatras_july_14.csv"
+]
+
+# Canonical column order
+COLS: List[str] = [
+    "file_name",
+    "file_name_old",
+    "link",
+    "year",
+    "html",
+    "text_normalized",
+]
+
+###############################################################################
+# 1.  Helpers
+###############################################################################
+
+# Allow extremely large HTML/text fields in CSV rows
+csv.field_size_limit(sys.maxsize)
+
+def read_csv(path: Path) -> List[Dict[str, str]]:
+    """Read *path* and return a list of row-dicts (empty list if missing)."""
+    if not path.exists():
+        print(f"⚠️  File not found: {path}")
+        return []
+
+    with path.open(newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        return list(reader)
+
+def write_csv(path: Path, rows: List[Dict[str, str]]) -> None:
+    """Write *rows* to *path* using the canonical column order."""
+    with path.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=COLS)
+        writer.writeheader()
+        writer.writerows(rows)
+
+###############################################################################
+# 2.  Documentation – keep modules_documentation.csv up to date
+###############################################################################
+
+doc_csv = Path("modules_documentation.csv")
+MODULE_NAME = "main.py"
+MODULE_DESC = (
+    "Upserts July Rajpatra CSV batches into master, deduping by link and "
+    "producing rajpatra_upload5.csv. Holds canonical column order and logs "
+    "row stats."
+)
+
+def update_module_docs() -> None:
+    """Create / update modules_documentation.csv with this module info."""
+    rows = {}
+    if doc_csv.exists():  # read existing
+        with doc_csv.open(newline="", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for r in reader:
+                rows[r["module_name"]] = r["description"]
+
+    rows[MODULE_NAME] = MODULE_DESC  # overwrite / add
+
+    with doc_csv.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=["module_name", "description"])
+        writer.writeheader()
+        writer.writerows([
+            {"module_name": k, "description": v} for k, v in rows.items()
+        ])
+
+###############################################################################
+# 3.  Main logic
+###############################################################################
+
+def main() -> None:
+    # ── Load master ────────────────────────────────────────────────
+    master_rows_raw = read_csv(MASTER_CSV)
+    print(f"📂  Rows in {MASTER_CSV.name}: {len(master_rows_raw):,}")
+
+    # Index master rows by link for quick overwrite
+    master_by_link: Dict[str, Dict[str, str]] = {
+        r.get("link", "").strip(): r for r in master_rows_raw if r.get("link")
+    }
+
+    updated = 0
+    added   = 0
+
+    # ── Process each July CSV in order ─────────────────────────────
+    for csv_name in NEW_CSV_GLOBS:
+        path = Path(csv_name)
+        new_rows_raw = read_csv(path)
+        if not new_rows_raw:
+            continue
+
+        print(f"➕  Processing {path.name}: {len(new_rows_raw):,} rows")
+
+        for r in new_rows_raw:
+            link = r.get("link", "").strip()
+            if not link:
+                continue  # skip rows without link key
+
+            # Build row in canonical schema
+            row = {
+                "file_name":        r.get("file_name", "").strip(),
+                "file_name_old":   r.get("file_name", "").strip(),
+                "link":            link,
+                "year":            r.get("year", "").strip(),
+                "html":            r.get("html", ""),
+                "text_normalized": r.get("text_normalized", ""),
+            }
+
+            if link in master_by_link:
+                updated += 1
+            else:
+                added += 1
+            master_by_link[link] = row  # overwrite / add
+
+    # ── Write combined result ─────────────────────────────────────
+    combined_rows = list(master_by_link.values())
+    write_csv(OUTPUT_CSV, combined_rows)
+
+    # ── Logs ──────────────────────────────────────────────────────
+    print(f"✏️  Updated rows: {updated:,}")
+    print(f"🆕  Newly added rows: {added:,}")
+    print(f"✅  Total rows written → {OUTPUT_CSV.name}: {len(combined_rows):,}")
+
+    # ── Update module docs ────────────────────────────────────────
+    update_module_docs()
+
+###############################################################################
+# 4.  Entrypoint
+###############################################################################
+
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        sys.exit("Interrupted by user – exiting…")
