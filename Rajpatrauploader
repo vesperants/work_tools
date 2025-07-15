@@ -1,0 +1,141 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+rajpatraupl.py – upload the Rajpatra CSV
+────────────────────────────────────────
+• Deletes (if present) and re-creates the  rajpatra  index
+• Streams every record from  rajpatra_upload3.csv  into it
+
+    rajpatra_upload3.csv  →  rajpatra
+      ├─ file_name
+      ├─ file_name_old
+      ├─ link
+      ├─ year            (yyyy)
+      ├─ html
+      └─ text_normalized
+"""
+from __future__ import annotations
+import csv, sys, pathlib, hashlib, re
+from datetime import datetime
+from typing import Dict, Iterable
+
+from tqdm import tqdm
+from opensearchpy import OpenSearch, helpers, RequestsHttpConnection, AWSV4SignerAuth
+import boto3
+
+# ───────────────────────────  CONFIG  ────────────────────────────
+HOST   = "search-sodhera-pub-kjhytcyckoksgej3n3f3etjmki.us-east-1.es.amazonaws.com"
+REGION = "us-east-1"
+
+AWS_ACCESS_KEY_ID     = 
+AWS_SECRET_ACCESS_KEY = 
+
+CHUNK_DOCS   = 100
+CHUNK_BYTES  = 8 * 1024 * 1024
+REQ_TIMEOUT  = 120
+csv.field_size_limit(sys.maxsize)
+
+CSV_FILE   = pathlib.Path("rajpatra_upload6.csv")
+INDEX_NAME = "rajpatra"
+
+# ───────────────────────────  MAPPING  ───────────────────────────
+MAPPING_EXT = {
+    "settings": {
+        "number_of_shards": 1,
+        "analysis": {
+            "analyzer": {
+                "html_nepali": {
+                    "type": "custom",
+                    "char_filter": ["html_strip"],
+                    "tokenizer": "icu_tokenizer",
+                    "filter": ["lowercase", "icu_folding"]
+                }
+            }
+        }
+    },
+    "mappings": {
+        "properties": {
+            "file_name":      {"type": "text", "fields": {"keyword": {"type": "keyword"}}},
+            "file_name_old":  {"type": "keyword"},
+            "link":           {"type": "keyword"},
+            "year":           {"type": "date", "format": "yyyy"},
+            "html":           {"type": "text", "analyzer": "html_nepali"},
+            "text_normalized":{"type": "text"}
+        }
+    }
+}
+
+# ────────────────────────  CLIENT (SigV4)  ───────────────────────
+def os_client_sigv4() -> OpenSearch:
+    sess = boto3.Session(
+        aws_access_key_id     = AWS_ACCESS_KEY_ID,
+        aws_secret_access_key = AWS_SECRET_ACCESS_KEY,
+        region_name           = REGION,
+    )
+    auth = AWSV4SignerAuth(sess.get_credentials(), REGION, "es")
+    return OpenSearch(
+        hosts=[{"host": HOST, "port": 443, "scheme": "https"}],
+        http_auth        = auth,
+        connection_class = RequestsHttpConnection,
+        use_ssl=True, verify_certs=True, http_compress=True,
+        timeout=REQ_TIMEOUT
+    )
+
+CLIENT = os_client_sigv4()
+
+# ─────────────────────────── HELPERS ────────────────────────────
+def make_doc_id(row: Dict[str, str]) -> str:
+    """Stable ID: file_name if present else SHA-1 of HTML content."""
+    return (row.get("file_name") or
+            hashlib.sha1(row.get("html", "").encode()).hexdigest())
+
+def row_count(path: pathlib.Path) -> int:
+    with path.open(encoding="utf-8", newline="") as f:
+        return sum(1 for _ in f) - 1        # subtract header row
+
+# ──────────────────────────  STREAMER  ───────────────────────────
+def stream_rows(csv_path: pathlib.Path) -> Iterable[Dict]:
+    with csv_path.open(newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            # tidy BOMs/spaces in header names just in case
+            row = {k.strip("\ufeff "): v for k, v in row.items()}
+            yield {
+                "_index": INDEX_NAME,
+                "_id":    make_doc_id(row),
+                "_source": row,
+                "op_type": "index"
+            }
+
+# ───────────────────────────  INGEST  ───────────────────────────
+def ingest() -> None:
+    if not CSV_FILE.exists():
+        sys.exit(f"❌ CSV not found: {CSV_FILE}")
+
+    # delete & recreate index
+    if CLIENT.indices.exists(INDEX_NAME):
+        print(f"🗑️  Deleting old index {INDEX_NAME}")
+        CLIENT.indices.delete(INDEX_NAME)
+    CLIENT.indices.create(INDEX_NAME, body=MAPPING_EXT)
+    print(f"🆕  Created index {INDEX_NAME}")
+
+    total = row_count(CSV_FILE)
+    ok_docs = fails = 0
+
+    print(f"\n⚡  Ingesting {CSV_FILE.name} → {INDEX_NAME}  ({total:,} docs)")
+    with tqdm(total=total, unit="doc") as bar:
+        for ok, _ in helpers.streaming_bulk(
+            CLIENT, stream_rows(CSV_FILE),
+            chunk_size      = CHUNK_DOCS,
+            max_chunk_bytes = CHUNK_BYTES,
+            request_timeout = REQ_TIMEOUT,
+            raise_on_error  = False,
+        ):
+            if ok: ok_docs += 1
+            else:  fails   += 1
+            bar.update(1)
+
+    print(f"🎉  {INDEX_NAME}: indexed {ok_docs}/{total} docs; failed {fails}")
+
+# ──────────────────────────  MAIN  ──────────────────────────────
+if __name__ == "__main__":
+    ingest()
