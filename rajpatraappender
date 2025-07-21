@@ -42,13 +42,14 @@ from typing import Dict, List
 ###############################################################################
 # 0. CONSTANTS
 ###############################################################################
-MASTER_CSV  = Path("rajpatra_upload5.csv")
-OUTPUT_CSV  = Path("rajpatra_upload6.csv")
+MASTER_CSV  = Path("rajpatra_upload6.csv")
+OUTPUT_CSV  = Path("rajpatra_upload7.csv")
 NEW_CSV_GLOBS = [
     "new_rajpatras_jul_7.csv",
     "new_rajpatras_jul_08.csv",
     "new_rajpatras_july_13.csv",
-    "new_rajpatras_july_14.csv"
+    "new_rajpatras_july_14.csv",
+    "new_rajpatras_july_21.csv"
 ]
 
 # Canonical column order
