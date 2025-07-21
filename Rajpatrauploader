@@ -27,15 +27,15 @@ import boto3
 HOST   = "search-sodhera-pub-kjhytcyckoksgej3n3f3etjmki.us-east-1.es.amazonaws.com"
 REGION = "us-east-1"
 
-AWS_ACCESS_KEY_ID     = 
-AWS_SECRET_ACCESS_KEY = 
+AWS_ACCESS_KEY_ID     = ""
+AWS_SECRET_ACCESS_KEY = ""
 
 CHUNK_DOCS   = 100
 CHUNK_BYTES  = 8 * 1024 * 1024
 REQ_TIMEOUT  = 120
 csv.field_size_limit(sys.maxsize)
 
-CSV_FILE   = pathlib.Path("rajpatra_upload6.csv")
+CSV_FILE   = pathlib.Path("rajpatra_upload7.csv")
 INDEX_NAME = "rajpatra"
 
 # ───────────────────────────  MAPPING  ───────────────────────────
